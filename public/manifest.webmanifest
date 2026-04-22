@@ -1,0 +1,16 @@
+{
+  "name": "EDUINTBD - Study Abroad Partner",
+  "short_name": "EDUINTBD",
+  "description": "AI-powered study-abroad consultancy for Bangladeshi students.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
+}

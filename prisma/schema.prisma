@@ -1,0 +1,390 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ─── Auth Models (NextAuth) ─────────────────────────────
+
+model User {
+  id             String    @id @default(cuid())
+  name           String?
+  email          String    @unique
+  emailVerified  DateTime?
+  image          String?
+  password       String?
+  role           String    @default("STUDENT") // STUDENT, PARTNER, ADMIN
+  phone          String?
+  nationality    String?
+  bio            String?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  accounts        Account[]
+  sessions        Session[]
+  academicProfile AcademicProfile?
+  savedPrograms   SavedProgram[]
+  documents       Document[]
+  chatMessages    ChatMessage[]
+  matchResults    MatchResult[]
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+// ─── Academic Profile ───────────────────────────────────
+
+model AcademicProfile {
+  id              String  @id @default(cuid())
+  userId          String  @unique
+  highestDegree   String? // HIGH_SCHOOL, BACHELOR, MASTER, PHD
+  gpa             Float?
+  gpaScale        String? // SCALE_4, SCALE_5, SCALE_10, PERCENTAGE
+  fieldOfStudy    String?
+  graduationYear  Int?
+  institution     String?
+  ieltsScore      Float?
+  toeflScore      Float?
+  greScore        Int?
+  gmatScore       Int?
+  budgetMin       Float?
+  budgetMax       Float?
+  preferredLevel  String? // BACHELOR, MASTER, PHD, DIPLOMA
+  preferredCountries String? // Comma-separated country codes
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// ─── Programs & Universities ────────────────────────────
+
+model University {
+  id            String    @id @default(cuid())
+  name          String
+  country       String
+  city          String
+  ranking       Int?
+  description   String?
+  website       String?
+  logoUrl       String?
+  partnerStatus String    @default("STANDARD") // FEATURED, STANDARD
+  createdAt     DateTime  @default(now())
+
+  programs Program[]
+}
+
+model Program {
+  id                    String    @id @default(cuid())
+  name                  String
+  universityId          String
+  country               String
+  city                  String
+  level                 String    // BACHELOR, MASTER, PHD, DIPLOMA
+  field                 String
+  duration              String    // e.g., "2 years", "4 semesters"
+  tuitionFee            Float
+  currency              String    @default("USD")
+  language              String    @default("English")
+  intakeMonths          String?   // Comma-separated: "January,September"
+  description           String?
+  requirements          String?
+  scholarshipAvailable  Boolean   @default(false)
+  applicationDeadline   String?
+  ranking               Int?
+  acceptanceRate        Float?
+  imageUrl              String?
+  featured              Boolean   @default(false)
+  createdAt             DateTime  @default(now())
+
+  university    University     @relation(fields: [universityId], references: [id], onDelete: Cascade)
+  savedBy       SavedProgram[]
+  chatMessages  ChatMessage[]
+  matchResults  MatchResult[]
+}
+
+model SavedProgram {
+  id        String   @id @default(cuid())
+  userId    String
+  programId String
+  savedAt   DateTime @default(now())
+
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  program Program @relation(fields: [programId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, programId])
+}
+
+// ─── Documents ──────────────────────────────────────────
+
+model Document {
+  id         String   @id @default(cuid())
+  userId     String
+  type       String   // PASSPORT, IELTS, TOEFL, TRANSCRIPT, SOP, INCOME, OTHER
+  fileName   String
+  fileUrl    String
+  fileSize   Int?
+  status     String   @default("PENDING") // PENDING, VERIFIED, REJECTED
+  uploadedAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+// ─── AI Chat ────────────────────────────────────────────
+
+model ChatMessage {
+  id        String   @id @default(cuid())
+  userId    String
+  role      String   // USER, ASSISTANT
+  content   String
+  programId String?  // Optional: if message references a specific program
+  createdAt DateTime @default(now())
+
+  user    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  program Program? @relation(fields: [programId], references: [id])
+}
+
+// ─── AI Matching ────────────────────────────────────────
+
+model MatchResult {
+  id        String   @id @default(cuid())
+  userId    String
+  programId String
+  score     Float    // 0-100 compatibility score
+  reasons   String   // JSON string of match reasons
+  createdAt DateTime @default(now())
+
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  program Program @relation(fields: [programId], references: [id], onDelete: Cascade)
+}
+
+// ─── Contact ────────────────────────────────────────────
+
+model ContactMessage {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String?
+  subject   String
+  message   String
+  createdAt DateTime @default(now())
+}
+
+// ─── Countries ──────────────────────────────────────────
+
+model Country {
+  id          String  @id @default(cuid())
+  code        String  @unique // AU, CA, US, UK, DE, IE
+  name        String
+  description String?
+  imageUrl    String?
+  flagEmoji   String?
+  featured    Boolean @default(false)
+}
+
+// ─── Leads (Phase 1: pre-login lead capture) ────────────
+
+model Lead {
+  id               String   @id @default(cuid())
+  name             String
+  phone            String
+  email            String?
+  preferredCountry String?
+  intake           String?
+  message          String?
+  source           String   // page path, e.g. /programs/<id> or /eligibility
+  status           String   @default("NEW") // NEW, CONTACTED, QUALIFIED, CONVERTED, LOST
+  notes            String?
+  createdAt        DateTime @default(now())
+
+  bookings CounselorBooking[]
+}
+
+// ─── Counselor Bookings ─────────────────────────────────
+
+model CounselorBooking {
+  id           String   @id @default(cuid())
+  leadId       String?
+  userId       String?
+  name         String
+  phone        String
+  email        String
+  slot         DateTime
+  topic        String?
+  status       String   @default("REQUESTED") // REQUESTED, CONFIRMED, DONE, NO_SHOW, CANCELLED
+  counselorId  String?
+  meetingLink  String?
+  adminNotes   String?
+  createdAt    DateTime @default(now())
+
+  lead Lead? @relation(fields: [leadId], references: [id])
+}
+
+// ─── Scholarships (Phase 2) ─────────────────────────────
+
+model Scholarship {
+  id            String   @id @default(cuid())
+  name          String
+  provider      String
+  country       String   // AU, CA, US, UK, DE, IE, GLOBAL
+  level         String   // BACHELOR, MASTER, PHD, ANY
+  field         String?  // CS, Business, Engineering, ANY
+  amount        String   // free-form: "$10,000/year", "Full tuition"
+  amountValue   Float?   // rough USD value for filtering
+  deadline      String?
+  eligibility   String?
+  link          String?
+  featured      Boolean  @default(false)
+  createdAt     DateTime @default(now())
+}
+
+// ─── Applications (Phase 2) ─────────────────────────────
+
+model Application {
+  id           String   @id @default(cuid())
+  userId       String
+  programId    String
+  stage        String   @default("DRAFT") // DRAFT, SUBMITTED, OFFER, VISA, ENROLLED, REJECTED
+  nextAction   String?
+  deadline     DateTime?
+  notes        String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}
+
+// ─── Visa Requirements (Phase 2) ────────────────────────
+
+model VisaRequirement {
+  id              String  @id @default(cuid())
+  country         String  @unique
+  processingDays  Int?
+  feeUsd          Float?
+  documentsJson   String  // JSON array of required docs
+  rejectionsJson  String  // JSON array of common rejection reasons
+  embassyUrl      String?
+  appointmentUrl  String?
+  notes           String?
+}
+
+// ─── Alumni Stories (Phase 3) ───────────────────────────
+
+model AlumniStory {
+  id           String  @id @default(cuid())
+  initials     String
+  country      String
+  program      String
+  university   String
+  field        String
+  level        String
+  gpa4         Float
+  ielts        Float?
+  year         Int
+  scholarship  String?
+  quote        String
+  featured     Boolean @default(false)
+}
+
+// ─── Events (Phase 4) ───────────────────────────────────
+
+model Event {
+  id           String   @id @default(cuid())
+  title        String
+  description  String
+  startAt      DateTime
+  endAt        DateTime?
+  location     String   // "Zoom" or physical venue
+  type         String   @default("WEBINAR") // WEBINAR, FAIR, WORKSHOP, MEETUP
+  country      String?  // focus country code
+  meetingLink  String?
+  capacity     Int?
+  featured     Boolean  @default(false)
+  createdAt    DateTime @default(now())
+
+  registrations EventRegistration[]
+}
+
+model EventRegistration {
+  id         String   @id @default(cuid())
+  eventId    String
+  name       String
+  email      String
+  phone      String?
+  userId     String?
+  createdAt  DateTime @default(now())
+
+  event Event @relation(fields: [eventId], references: [id], onDelete: Cascade)
+
+  @@unique([eventId, email])
+}
+
+// ─── Community (Phase 4) ────────────────────────────────
+
+model CommunityPost {
+  id         String   @id @default(cuid())
+  userId     String
+  title      String
+  body       String
+  tag        String?  // VISA, SCHOLARSHIP, IELTS, COUNTRY_CA, etc.
+  pinned     Boolean  @default(false)
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  replies CommunityReply[]
+}
+
+model CommunityReply {
+  id         String   @id @default(cuid())
+  postId     String
+  userId     String
+  body       String
+  createdAt  DateTime @default(now())
+
+  post CommunityPost @relation(fields: [postId], references: [id], onDelete: Cascade)
+}
+
+// ─── Offices (Phase 4) ──────────────────────────────────
+
+model Office {
+  id        String  @id @default(cuid())
+  city      String
+  address   String
+  phone     String
+  email     String?
+  lat       Float?
+  lng       Float?
+  hours     String?
+  featured  Boolean @default(false)
+}

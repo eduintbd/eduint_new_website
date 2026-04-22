@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.eduintbd.ai)",
+      "WebFetch(domain:www.applash.ai)",
+      "WebFetch(domain:eduintbd.ai)",
+      "WebFetch(domain:applash.ai)",
+      "Bash(npx prisma generate)",
+      "Bash(npx prisma db push)",
+      "Bash(npm run db:seed)",
+      "Bash(npx ts-node --compiler-options '{\"\"module\"\":\"\"CommonJS\"\"}' prisma/seed.ts)",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); print\\(data[0][''text''][:8000]\\)\")",
+      "Bash(npm install @supabase/supabase-js react-native-url-polyfill zustand @tanstack/react-query @tanstack/react-query-persist-client react-hook-form @hookform/resolvers zod react-native-gesture-handler @gorhom/bottom-sheet react-native-svg lucide-react-native @shopify/flash-list date-fns clsx uuid react-native-mmkv expo-haptics expo-linear-gradient expo-blur expo-image expo-image-picker expo-camera expo-keep-awake expo-notifications expo-secure-store expo-calendar expo-background-fetch @react-native-community/netinfo)",
+      "WebFetch(domain:www.idp.com)",
+      "WebFetch(domain:pfecglobal.com.bd)",
+      "WebFetch(domain:www.bsbbd.com)"
+    ]
+  }
+}
