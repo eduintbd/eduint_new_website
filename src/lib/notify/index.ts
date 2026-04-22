@@ -30,7 +30,7 @@ export async function sendEmail({ to, subject, html }: EmailArgs): Promise<
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: process.env.EMAIL_FROM ?? "EDUINTBD <notifications@eduintbd.ai>",
+        from: process.env.EMAIL_FROM ?? "EDUINTBD <notifications@eduintbd.com>",
         to,
         subject,
         html,

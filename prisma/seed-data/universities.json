@@ -1,0 +1,5456 @@
+[
+  {
+    "key": "FR|NEOMA Business School",
+    "code": "FR",
+    "country": "France",
+    "name": "NEOMA Business School",
+    "city": null,
+    "ranking": 51,
+    "website": "https://neoma-bs.com/programmes/msc-international-business-development/"
+  },
+  {
+    "key": "FR|Skema Business School",
+    "code": "FR",
+    "country": "France",
+    "name": "Skema Business School",
+    "city": null,
+    "ranking": 14,
+    "website": "https://www.skema.edu/programmes/masters-of-science/msc-entrepreneurship-design-sustainability-introduction"
+  },
+  {
+    "key": "FR|Clermont School of Business",
+    "code": "FR",
+    "country": "France",
+    "name": "Clermont School of Business",
+    "city": null,
+    "ranking": 100,
+    "website": "https://www.esc-clermont.fr/en/programme/msc-commerce-international-et-marketing-digital/"
+  },
+  {
+    "key": "FR|École de Management Appliqué",
+    "code": "FR",
+    "country": "France",
+    "name": "École de Management Appliqué",
+    "city": null,
+    "ranking": null,
+    "website": "https://ema.education/en/programmes/bachelor-en-management-applique-option-industries-creatives/"
+  },
+  {
+    "key": "FR|ECE Engineering School",
+    "code": "FR",
+    "country": "France",
+    "name": "ECE Engineering School",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.ece.fr/en/program/msc-artificial-intelligence/"
+  },
+  {
+    "key": "FR|ESCE International Business School",
+    "code": "FR",
+    "country": "France",
+    "name": "ESCE International Business School",
+    "city": null,
+    "ranking": 151,
+    "website": "https://www.esce.fr/program/international-bachelor-2/"
+  },
+  {
+    "key": "FR|ESSCA School of Management",
+    "code": "FR",
+    "country": "France",
+    "name": "ESSCA School of Management",
+    "city": null,
+    "ranking": 141,
+    "website": "https://international.essca.fr/programme-bim"
+  },
+  {
+    "key": "FR|INSEEC Business School",
+    "code": "FR",
+    "country": "France",
+    "name": "INSEEC Business School",
+    "city": null,
+    "ranking": 151,
+    "website": "https://www.inseec.com/en/program/bachelor-international-business-manager/"
+  },
+  {
+    "key": "FR|Montpellier Business School",
+    "code": "FR",
+    "country": "France",
+    "name": "Montpellier Business School",
+    "city": null,
+    "ranking": 448,
+    "website": "https://www.montpellier-bs.com/international/our-programmes/bachelor-en/"
+  },
+  {
+    "key": "FR|Istituto Marangoni",
+    "code": "FR",
+    "country": "France",
+    "name": "Istituto Marangoni",
+    "city": null,
+    "ranking": 51,
+    "website": "https://www.istitutomarangoni.com/en/fashion-courses/undergraduate-programmes/one-year/fashion-business-and-marketing-intensive/"
+  },
+  {
+    "key": "FR|Rennes School of Business",
+    "code": "FR",
+    "country": "France",
+    "name": "Rennes School of Business",
+    "city": null,
+    "ranking": 711,
+    "website": "https://www.rennes-sb.com/programmes/postgraduate/discover-masters/master-in-international-finance/"
+  },
+  {
+    "key": "FR|KEDGE Business School",
+    "code": "FR",
+    "country": "France",
+    "name": "KEDGE Business School",
+    "city": null,
+    "ranking": 51,
+    "website": "https://student.kedge.edu/programmes/creativity-design-management"
+  },
+  {
+    "key": "FR|De Vinci Higher Education",
+    "code": "FR",
+    "country": "France",
+    "name": "De Vinci Higher Education",
+    "city": null,
+    "ranking": 251,
+    "website": "https://www.esilv.fr/en/programmes/msc-computer-science/"
+  },
+  {
+    "key": "FR|Burgundy School of Business",
+    "code": "FR",
+    "country": "France",
+    "name": "Burgundy School of Business",
+    "city": null,
+    "ranking": 151,
+    "website": "https://global.bsb-education.com/bsbs-programmes/msc-data-science-organisational-behaviour/"
+  },
+  {
+    "key": "FR|Paris School of Business",
+    "code": "FR",
+    "country": "France",
+    "name": "Paris School of Business",
+    "city": null,
+    "ranking": 151,
+    "website": "https://www.psbedu.paris/en/programs/international-bachelor-management"
+  },
+  {
+    "key": "FR|ICN Business School",
+    "code": "FR",
+    "country": "France",
+    "name": "ICN Business School",
+    "city": null,
+    "ranking": 51,
+    "website": "https://www.icn-artem.com/en/programmes/msc-corporate-finance/"
+  },
+  {
+    "key": "FR|ICN International College",
+    "code": "FR",
+    "country": "France",
+    "name": "ICN International College",
+    "city": null,
+    "ranking": 51,
+    "website": "https://www.icn-internationalcollege.com/study/pre-masters/business-management/"
+  },
+  {
+    "key": "FR|Excelia Group, La Rochelle",
+    "code": "FR",
+    "country": "France",
+    "name": "Excelia Group, La Rochelle",
+    "city": null,
+    "ranking": 101,
+    "website": "https://www.excelia-group.com/our-programmes/excelia-business-school/msc-brand-management"
+  },
+  {
+    "key": "FR|EPITECH, Paris",
+    "code": "FR",
+    "country": "France",
+    "name": "EPITECH, Paris",
+    "city": null,
+    "ranking": 121,
+    "website": "https://international.epitech.eu/it-master/"
+  },
+  {
+    "key": "FR|EM Normandie",
+    "code": "FR",
+    "country": "France",
+    "name": "EM Normandie",
+    "city": null,
+    "ranking": 121,
+    "website": "https://www.em-normandie.com/en/master-science-msc-digital-strategy-and-innovation"
+  },
+  {
+    "key": "FR|Esigelec Graduate School of Engineering",
+    "code": "FR",
+    "country": "France",
+    "name": "Esigelec Graduate School of Engineering",
+    "city": null,
+    "ranking": 161,
+    "website": "https://en.esigelec.fr/explore#14"
+  },
+  {
+    "key": "FR|ESDES School of Business and Management",
+    "code": "FR",
+    "country": "France",
+    "name": "ESDES School of Business and Management",
+    "city": null,
+    "ranking": 151,
+    "website": "https://www.esdes.fr/en/welcome/programs/bachelor-in-business/"
+  },
+  {
+    "key": "FR|HEIP, School of International and Political Studies",
+    "code": "FR",
+    "country": "France",
+    "name": "HEIP, School of International and Political Studies",
+    "city": null,
+    "ranking": 4621,
+    "website": "https://www.heip.fr/en/program/bachelor-of-arts-in-humanities/"
+  },
+  {
+    "key": "FR|Schiller International University, Paris Campus",
+    "code": "FR",
+    "country": "France",
+    "name": "Schiller International University, Paris Campus",
+    "city": null,
+    "ranking": 4621,
+    "website": "https://schiller.edu/programs/bachelor-of-science-in-international-business/"
+  },
+  {
+    "key": "FR|Institut supérieur du commerce de Paris - ISC, Paris",
+    "code": "FR",
+    "country": "France",
+    "name": "Institut supérieur du commerce de Paris - ISC, Paris",
+    "city": null,
+    "ranking": 141,
+    "website": "https://www.iscparis.com/program/msc-hospitality-management-marketing/"
+  },
+  {
+    "key": "FR|Institut supérieur d`électronique de Paris (ISEP)",
+    "code": "FR",
+    "country": "France",
+    "name": "Institut supérieur d`électronique de Paris (ISEP)",
+    "city": null,
+    "ranking": 141,
+    "website": "https://en.isep.fr/wp-content/uploads/sites/2/2017/09/embedded-systems.pdf"
+  },
+  {
+    "key": "FR|Queen Mary University of London Institute in Paris",
+    "code": "FR",
+    "country": "France",
+    "name": "Queen Mary University of London Institute in Paris",
+    "city": null,
+    "ranking": 120,
+    "website": "https://www.qmul.ac.uk/postgraduate/taught/coursefinder/courses/technology-media-and-telecommunications-law-llm/"
+  },
+  {
+    "key": "FR|Le Cordon Bleu",
+    "code": "FR",
+    "country": "France",
+    "name": "Le Cordon Bleu",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.cordonbleu.edu/news/paris-launches-mba-2020/en"
+  },
+  {
+    "key": "FR|SupdePub School of Creation and Communication",
+    "code": "FR",
+    "country": "France",
+    "name": "SupdePub School of Creation and Communication",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.supdepub.com/en/our-programs/master-of-science-strategic-planning-and-creative-strategy/"
+  },
+  {
+    "key": "FR|HEAD School of Law",
+    "code": "FR",
+    "country": "France",
+    "name": "HEAD School of Law",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.ecolehead.fr/formations/llm/"
+  },
+  {
+    "key": "FR|MJM Graphic Design",
+    "code": "FR",
+    "country": "France",
+    "name": "MJM Graphic Design",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.mjm-design.com/page/bachelor-international-en-architecture-dinterieur-fr"
+  },
+  {
+    "key": "FR|Université PSL (Paris Sciences et Lettres)",
+    "code": "FR",
+    "country": "France",
+    "name": "Université PSL (Paris Sciences et Lettres)",
+    "city": null,
+    "ranking": 24,
+    "website": "https://psl.eu/en/education/master-s-degree-accounting-control-auditing-cca"
+  },
+  {
+    "key": "FR|Université Paris - Saclay",
+    "code": "FR",
+    "country": "France",
+    "name": "Université Paris - Saclay",
+    "city": null,
+    "ranking": 73,
+    "website": "https://www.universite-paris-saclay.fr/en/education/master/bioinformatics/computational-biology"
+  },
+  {
+    "key": "FR|Sorbonne University",
+    "code": "FR",
+    "country": "France",
+    "name": "Sorbonne University",
+    "city": null,
+    "ranking": 72,
+    "website": "http://www.parisphysicsmaster.com/Paris%20Physics%20Master%20flyer.pdf"
+  },
+  {
+    "key": "FR|Université Grenoble Alpes",
+    "code": "FR",
+    "country": "France",
+    "name": "Université Grenoble Alpes",
+    "city": null,
+    "ranking": 334,
+    "website": "https://formations.univ-grenoble-alpes.fr/en/catalog-2021/master-s-degree-XB/master-in-plant-s-biology-KISWRTVR//planta-international-KISX7I4W.html?search-keywords=biology"
+  },
+  {
+    "key": "FR|Université de Strasbourg",
+    "code": "FR",
+    "country": "France",
+    "name": "Université de Strasbourg",
+    "city": null,
+    "ranking": 420,
+    "website": "https://graduateschools.unistra.fr/graduateschools/complex-systems-chemistry-csc-graduate-school"
+  },
+  {
+    "key": "FR|Université de Lille",
+    "code": "FR",
+    "country": "France",
+    "name": "Université de Lille",
+    "city": null,
+    "ranking": 654,
+    "website": "https://international.univ-lille.fr/fileadmin/user_upload/site-international/pdf-ri/English_Courses_-_Faculty_of_Humanities.pdf"
+  },
+  {
+    "key": "FR|Université de Nantes",
+    "code": "FR",
+    "country": "France",
+    "name": "Université de Nantes",
+    "city": null,
+    "ranking": 851,
+    "website": "https://sciences-techniques.univ-nantes.fr/formations/masters/master-technologie-marine-marine-technology"
+  },
+  {
+    "key": "FR|Université de Bordeaux",
+    "code": "FR",
+    "country": "France",
+    "name": "Université de Bordeaux",
+    "city": null,
+    "ranking": 465,
+    "website": "https://www.eu2p.org/master/overview"
+  },
+  {
+    "key": "FR|Université Paris 1 Panthéon-Sorbonne",
+    "code": "FR",
+    "country": "France",
+    "name": "Université Paris 1 Panthéon-Sorbonne",
+    "city": null,
+    "ranking": 328,
+    "website": "https://formations.pantheonsorbonne.fr/fr/catalogue-des-formations/licence-L/licence-economie-KBTDQ2ZO/licence-international-track-en-anglais-M2KJMPBF.html"
+  },
+  {
+    "key": "IT|University of Padua",
+    "code": "IT",
+    "country": "Italy",
+    "name": "University of Padua",
+    "city": "Padua",
+    "ranking": 236,
+    "website": "https://www.unipd.it/en/educational-offer/second-cycle-degrees/school-of-economics-and-political-science?tipo=LM&scuola=EP&ordinamento=2018&key=EP2444"
+  },
+  {
+    "key": "IT|LUISS Guido Carli",
+    "code": "IT",
+    "country": "Italy",
+    "name": "LUISS Guido Carli",
+    "city": "Rome",
+    "ranking": 261,
+    "website": "https://www.luiss.edu/ammissione/offerta-formativa/laurea-triennale/global-law"
+  },
+  {
+    "key": "IT|Guglielmo Marconi University",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Guglielmo Marconi University",
+    "city": "Rome",
+    "ranking": null,
+    "website": "https://www.unimarconi.com/english-courses/international-mba/"
+  },
+  {
+    "key": "IT|Istituto Marangoni",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Istituto Marangoni",
+    "city": null,
+    "ranking": 51,
+    "website": "https://www.istitutomarangoni.com/en/design-courses/visual-design/design-for-gaming-virtual-reality#milano-design"
+  },
+  {
+    "key": "IT|NABA-Nuova Accademia Di Belle Arti",
+    "code": "IT",
+    "country": "Italy",
+    "name": "NABA-Nuova Accademia Di Belle Arti",
+    "city": null,
+    "ranking": 51,
+    "website": "https://www.naba.it/en/postgraduate/fashion-costume-design-courses"
+  },
+  {
+    "key": "IT|DOMUS Academy",
+    "code": "IT",
+    "country": "Italy",
+    "name": "DOMUS Academy",
+    "city": null,
+    "ranking": 151,
+    "website": "https://www.domusacademy.com/courses/design/bachelor-of-arts-in-design/"
+  },
+  {
+    "key": "IT|Istituto Europeo di Design - IED",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Istituto Europeo di Design - IED",
+    "city": "Milan",
+    "ranking": 151,
+    "website": "https://www.ied.edu/courses/milan/master/brand-strategy-and-management"
+  },
+  {
+    "key": "IT|Polimi Graduate School of Management",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Polimi Graduate School of Management",
+    "city": "Milan",
+    "ranking": 72,
+    "website": "https://www.gsom.polimi.it/en/course/master-business-analytics-data-science/"
+  },
+  {
+    "key": "DE|University of Europe for Applied Sciences",
+    "code": "DE",
+    "country": "Germany",
+    "name": "University of Europe for Applied Sciences",
+    "city": "Hamburg",
+    "ranking": 196,
+    "website": "https://www.ue-germany.com/programmes/psychology/bachelor/business-psychology"
+  },
+  {
+    "key": "DE|Steinbeis University",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Steinbeis University",
+    "city": "Berlin (Only PG)",
+    "ranking": null,
+    "website": "https://www.steinbeis-next.de/master-of-business-administration-specializing-in-digital-marketing/"
+  },
+  {
+    "key": "DE|SRH Fernhochschule – The Distance Learning University",
+    "code": "DE",
+    "country": "Germany",
+    "name": "SRH Fernhochschule – The Distance Learning University",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.srh-distance-learning-university.com/bachelor-online/business-management/"
+  },
+  {
+    "key": "DE|SRH Berlin University of Applied Sciences",
+    "code": "DE",
+    "country": "Germany",
+    "name": "SRH Berlin University of Applied Sciences",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.berlinsbi.com/programmes/postgraduate/msc-global-human-resources-management"
+  },
+  {
+    "key": "DE|Schiller International University, Heidelberg Campus",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Schiller International University, Heidelberg Campus",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.schiller.edu/programs/bachelor-of-science-in-business-analytics/"
+  },
+  {
+    "key": "DE|PFH – Private University of Applied Sciences",
+    "code": "DE",
+    "country": "Germany",
+    "name": "PFH – Private University of Applied Sciences",
+    "city": "Göttingen",
+    "ranking": null,
+    "website": "https://www.pfh.de/en/study-program-degree/master/general-management"
+  },
+  {
+    "key": "DE|Northern Institute of Technology Management (NIT)",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Northern Institute of Technology Management (NIT)",
+    "city": "Hamburg",
+    "ranking": 551600,
+    "website": "https://www.nithh.de/study/technology-management"
+  },
+  {
+    "key": "DE|New European College",
+    "code": "DE",
+    "country": "Germany",
+    "name": "New European College",
+    "city": "Munich",
+    "ranking": null,
+    "website": "https://www.new-european-college.com/bachelor/"
+  },
+  {
+    "key": "DE|Munich Business School",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Munich Business School",
+    "city": "Munich",
+    "ranking": 61,
+    "website": "https://www.munich-business-school.de/en/bachelor/bachelor-international-business"
+  },
+  {
+    "key": "DE|Media Design University of Applied Sciences",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Media Design University of Applied Sciences",
+    "city": "Berlin",
+    "ranking": null,
+    "website": "https://www.mediadesign.de/en/bachelor/information-technology-bsc-network-engineering-and-cyber-security"
+  },
+  {
+    "key": "DE|International University of Applied Sciences—IU",
+    "code": "DE",
+    "country": "Germany",
+    "name": "International University of Applied Sciences—IU",
+    "city": null,
+    "ranking": 26,
+    "website": "https://www.iu.org/en-in/master/artificial-intelligence/?campus=true"
+  },
+  {
+    "key": "DE|International School of Management",
+    "code": "DE",
+    "country": "Germany",
+    "name": "International School of Management",
+    "city": "Dortmund",
+    "ranking": 151,
+    "website": "https://en.ism.de/full-degree-students/master-programs/marketing-master/overview"
+  },
+  {
+    "key": "DE|ICN Business School, Berlin campus",
+    "code": "DE",
+    "country": "Germany",
+    "name": "ICN Business School, Berlin campus",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.icn-artem.com/en/programmes/master-in-management/"
+  },
+  {
+    "key": "DE|GISMA Business School Hochschule",
+    "code": "DE",
+    "country": "Germany",
+    "name": "GISMA Business School Hochschule",
+    "city": null,
+    "ranking": 42,
+    "website": "https://www.gisma.com/course/msc-business-management"
+  },
+  {
+    "key": "DE|Fresenius University of Applied Sciences",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Fresenius University of Applied Sciences",
+    "city": "Idstein",
+    "ranking": 901,
+    "website": "https://www.hs-fresenius.com/study-programs/philosophy-politics-economics-bachelor/"
+  },
+  {
+    "key": "DE|FOM Hochschule - University of Applied Sciences for Economics and Management",
+    "code": "DE",
+    "country": "Germany",
+    "name": "FOM Hochschule - University of Applied Sciences for Economics and Management",
+    "city": "Essen",
+    "ranking": null,
+    "website": "https://www.fom-international.com/en/international-master/international-marketing-master.html"
+  },
+  {
+    "key": "DE|EU Business School (Germany)",
+    "code": "DE",
+    "country": "Germany",
+    "name": "EU Business School (Germany)",
+    "city": null,
+    "ranking": 141,
+    "website": "https://www.euruni.edu/en/Programs/MBA/Master-of-Business-Administration-MBA-Munich-1/Overview/Overview.html"
+  },
+  {
+    "key": "DE|EBS University",
+    "code": "DE",
+    "country": "Germany",
+    "name": "EBS University",
+    "city": "Wiesbaden",
+    "ranking": 551,
+    "website": "https://www.ebs.edu/en/ebs-business-school/study-programmes/master-in-finance"
+  },
+  {
+    "key": "DE|Constructor University",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Constructor University",
+    "city": "Bremen",
+    "ranking": 304,
+    "website": "https://constructor.university/programs/undergraduate-education/physics-and-data-science"
+  },
+  {
+    "key": "DE|Berlin School of Business and Innovation (BSBI)",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Berlin School of Business and Innovation (BSBI)",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.berlinsbi.com/programmes/postgraduate/global-mba-uca"
+  },
+  {
+    "key": "DE|Arden University Berlin Study Center",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Arden University Berlin Study Center",
+    "city": null,
+    "ranking": null,
+    "website": "https://arden.ac.uk/our-courses/postgraduate/masters/msc-strategic-human-resource-management"
+  },
+  {
+    "key": "SE|Halmstad University",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Halmstad University",
+    "city": "Halmstad",
+    "ranking": null,
+    "website": "https://www.hh.se/english/education/programmes/applied-artificial-intelligence-ai.html"
+  },
+  {
+    "key": "SE|Linnaeus University",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Linnaeus University",
+    "city": "Kalmar and Växjö",
+    "ranking": null,
+    "website": "https://lnu.se/en/programme/network-security-programme/"
+  },
+  {
+    "key": "SE|Jonkoping University",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Jonkoping University",
+    "city": null,
+    "ranking": null,
+    "website": "https://ju.se/en/study-at-ju/our-programmes/bachelor-programmes/bachelor-in-international-management-autumn-2025-ku004.html"
+  },
+  {
+    "key": "SE|Dalarna University",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Dalarna University",
+    "city": "Falun",
+    "ranking": null,
+    "website": "https://www.du.se/en/study-at-du/programmes-courses-and-course-packages/programmes/international-tourism-management/"
+  },
+  {
+    "key": "SE|University of Skövde",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "University of Skövde",
+    "city": "Skövde",
+    "ranking": null,
+    "website": "https://www.his.se/en/education/health-sciences/biomedicine-bachelors-programme-bmepg/"
+  },
+  {
+    "key": "SE|Kristianstad University",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Kristianstad University",
+    "city": "Kristianstad",
+    "ranking": null,
+    "website": "https://www.hkr.se/en/program/computerscience"
+  },
+  {
+    "key": "SE|Karlstad University",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Karlstad University",
+    "city": "Karlstad",
+    "ranking": null,
+    "website": "https://www.kau.se/en/education/programmes-and-courses/programmes/TGKAI"
+  },
+  {
+    "key": "SE|University West",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "University West",
+    "city": "Trollhättan",
+    "ranking": null,
+    "website": "https://www.hv.se/en/education/degree-programmes/international-affairs/"
+  },
+  {
+    "key": "AT|International Business School (IBS)",
+    "code": "AT",
+    "country": "Austria",
+    "name": "International Business School (IBS)",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.ibs-b.hu/en/programmes/postgraduate-programmes/msc-in-international-management-vienna/"
+  },
+  {
+    "key": "AT|Webster Vienna Private University",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Webster Vienna Private University",
+    "city": "Vienna",
+    "ranking": null,
+    "website": "https://www.webster.ac.at/academics/internationalrelations.php"
+  },
+  {
+    "key": "AT|Modul University",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Modul University",
+    "city": "Vienna",
+    "ranking": null,
+    "website": "https://www.modul.ac.at/programs/bachelor-programs/ba-international-relations-and-sustainability---new!"
+  },
+  {
+    "key": "BE|University of Antwerp",
+    "code": "BE",
+    "country": "Belgium",
+    "name": "University of Antwerp",
+    "city": "Antwerp",
+    "ranking": 267,
+    "website": "https://www.uantwerpen.be/en/study/programmes/all-programmes/social-economic-sciences/"
+  },
+  {
+    "key": "BE|Thomas More - University of Applied Science",
+    "code": "BE",
+    "country": "Belgium",
+    "name": "Thomas More - University of Applied Science",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.thomasmore.be/en/en/degree-students/information-management-and-multimedia-english/international-digital-product-architect"
+  },
+  {
+    "key": "DK|IBA Kolding",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "IBA Kolding",
+    "city": null,
+    "ranking": null,
+    "website": "https://iba.dk/international/bachelor/bsc-in-international-business-management/"
+  },
+  {
+    "key": "DK|University of Southern Denmark",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "University of Southern Denmark",
+    "city": "Odense and Sonderborg Campus",
+    "ranking": 324,
+    "website": "https://www.sdu.dk/en/uddannelse/ingenioer/electronics"
+  },
+  {
+    "key": "DK|VIA University College",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "VIA University College",
+    "city": "Horsens and Herning Campus",
+    "ranking": null,
+    "website": "https://en.via.dk/programmes/bachelor/design-and-business-bachelor-top-up"
+  },
+  {
+    "key": "LT|Vilnius University",
+    "code": "LT",
+    "country": "Lithuania",
+    "name": "Vilnius University",
+    "city": "Vilnius",
+    "ranking": 439,
+    "website": "https://www.vu.lt/en/studies/bachelor-studies/accounting-and-audit"
+  },
+  {
+    "key": "LT|Kazimieras Simonavicius University",
+    "code": "LT",
+    "country": "Lithuania",
+    "name": "Kazimieras Simonavicius University",
+    "city": "Vilnius",
+    "ranking": null,
+    "website": "https://ksu.lt/en/bachelor-studies-2/aviation-management/"
+  },
+  {
+    "key": "MT|Global College Malta",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Global College Malta",
+    "city": null,
+    "ranking": null,
+    "website": "https://gcm.edu.mt/course/ba-information-technology-for-business/"
+  },
+  {
+    "key": "MT|European Global Institute of Innovation & Technology",
+    "code": "MT",
+    "country": "Malta",
+    "name": "European Global Institute of Innovation & Technology",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.euglobal.edu.eu/bba-in-accountancy-and-finance/"
+  },
+  {
+    "key": "MT|Saint Martin's Institute of Higher Education Malta",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Saint Martin's Institute of Higher Education Malta",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.stmartins.edu/#commerce"
+  },
+  {
+    "key": "MT|Global Business School (GBS) Malta",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Global Business School (GBS) Malta",
+    "city": null,
+    "ranking": null,
+    "website": "https://gbs.edu.mt/courses/bsc-hons-computer-science-and-information-technology/"
+  },
+  {
+    "key": "MT|Global Business School (GBS), Malta",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Global Business School (GBS), Malta",
+    "city": null,
+    "ranking": null,
+    "website": "https://gbs.edu.mt/courses/bsc-hons-health-social-care-and-wellbeing/"
+  },
+  {
+    "key": "MT|eie European Business School, Malta (EU)",
+    "code": "MT",
+    "country": "Malta",
+    "name": "eie European Business School, Malta (EU)",
+    "city": null,
+    "ranking": null,
+    "website": "https://eieinstitute.com/home-1/ols/products/baaf"
+  },
+  {
+    "key": "MT|London School of Commerce, Malta",
+    "code": "MT",
+    "country": "Malta",
+    "name": "London School of Commerce, Malta",
+    "city": null,
+    "ranking": null,
+    "website": "https://lscmalta.edu.mt/courses/bachelor-with-honours-in-business/"
+  },
+  {
+    "key": "MT|Queen Mary University of London, Malta",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Queen Mary University of London, Malta",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2024/medicine-malta-5-year-programme/"
+  },
+  {
+    "key": "MT|Yhank Institute, Malta",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Yhank Institute, Malta",
+    "city": null,
+    "ranking": null,
+    "website": "https://yhank.com/course/bsc-hons-in-informatics"
+  },
+  {
+    "key": "CY|University of Nicosia",
+    "code": "CY",
+    "country": "Cyprus",
+    "name": "University of Nicosia",
+    "city": null,
+    "ranking": 389,
+    "website": "https://www.unic.ac.cy/vet/doctor-of-veterinary-medicine-dvm/"
+  },
+  {
+    "key": "CY|University of Central Lancashire Cyprus",
+    "code": "CY",
+    "country": "Cyprus",
+    "name": "University of Central Lancashire Cyprus",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.uclancyprus.ac.cy/undergraduate-course/ba-hons-accounting-and-finance/"
+  },
+  {
+    "key": "CY|Frederick University Cyprus",
+    "code": "CY",
+    "country": "Cyprus",
+    "name": "Frederick University Cyprus",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.frederick.ac.cy/en/ba-in-accounting-and-finance"
+  },
+  {
+    "key": "CY|University of Limassol",
+    "code": "CY",
+    "country": "Cyprus",
+    "name": "University of Limassol",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.uol.ac.cy/en/program/bachelor-of-business-administration/"
+  },
+  {
+    "key": "NL|University of Twente, Enschede",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "University of Twente, Enschede",
+    "city": null,
+    "ranking": 233,
+    "website": "https://www.utwente.nl/en/education/bachelor/programmes/advanced-technology/"
+  },
+  {
+    "key": "NL|Radboud University",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Radboud University",
+    "city": "Nijmegen",
+    "ranking": 272,
+    "website": "https://www.ru.nl/en/education/bachelors/arts-and-culture-studies"
+  },
+  {
+    "key": "NL|Wittenborg University of Applied Sciences",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Wittenborg University of Applied Sciences",
+    "city": "Amsterdam and Apeldoorn Campus (Except students from Punjab and Jammu & Kashmir)",
+    "ranking": null,
+    "website": "https://www.wittenborg.eu/bba-bachelor-entrepreneurship-digital-marketing.htm"
+  },
+  {
+    "key": "NL|TIO University of Applied Sciences",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "TIO University of Applied Sciences",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.tio.nl/en/hotel_and_event_management/"
+  },
+  {
+    "key": "NL|SRH Haarlem University of Applied Sciences",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "SRH Haarlem University of Applied Sciences",
+    "city": "Haarlem Campus",
+    "ranking": null,
+    "website": "https://www.srh-haarlem-campus.com/bachelor/business-psychology/"
+  },
+  {
+    "key": "NL|Erasmus University Rotterdam",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Erasmus University Rotterdam",
+    "city": "Rotterdam",
+    "ranking": 140,
+    "website": "https://www.eur.nl/en/post-master/maritime-economics-and-logistics"
+  },
+  {
+    "key": "NL|University of Applied Sciences Europe, Amsterdam (UE Amsterdam)",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "University of Applied Sciences Europe, Amsterdam (UE Amsterdam)",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.ue-amsterdam.com/programs/bachelors/bba-bachelor-of-business-administration"
+  },
+  {
+    "key": "RU|Synergy University, Moscow",
+    "code": "RU",
+    "country": "Russia",
+    "name": "Synergy University, Moscow",
+    "city": null,
+    "ranking": null,
+    "website": "https://drive.google.com/file/d/1vWXKRqbRrfqQA5_-AqVsJgPbYcA8jA1X/view?usp=sharing"
+  },
+  {
+    "key": "PL|Coventry University, Wroclaw",
+    "code": "PL",
+    "country": "Poland",
+    "name": "Coventry University, Wroclaw",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.coventry.ac.uk/wroclaw/course-structure/hnc-hnd-degree/management/?term=2025-26"
+  },
+  {
+    "key": "PL|Warsaw University Of Economics - Moderna (WUBC)",
+    "code": "PL",
+    "country": "Poland",
+    "name": "Warsaw University Of Economics - Moderna (WUBC)",
+    "city": null,
+    "ranking": null,
+    "website": "https://moderna.edu.pl/majors/economics/economics-bachelor/accounting/"
+  },
+  {
+    "key": "PL|International University of Logistics and Transport",
+    "code": "PL",
+    "country": "Poland",
+    "name": "International University of Logistics and Transport",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.mwslit.com/fields-of-studies/logistics/bsc-studies/humanitarian-logistics"
+  },
+  {
+    "key": "HU|University of Pecs",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "University of Pecs",
+    "city": "Pécs",
+    "ranking": null,
+    "website": "https://international.pte.hu/study-programs/ba-archeology"
+  },
+  {
+    "key": "HU|Budapest Metropolitan University of Applied Science",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "Budapest Metropolitan University of Applied Science",
+    "city": "Budapest",
+    "ranking": null,
+    "website": "https://www.metubudapest.hu/programs/animation-ba"
+  },
+  {
+    "key": "HU|Budapest University of Economics and Business",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "Budapest University of Economics and Business",
+    "city": "Budapest",
+    "ranking": null,
+    "website": "https://international.uni-bge.hu/communication-and-media-science/"
+  },
+  {
+    "key": "HU|John von Neumann University",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "John von Neumann University",
+    "city": null,
+    "ranking": null,
+    "website": "https://nje.hu/en/study-programmes/in-english/business-administration-and-management-bsc"
+  },
+  {
+    "key": "HU|International Business School (IBS)",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "International Business School (IBS)",
+    "city": "Budapest (Except students from Punjab & South India)",
+    "ranking": null,
+    "website": "https://www.ibs-b.hu/en/programmes/bachelors-programmes/ba-in-psychology/"
+  },
+  {
+    "key": "HU|University of Debrecen",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "University of Debrecen",
+    "city": "Debrecen",
+    "ranking": null,
+    "website": "https://edu.unideb.hu/p/communication-and-media-studies-ba"
+  },
+  {
+    "key": "HU|Wekerle International University",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "Wekerle International University",
+    "city": "Budapest",
+    "ranking": null,
+    "website": "https://wsne.hu/en/programmes/ba-programmes/bsc-in-business-administration-and-management"
+  },
+  {
+    "key": "HU|Hungarian University of Sports Science",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "Hungarian University of Sports Science",
+    "city": "Budapest",
+    "ranking": null,
+    "website": "https://international.tf.hu/bachelor-sport-exercise-science/"
+  },
+  {
+    "key": "ES|UCAM International",
+    "code": "ES",
+    "country": "Spain",
+    "name": "UCAM International",
+    "city": "Murcia",
+    "ranking": null,
+    "website": "https://international.ucam.edu/studies/bachelor-in-business-administration"
+  },
+  {
+    "key": "ES|Universidad Europea",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Universidad Europea",
+    "city": "Madrid, Valencia, Canarias and Andalucía Campus",
+    "ranking": null,
+    "website": "https://universidadeuropea.com/en/degree-computer-engineering-madrid/"
+  },
+  {
+    "key": "ES|C3S Business School, Barcelona",
+    "code": "ES",
+    "country": "Spain",
+    "name": "C3S Business School, Barcelona",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.csss.es/ba-hons-in-business-management/"
+  },
+  {
+    "key": "ES|Saint Louis University",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Saint Louis University",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.slu.edu/madrid/academics/departments/humanities-and-social-sciences/humanities.php"
+  },
+  {
+    "key": "ES|Instituto Europeo di Design - IED",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Instituto Europeo di Design - IED",
+    "city": "Madrid and Barcelona",
+    "ranking": null,
+    "website": "https://www.ied.edu/courses/barcelona/three-years-diploma/business-design"
+  },
+  {
+    "key": "ES|EU Business School (Spain)",
+    "code": "ES",
+    "country": "Spain",
+    "name": "EU Business School (Spain)",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.euruni.edu/en/Ba-Hons-in-Business-Management/Enterprise.html"
+  },
+  {
+    "key": "ES|Schiller International University, Madrid Campus",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Schiller International University, Madrid Campus",
+    "city": null,
+    "ranking": null,
+    "website": "https://schiller.edu/programs/bachelor-of-arts-in-international-relations-and-diplomacy/"
+  },
+  {
+    "key": "ES|Les Roches, Marbella Campus",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Les Roches, Marbella Campus",
+    "city": null,
+    "ranking": null,
+    "website": "https://lesroches.edu/programs/bachelor-science-hospitality-management/"
+  },
+  {
+    "key": "ES|ENAE Business School",
+    "code": "ES",
+    "country": "Spain",
+    "name": "ENAE Business School",
+    "city": null,
+    "ranking": null,
+    "website": "https://panamerican.university/bachelor-business-administration/"
+  },
+  {
+    "key": "ES|Swiss Business School",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Swiss Business School",
+    "city": "Barcelona Campus",
+    "ranking": null,
+    "website": "https://sbs.barcelona/bachelor-degree/"
+  },
+  {
+    "key": "ES|Adema University School",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Adema University School",
+    "city": "Mallorca",
+    "ranking": null,
+    "website": "https://www.ademaescuelauniversitaria.com/degree-in-dentistry/?lang=en"
+  },
+  {
+    "key": "ES|Toulouse Business School Barcelona Campus",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Toulouse Business School Barcelona Campus",
+    "city": null,
+    "ranking": null,
+    "website": "https://barcelona.tbs-education.com/program/bachelor-management-degree/"
+  },
+  {
+    "key": "ES|LCI Barcelona",
+    "code": "ES",
+    "country": "Spain",
+    "name": "LCI Barcelona",
+    "city": "Barcelona",
+    "ranking": null,
+    "website": "https://barcelona.lcieducation.com/es/programas-y-cursos/bachelor-comunicacion-de-moda"
+  },
+  {
+    "key": "ES|Barcelona Technology School",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Barcelona Technology School",
+    "city": null,
+    "ranking": null,
+    "website": "https://barcelonatechnologyschool.com/master/mba-in-digital-innovation/"
+  },
+  {
+    "key": "ES|Berlin School of Business and Innovation (BSBI)",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Berlin School of Business and Innovation (BSBI)",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.berlinsbi.com/programmes/postgraduate/mba-in-maritime-and-shipping-management-professional-masters"
+  },
+  {
+    "key": "ES|Toulouse Business School, Barcelona Campus",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Toulouse Business School, Barcelona Campus",
+    "city": null,
+    "ranking": null,
+    "website": "https://barcelona.tbs-education.com/program/msc-digital-marketing-analytics/"
+  },
+  {
+    "key": "ES|Euncet Business School",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Euncet Business School",
+    "city": "Barcelona",
+    "ranking": null,
+    "website": "https://www.euncet.com/es/masteres/administracion-y-direccion-de-empresas/"
+  },
+  {
+    "key": "ES|Berlin School of Business and Innovation (BSBI), Barcelona and Madrid",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Berlin School of Business and Innovation (BSBI), Barcelona and Madrid",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.berlinsbi.com/programmes/postgraduate/global-mba-professional-master"
+  },
+  {
+    "key": "ES|IHMGS, International Hotel Management Gastronomy School",
+    "code": "ES",
+    "country": "Spain",
+    "name": "IHMGS, International Hotel Management Gastronomy School",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.ihmgs.net/master-in-tourism-hospitality-and-spanish-culture/"
+  },
+  {
+    "key": "FI|LUT University, Lappeenranta",
+    "code": "FI",
+    "country": "Finland",
+    "name": "LUT University, Lappeenranta",
+    "city": null,
+    "ranking": 336,
+    "website": "https://www.lut.fi/en/studies/technology/bachelors-programme-computational-science-and-artificial-intelligence"
+  },
+  {
+    "key": "FI|LAB University of Applied Sciences",
+    "code": "FI",
+    "country": "Finland",
+    "name": "LAB University of Applied Sciences",
+    "city": "Lahti",
+    "ranking": null,
+    "website": "https://lab.fi/en/study/bachelor-business-administration-business-information-technology-full-time-studies-lahti-210"
+  },
+  {
+    "key": "FI|Aalto University",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Aalto University",
+    "city": "Espoo",
+    "ranking": 113,
+    "website": "https://www.aalto.fi/en/study-options/design-and-media-bachelor-of-arts-and-master-of-arts-art-and-design"
+  },
+  {
+    "key": "FI|University of Vaasa",
+    "code": "FI",
+    "country": "Finland",
+    "name": "University of Vaasa",
+    "city": "Vaasa",
+    "ranking": null,
+    "website": "https://www.uwasa.fi/en/education/bachelors-programmes/bachelors-programme-business-administration"
+  },
+  {
+    "key": "FI|University of Turku",
+    "code": "FI",
+    "country": "Finland",
+    "name": "University of Turku",
+    "city": "Turku",
+    "ranking": 375,
+    "website": "https://www.utu.fi/en/study-at-utu/bachelors-degree-programme-in-information-and-communication-technology"
+  },
+  {
+    "key": "FI|Tampere University",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Tampere University",
+    "city": "Tampere",
+    "ranking": 462,
+    "website": "https://www.tuni.fi/en/study-with-us/computing-and-electrical-engineering-science-and-engineering"
+  },
+  {
+    "key": "FI|University of Eastern Finland",
+    "code": "FI",
+    "country": "Finland",
+    "name": "University of Eastern Finland",
+    "city": "Kuopio",
+    "ranking": null,
+    "website": "https://www.uef.fi/en/degree-programme/bachelors-and-masters-degree-programme-in-data-engineering"
+  },
+  {
+    "key": "FI|University of Jyväskylä",
+    "code": "FI",
+    "country": "Finland",
+    "name": "University of Jyväskylä",
+    "city": "Jyväskylä",
+    "ranking": 489,
+    "website": "https://www.jyu.fi/en/study-with-us/bachelors-degree-programmes/bachelors-degree-programme-in-business-innovation-and-sustainability"
+  },
+  {
+    "key": "FI|LUT University, Lappeenranta (Regular Admission)",
+    "code": "FI",
+    "country": "Finland",
+    "name": "LUT University, Lappeenranta (Regular Admission)",
+    "city": null,
+    "ranking": 336,
+    "website": "https://www.lut.fi/en/studies/business/masters-programmes-business-administration/masters-programme-business-analytics"
+  },
+  {
+    "key": "FI|LUT University, Lappeenranta  (Regular Admission)",
+    "code": "FI",
+    "country": "Finland",
+    "name": "LUT University, Lappeenranta  (Regular Admission)",
+    "city": null,
+    "ranking": 336,
+    "website": "https://www.lut.fi/en/studies/business/masters-programmes-business-administration/masters-programme-strategic-finance-and"
+  },
+  {
+    "key": "FI|Hanken School of Economics",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Hanken School of Economics",
+    "city": "Helsinki",
+    "ranking": null,
+    "website": "https://www.hanken.fi/en/apply/programmes/bachelors-degree-studies/bachelor-programme-english"
+  },
+  {
+    "key": "FI|Metropolia University of Applied Science",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Metropolia University of Applied Science",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.metropolia.fi/en/academics/bachelors-degrees/automotive-electrics"
+  },
+  {
+    "key": "FI|Turku University of Applied Sciences",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Turku University of Applied Sciences",
+    "city": "Turku",
+    "ranking": null,
+    "website": "https://www.turkuamk.fi/en/studies/business-administration-bachelor-of-business-administration/"
+  },
+  {
+    "key": "FI|Satakunta University of Applied Sciences - SAMK",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Satakunta University of Applied Sciences - SAMK",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.samk.fi/en/degree/international-business-bachelor-of-business-administration/"
+  },
+  {
+    "key": "FI|Vaasa University of Applied Sciences (VAMK)",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Vaasa University of Applied Sciences (VAMK)",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.vamk.fi/en/tutkinto/international-business-bba"
+  },
+  {
+    "key": "FI|Karelia University of Applied Sciences",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Karelia University of Applied Sciences",
+    "city": "Joensuu",
+    "ranking": null,
+    "website": "https://www.karelia.fi/en/international-business/"
+  },
+  {
+    "key": "FI|Arcada University of Applied Sciences",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Arcada University of Applied Sciences",
+    "city": "Helsinki",
+    "ranking": null,
+    "website": "https://www.arcada.fi/en/study-arcada/bachelors-degree-programmes/international-business"
+  },
+  {
+    "key": "FI|Tampere University of Applied Sciences (TAMK), Tampere",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Tampere University of Applied Sciences (TAMK), Tampere",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.tuni.fi/en/study-with-us/entrepreneurship-and-team-leadership"
+  },
+  {
+    "key": "FI|Kajaani University of Applied Sciences (KAMK)",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Kajaani University of Applied Sciences (KAMK)",
+    "city": "Kajaani",
+    "ranking": null,
+    "website": "https://kamk.fi/en/koulutukset/bachelors-degree-in-business-information-technology-game-development/"
+  },
+  {
+    "key": "CH|University of Zurich",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "University of Zurich",
+    "city": null,
+    "ranking": 100,
+    "website": "https://www.eabm.uzh.ch/en/EABM-Study-programs/MAS-study-program.html"
+  },
+  {
+    "key": "CH|International Management Institute",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "International Management Institute",
+    "city": null,
+    "ranking": null,
+    "website": "https://imi-luzern.com/p/undergraduate/business/bachelor-of-arts-with-honours-in-international-business-management"
+  },
+  {
+    "key": "CH|EU Business School, Switzerland",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "EU Business School, Switzerland",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.euruni.edu/en/Bachelor-s/Artificial-Intelligence-for-Business-Geneva.html"
+  },
+  {
+    "key": "CH|Bella Vista Institute of Higher Education Switzerland, Altdorf",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "Bella Vista Institute of Higher Education Switzerland, Altdorf",
+    "city": null,
+    "ranking": null,
+    "website": "https://bvis.ch/programmes/ba-business-management/"
+  },
+  {
+    "key": "CH|Helvetic Business School",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "Helvetic Business School",
+    "city": null,
+    "ranking": null,
+    "website": "https://hbs.swiss/bachelor/international-management"
+  },
+  {
+    "key": "CH|Hotel & Tourism Management Institute Switzerland (HTMi)",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "Hotel & Tourism Management Institute Switzerland (HTMi)",
+    "city": null,
+    "ranking": null,
+    "website": "https://htmi.ch/bachelor-bsc-in-international-culinary-arts/"
+  },
+  {
+    "key": "CH|Ecole Crea Geneva",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "Ecole Crea Geneva",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.creageneve.com/en/bachelor/marketing-business-development/"
+  },
+  {
+    "key": "CH|Business & Hotel Management School (BHMS)",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "Business & Hotel Management School (BHMS)",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.bhms.ch/your-study-programmes/study-culinary-arts/ba-culinary-arts"
+  },
+  {
+    "key": "CH|Webster University Geneva",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "Webster University Geneva",
+    "city": null,
+    "ranking": null,
+    "website": "https://geneva.webster.edu/academics/undergraduate/finance/"
+  },
+  {
+    "key": "CH|Culinary Arts Academy (CAA)",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "Culinary Arts Academy (CAA)",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.culinaryartsswitzerland.com/en/culinary-courses/bachelor-degree-in-culinary-arts/"
+  },
+  {
+    "key": "CH|Swiss Educational College, Weggies",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "Swiss Educational College, Weggies",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.swisseducationalcollege.ch/bachelor-degree"
+  },
+  {
+    "key": "CH|Hotel Institute Montreux (HIM)",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "Hotel Institute Montreux (HIM)",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.hotelinstitutemontreux.com/en/hospitality-degrees/bachelor-of-business-administration-in-hospitality-management/"
+  },
+  {
+    "key": "CH|Geneva Business School, Switzerland",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "Geneva Business School, Switzerland",
+    "city": null,
+    "ranking": null,
+    "website": "https://gbsge.com/programs/bachelor-of-international-management/digital-marketing/"
+  },
+  {
+    "key": "CH|Swiss School of Business and Management (SSBM), Geneva",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "Swiss School of Business and Management (SSBM), Geneva",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.ssbm.ch/bachelor-in-business-administration-swiss-degree/"
+  },
+  {
+    "key": "CH|American Institute of Applied Sciences in Switzerland",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "American Institute of Applied Sciences in Switzerland",
+    "city": null,
+    "ranking": null,
+    "website": "https://aus.swiss/programs-bachelor-degrees-specializations/accounting"
+  },
+  {
+    "key": "CH|Les Roches",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "Les Roches",
+    "city": null,
+    "ranking": null,
+    "website": "https://lesroches.edu/programs/bachelor-science-hospitality-management/"
+  },
+  {
+    "key": "CH|Cesar Ritz",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "Cesar Ritz",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.cesarritzcolleges.edu/en/program/bachelor-of-science-in-hospitality-business-management/"
+  },
+  {
+    "key": "CH|GLION Institute of Higher Education, Switzerland",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "GLION Institute of Higher Education, Switzerland",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.glion.edu/programs/bachelors-in-international-hospitality-business/"
+  },
+  {
+    "key": "CH|EHL Hospitality Business School, Lausanne",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "EHL Hospitality Business School, Lausanne",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.ehl.edu/en/study/bachelor-degree-in-hospitality"
+  },
+  {
+    "key": "CH|Swiss Hotel Management School (SHMS)",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "Swiss Hotel Management School (SHMS)",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.shms.com/en/event-management-courses/bachelor-of-arts/"
+  },
+  {
+    "key": "CH|EHL Swiss School of Tourism and Hospitality",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "EHL Swiss School of Tourism and Hospitality",
+    "city": null,
+    "ranking": null,
+    "website": "https://ssth.ehl.edu/en/study/hf-diploma"
+  },
+  {
+    "key": "CN|Beijing Normal-Hong Kong Baptist University (BNBU)",
+    "code": "CN",
+    "country": "China",
+    "name": "Beijing Normal-Hong Kong Baptist University (BNBU)",
+    "city": null,
+    "ranking": null,
+    "website": "https://fbm.uic.edu.cn/busa_en/"
+  },
+  {
+    "key": "CN|University of Nottingham, Ningbo, China",
+    "code": "CN",
+    "country": "China",
+    "name": "University of Nottingham, Ningbo, China",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.nottingham.edu.cn/en/Study-with-us/Undergraduate/Courses/Prospectus.aspx?id=4d26eaa2-4cfc-4069-9c79-3dc6ced3df63&language=en-GB"
+  },
+  {
+    "key": "CN|Skema Business School, Suzhou, China",
+    "code": "CN",
+    "country": "China",
+    "name": "Skema Business School, Suzhou, China",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.skema.edu/en/programmes/global-bba"
+  },
+  {
+    "key": "VN|British University Vietnam",
+    "code": "VN",
+    "country": "Vietnam",
+    "name": "British University Vietnam",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.buv.edu.vn/undergraduate/ba-hons-finance-and-economics/"
+  },
+  {
+    "key": "VN|RMIT University, Vietnam",
+    "code": "VN",
+    "country": "Vietnam",
+    "name": "RMIT University, Vietnam",
+    "city": null,
+    "ranking": null,
+    "website": "https://www.rmit.edu.vn/study-at-rmit/undergraduate-programs/bachelor-accounting"
+  },
+  {
+    "key": "VN|Keiser University, Vietnam",
+    "code": "VN",
+    "country": "Vietnam",
+    "name": "Keiser University, Vietnam",
+    "city": null,
+    "ranking": null,
+    "website": "https://kuv.edu.vn/programs/"
+  },
+  {
+    "key": "NZ|University of Auckland",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "University of Auckland",
+    "city": "Auckland",
+    "ranking": 65,
+    "website": "https://www.auckland.ac.nz/en/study/study-options/find-a-study-option/bachelor-of-commerce-bcom.html"
+  },
+  {
+    "key": "NZ|Massey University",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "Massey University",
+    "city": "Palmerston North",
+    "ranking": 239,
+    "website": "https://www.massey.ac.nz/study/all-qualifications-and-degrees/bachelor-of-accountancy-UBACC/"
+  },
+  {
+    "key": "NZ|Victoria University of Wellington",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "Victoria University of Wellington",
+    "city": "Wellington - Degree Programs",
+    "ranking": 244,
+    "website": "https://www.wgtn.ac.nz/explore/degrees/laws/overview?international=true"
+  },
+  {
+    "key": "NZ|University of Canterbury",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "University of Canterbury",
+    "city": "Christchurch",
+    "ranking": 261,
+    "website": "https://www.canterbury.ac.nz/study/academic-study/qualifications/bachelor-of-arts"
+  },
+  {
+    "key": "NZ|University of Otago",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "University of Otago",
+    "city": "Duned",
+    "ranking": 214,
+    "website": "https://www.otago.ac.nz/study/qualifications/ba"
+  },
+  {
+    "key": "NZ|Auckland University of Technology",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "Auckland University of Technology",
+    "city": "Auckland",
+    "ranking": 412,
+    "website": "https://www.aut.ac.nz/courses/bachelor-of-design-te-tohu-paetahi-mo-te-hoahoa"
+  },
+  {
+    "key": "DE|Technical University of Munich (TUM)",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Technical University of Munich (TUM)",
+    "city": null,
+    "ranking": 15,
+    "website": null
+  },
+  {
+    "key": "DE|RWTH Aachen University",
+    "code": "DE",
+    "country": "Germany",
+    "name": "RWTH Aachen University",
+    "city": null,
+    "ranking": 51,
+    "website": null
+  },
+  {
+    "key": "DE|University of Stuttgart",
+    "code": "DE",
+    "country": "Germany",
+    "name": "University of Stuttgart",
+    "city": null,
+    "ranking": 101,
+    "website": null
+  },
+  {
+    "key": "DE|Karlsruhe Institute of Technology (KIT)",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Karlsruhe Institute of Technology (KIT)",
+    "city": null,
+    "ranking": 101,
+    "website": null
+  },
+  {
+    "key": "DE|Ludwig Maximilian University of Munich (LMU)",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Ludwig Maximilian University of Munich (LMU)",
+    "city": null,
+    "ranking": 101,
+    "website": null
+  },
+  {
+    "key": "IT|Politecnico di Milano",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Politecnico di Milano",
+    "city": null,
+    "ranking": 147,
+    "website": null
+  },
+  {
+    "key": "IT|University of Bologna",
+    "code": "IT",
+    "country": "Italy",
+    "name": "University of Bologna",
+    "city": null,
+    "ranking": 118,
+    "website": null
+  },
+  {
+    "key": "IT|Sapienza University of Rome",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Sapienza University of Rome",
+    "city": null,
+    "ranking": 113,
+    "website": null
+  },
+  {
+    "key": "IT|Politecnico di Torino",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Politecnico di Torino",
+    "city": null,
+    "ranking": 257,
+    "website": null
+  },
+  {
+    "key": "FR|University of Paris-Saclay",
+    "code": "FR",
+    "country": "France",
+    "name": "University of Paris-Saclay",
+    "city": null,
+    "ranking": 44,
+    "website": null
+  },
+  {
+    "key": "FR|University of Grenoble Alpes",
+    "code": "FR",
+    "country": "France",
+    "name": "University of Grenoble Alpes",
+    "city": null,
+    "ranking": 168,
+    "website": null
+  },
+  {
+    "key": "FR|University of Strasbourg",
+    "code": "FR",
+    "country": "France",
+    "name": "University of Strasbourg",
+    "city": null,
+    "ranking": 151,
+    "website": null
+  },
+  {
+    "key": "FR|Université Côte d'Azur",
+    "code": "FR",
+    "country": "France",
+    "name": "Université Côte d'Azur",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NL|Delft University of Technology",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Delft University of Technology",
+    "city": null,
+    "ranking": 15,
+    "website": null
+  },
+  {
+    "key": "SE|KTH Royal Institute of Technology",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "KTH Royal Institute of Technology",
+    "city": null,
+    "ranking": 30,
+    "website": null
+  },
+  {
+    "key": "CH|EPFL (École Polytechnique Fédérale)",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "EPFL (École Polytechnique Fédérale)",
+    "city": null,
+    "ranking": 8,
+    "website": null
+  },
+  {
+    "key": "DK|Technical University of Denmark (DTU)",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "Technical University of Denmark (DTU)",
+    "city": null,
+    "ranking": 51,
+    "website": null
+  },
+  {
+    "key": "DE|Technical University of Berlin",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Technical University of Berlin",
+    "city": null,
+    "ranking": 176,
+    "website": null
+  },
+  {
+    "key": "IT|Free University of Bozen-Bolzano",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Free University of Bozen-Bolzano",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|University of Trento",
+    "code": "IT",
+    "country": "Italy",
+    "name": "University of Trento",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FR|École Polytechnique",
+    "code": "FR",
+    "country": "France",
+    "name": "École Polytechnique",
+    "city": null,
+    "ranking": 61,
+    "website": null
+  },
+  {
+    "key": "FR|École Centrale de Lyon",
+    "code": "FR",
+    "country": "France",
+    "name": "École Centrale de Lyon",
+    "city": null,
+    "ranking": 151,
+    "website": null
+  },
+  {
+    "key": "FR|Université Paris-Saclay",
+    "code": "FR",
+    "country": "France",
+    "name": "Université Paris-Saclay",
+    "city": null,
+    "ranking": 151,
+    "website": null
+  },
+  {
+    "key": "FR|Université de Technologie de Compiègne (UTC)",
+    "code": "FR",
+    "country": "France",
+    "name": "Université de Technologie de Compiègne (UTC)",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FR|INSA Lyon",
+    "code": "FR",
+    "country": "France",
+    "name": "INSA Lyon",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Chalmers University of Technology",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Chalmers University of Technology",
+    "city": null,
+    "ranking": 21,
+    "website": null
+  },
+  {
+    "key": "NL|Eindhoven University of Technology",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Eindhoven University of Technology",
+    "city": null,
+    "ranking": 25,
+    "website": null
+  },
+  {
+    "key": "DK|Technical University of Denmark",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "Technical University of Denmark",
+    "city": null,
+    "ranking": 51,
+    "website": null
+  },
+  {
+    "key": "CH|ETH Zurich",
+    "code": "CH",
+    "country": "Switzerland",
+    "name": "ETH Zurich",
+    "city": null,
+    "ranking": 5,
+    "website": null
+  },
+  {
+    "key": "IT|Università di Padova",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Università di Padova",
+    "city": null,
+    "ranking": 51,
+    "website": null
+  },
+  {
+    "key": "IT|Università di Bologna",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Università di Bologna",
+    "city": null,
+    "ranking": 110,
+    "website": null
+  },
+  {
+    "key": "IT|Università di Pisa",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Università di Pisa",
+    "city": null,
+    "ranking": 101,
+    "website": null
+  },
+  {
+    "key": "FR|CentraleSupélec",
+    "code": "FR",
+    "country": "France",
+    "name": "CentraleSupélec",
+    "city": null,
+    "ranking": 49,
+    "website": null
+  },
+  {
+    "key": "FR|Ecole Polytechnique",
+    "code": "FR",
+    "country": "France",
+    "name": "Ecole Polytechnique",
+    "city": null,
+    "ranking": 61,
+    "website": null
+  },
+  {
+    "key": "FR|Grenoble Institute of Technology",
+    "code": "FR",
+    "country": "France",
+    "name": "Grenoble Institute of Technology",
+    "city": null,
+    "ranking": 89,
+    "website": null
+  },
+  {
+    "key": "FR|Mines ParisTech",
+    "code": "FR",
+    "country": "France",
+    "name": "Mines ParisTech",
+    "city": null,
+    "ranking": 139,
+    "website": null
+  },
+  {
+    "key": "BE|KU Leuven",
+    "code": "BE",
+    "country": "Belgium",
+    "name": "KU Leuven",
+    "city": null,
+    "ranking": 51,
+    "website": null
+  },
+  {
+    "key": "AT|Vienna University of Technology (TU Wien)",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Vienna University of Technology (TU Wien)",
+    "city": null,
+    "ranking": 101,
+    "website": null
+  },
+  {
+    "key": "DE|University of Mannheim",
+    "code": "DE",
+    "country": "Germany",
+    "name": "University of Mannheim",
+    "city": null,
+    "ranking": 151,
+    "website": null
+  },
+  {
+    "key": "DE|University of St. Gallen (HSG)",
+    "code": "DE",
+    "country": "Germany",
+    "name": "University of St. Gallen (HSG)",
+    "city": null,
+    "ranking": 7,
+    "website": null
+  },
+  {
+    "key": "DE|University of Frankfurt (Goethe University)",
+    "code": "DE",
+    "country": "Germany",
+    "name": "University of Frankfurt (Goethe University)",
+    "city": null,
+    "ranking": 276,
+    "website": null
+  },
+  {
+    "key": "DE|University of Cologne",
+    "code": "DE",
+    "country": "Germany",
+    "name": "University of Cologne",
+    "city": null,
+    "ranking": 601,
+    "website": null
+  },
+  {
+    "key": "IT|Università Bocconi",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Università Bocconi",
+    "city": null,
+    "ranking": 151,
+    "website": null
+  },
+  {
+    "key": "IT|Università Commerciale Luigi Bocconi",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Università Commerciale Luigi Bocconi",
+    "city": null,
+    "ranking": 151,
+    "website": null
+  },
+  {
+    "key": "IT|Università di Roma La Sapienza",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Università di Roma La Sapienza",
+    "city": null,
+    "ranking": 231,
+    "website": null
+  },
+  {
+    "key": "IT|Università degli Studi di Milano",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Università degli Studi di Milano",
+    "city": null,
+    "ranking": 156,
+    "website": null
+  },
+  {
+    "key": "IT|Università degli Studi di Padova",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Università degli Studi di Padova",
+    "city": null,
+    "ranking": 251,
+    "website": null
+  },
+  {
+    "key": "FR|Université PSL",
+    "code": "FR",
+    "country": "France",
+    "name": "Université PSL",
+    "city": null,
+    "ranking": 24,
+    "website": null
+  },
+  {
+    "key": "NL|University of Amsterdam",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "University of Amsterdam",
+    "city": null,
+    "ranking": 73,
+    "website": null
+  },
+  {
+    "key": "NL|Vrije Universiteit Amsterdam",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Vrije Universiteit Amsterdam",
+    "city": null,
+    "ranking": 125,
+    "website": null
+  },
+  {
+    "key": "NL|Tilburg University",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Tilburg University",
+    "city": null,
+    "ranking": 150,
+    "website": null
+  },
+  {
+    "key": "NL|University of Groningen",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "University of Groningen",
+    "city": null,
+    "ranking": 151,
+    "website": null
+  },
+  {
+    "key": "DE|Heidelberg University",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Heidelberg University",
+    "city": null,
+    "ranking": 84,
+    "website": null
+  },
+  {
+    "key": "DE|Humboldt University of Berlin",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Humboldt University of Berlin",
+    "city": null,
+    "ranking": 126,
+    "website": null
+  },
+  {
+    "key": "NL|Delft University of Technology (TU Delft)",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Delft University of Technology (TU Delft)",
+    "city": null,
+    "ranking": 15,
+    "website": null
+  },
+  {
+    "key": "DE|Free University of Berlin",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Free University of Berlin",
+    "city": null,
+    "ranking": 130,
+    "website": null
+  },
+  {
+    "key": "DE|University of Hamburg",
+    "code": "DE",
+    "country": "Germany",
+    "name": "University of Hamburg",
+    "city": null,
+    "ranking": 151,
+    "website": null
+  },
+  {
+    "key": "DE|University of Göttingen",
+    "code": "DE",
+    "country": "Germany",
+    "name": "University of Göttingen",
+    "city": null,
+    "ranking": 151,
+    "website": null
+  },
+  {
+    "key": "IT|University of Milan",
+    "code": "IT",
+    "country": "Italy",
+    "name": "University of Milan",
+    "city": null,
+    "ranking": 285,
+    "website": null
+  },
+  {
+    "key": "IT|University of Pisa",
+    "code": "IT",
+    "country": "Italy",
+    "name": "University of Pisa",
+    "city": null,
+    "ranking": 382,
+    "website": null
+  },
+  {
+    "key": "IT|University of Florence",
+    "code": "IT",
+    "country": "Italy",
+    "name": "University of Florence",
+    "city": null,
+    "ranking": 375,
+    "website": null
+  },
+  {
+    "key": "FR|Université Paris Cité",
+    "code": "FR",
+    "country": "France",
+    "name": "Université Paris Cité",
+    "city": null,
+    "ranking": 294,
+    "website": null
+  },
+  {
+    "key": "FR|Université de Lyon (Claude Bernard)",
+    "code": "FR",
+    "country": "France",
+    "name": "Université de Lyon (Claude Bernard)",
+    "city": null,
+    "ranking": 452,
+    "website": null
+  },
+  {
+    "key": "NL|Leiden University",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Leiden University",
+    "city": null,
+    "ranking": 17,
+    "website": null
+  },
+  {
+    "key": "NL|Maastricht University",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Maastricht University",
+    "city": null,
+    "ranking": 19,
+    "website": null
+  },
+  {
+    "key": "DE|University of Heidelberg",
+    "code": "DE",
+    "country": "Germany",
+    "name": "University of Heidelberg",
+    "city": null,
+    "ranking": 84,
+    "website": null
+  },
+  {
+    "key": "DE|University of Freiburg",
+    "code": "DE",
+    "country": "Germany",
+    "name": "University of Freiburg",
+    "city": null,
+    "ranking": 212,
+    "website": null
+  },
+  {
+    "key": "BE|Ghent University",
+    "code": "BE",
+    "country": "Belgium",
+    "name": "Ghent University",
+    "city": null,
+    "ranking": 134,
+    "website": null
+  },
+  {
+    "key": "NL|Utrecht University",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Utrecht University",
+    "city": null,
+    "ranking": 102,
+    "website": null
+  },
+  {
+    "key": "DE|Technische Universität Berlin (TU Berlin)",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Technische Universität Berlin (TU Berlin)",
+    "city": null,
+    "ranking": 51,
+    "website": null
+  },
+  {
+    "key": "DE|Bauhaus-Universität Weimar",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Bauhaus-Universität Weimar",
+    "city": null,
+    "ranking": 101,
+    "website": null
+  },
+  {
+    "key": "IT|University of Rome La Sapienza",
+    "code": "IT",
+    "country": "Italy",
+    "name": "University of Rome La Sapienza",
+    "city": null,
+    "ranking": 151,
+    "website": null
+  },
+  {
+    "key": "FR|Université de Paris",
+    "code": "FR",
+    "country": "France",
+    "name": "Université de Paris",
+    "city": null,
+    "ranking": 151,
+    "website": null
+  },
+  {
+    "key": "FR|Université de Lyon",
+    "code": "FR",
+    "country": "France",
+    "name": "Université de Lyon",
+    "city": null,
+    "ranking": 151,
+    "website": null
+  },
+  {
+    "key": "ES|Universitat Politècnica de Catalunya",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Universitat Politècnica de Catalunya",
+    "city": null,
+    "ranking": 319,
+    "website": null
+  },
+  {
+    "key": "AT|Vienna University of Technology",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Vienna University of Technology",
+    "city": null,
+    "ranking": 180,
+    "website": null
+  },
+  {
+    "key": "DE|Charité – Universitätsmedizin Berlin",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Charité – Universitätsmedizin Berlin",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|University of Milan (Statale)",
+    "code": "IT",
+    "country": "Italy",
+    "name": "University of Milan (Statale)",
+    "city": null,
+    "ranking": 285,
+    "website": null
+  },
+  {
+    "key": "IT|University of Pavia",
+    "code": "IT",
+    "country": "Italy",
+    "name": "University of Pavia",
+    "city": null,
+    "ranking": 440,
+    "website": null
+  },
+  {
+    "key": "FR|University of Paris Cité",
+    "code": "FR",
+    "country": "France",
+    "name": "University of Paris Cité",
+    "city": null,
+    "ranking": 151,
+    "website": null
+  },
+  {
+    "key": "FR|University of Bordeaux",
+    "code": "FR",
+    "country": "France",
+    "name": "University of Bordeaux",
+    "city": null,
+    "ranking": 151,
+    "website": null
+  },
+  {
+    "key": "FR|University of Lyon (Claude Bernard)",
+    "code": "FR",
+    "country": "France",
+    "name": "University of Lyon (Claude Bernard)",
+    "city": null,
+    "ranking": 151,
+    "website": null
+  },
+  {
+    "key": "SE|Karolinska Institute",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Karolinska Institute",
+    "city": null,
+    "ranking": 16,
+    "website": null
+  },
+  {
+    "key": "DK|University of Copenhagen",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "University of Copenhagen",
+    "city": null,
+    "ranking": 59,
+    "website": null
+  },
+  {
+    "key": "FI|University of Helsinki",
+    "code": "FI",
+    "country": "Finland",
+    "name": "University of Helsinki",
+    "city": null,
+    "ranking": 88,
+    "website": null
+  },
+  {
+    "key": "KR|Kyungdong University",
+    "code": "KR",
+    "country": "South Korea",
+    "name": "Kyungdong University",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "KR|Catholic Kwandong University",
+    "code": "KR",
+    "country": "South Korea",
+    "name": "Catholic Kwandong University",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "KR|Cheongam University",
+    "code": "KR",
+    "country": "South Korea",
+    "name": "Cheongam University",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "KR|Inje University",
+    "code": "KR",
+    "country": "South Korea",
+    "name": "Inje University",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "KR|Seoyeong University",
+    "code": "KR",
+    "country": "South Korea",
+    "name": "Seoyeong University",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "KR|Woongji Accounting & Tax College",
+    "code": "KR",
+    "country": "South Korea",
+    "name": "Woongji Accounting & Tax College",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "KR|Donggang University",
+    "code": "KR",
+    "country": "South Korea",
+    "name": "Donggang University",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "KR|Korean Bible University",
+    "code": "KR",
+    "country": "South Korea",
+    "name": "Korean Bible University",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "KR|Dong EUI University",
+    "code": "KR",
+    "country": "South Korea",
+    "name": "Dong EUI University",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "KR|Konyang University",
+    "code": "KR",
+    "country": "South Korea",
+    "name": "Konyang University",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "KR|Kangwon National University",
+    "code": "KR",
+    "country": "South Korea",
+    "name": "Kangwon National University",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "KR|Jeonbuk University",
+    "code": "KR",
+    "country": "South Korea",
+    "name": "Jeonbuk University",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AU|Curtin College (pathway to Curtin University)",
+    "code": "AU",
+    "country": "Australia",
+    "name": "Curtin College (pathway to Curtin University)",
+    "city": "Perth",
+    "ranking": 1,
+    "website": "https://www.curtincollege.edu.au/"
+  },
+  {
+    "key": "AU|Deakin College (pathway to Deakin University)",
+    "code": "AU",
+    "country": "Australia",
+    "name": "Deakin College (pathway to Deakin University)",
+    "city": "Melbourne, Geelong",
+    "ranking": 1,
+    "website": "https://www.deakincollege.edu.au/"
+  },
+  {
+    "key": "AU|Edith Cowan College (pathway to Edith Cowan University)",
+    "code": "AU",
+    "country": "Australia",
+    "name": "Edith Cowan College (pathway to Edith Cowan University)",
+    "city": "Perth",
+    "ranking": 100,
+    "website": "https://www.edithcowancollege.edu.au/"
+  },
+  {
+    "key": "AU|Eynesbury College",
+    "code": "AU",
+    "country": "Australia",
+    "name": "Eynesbury College",
+    "city": "Adelaide",
+    "ranking": 1,
+    "website": "https://www.eynesbury.navitas.com/"
+  },
+  {
+    "key": "AU|Griffith College (pathway to Griffith University)",
+    "code": "AU",
+    "country": "Australia",
+    "name": "Griffith College (pathway to Griffith University)",
+    "city": "Brisbane, Gold Coast",
+    "ranking": 255,
+    "website": "https://www.griffithcollege.edu.au/"
+  },
+  {
+    "key": "AU|Latrobe College Melbourne (pathway to La Trobe University)",
+    "code": "AU",
+    "country": "Australia",
+    "name": "Latrobe College Melbourne (pathway to La Trobe University)",
+    "city": "Melbourne",
+    "ranking": 217,
+    "website": "https://www.latrobecollegeaustralia.edu.au/"
+  },
+  {
+    "key": "AU|Latrobe University Sydney (pathway to La Trobe University)",
+    "code": "AU",
+    "country": "Australia",
+    "name": "Latrobe University Sydney (pathway to La Trobe University)",
+    "city": "Sydney",
+    "ranking": 217,
+    "website": "https://www.latrobe.edu.au/sydney"
+  },
+  {
+    "key": "AU|South Australian Institute of Business & Technology (pathway to Adelaide University)",
+    "code": "AU",
+    "country": "Australia",
+    "name": "South Australian Institute of Business & Technology (pathway to Adelaide University)",
+    "city": "Adelaide",
+    "ranking": 82,
+    "website": "https://www.saibt.sa.edu.au/"
+  },
+  {
+    "key": "AU|Sydney Institute of Business & Technology (pathway to Western Sydney University)",
+    "code": "AU",
+    "country": "Australia",
+    "name": "Sydney Institute of Business & Technology (pathway to Western Sydney University)",
+    "city": "Sydney",
+    "ranking": 474,
+    "website": "https://www.sibt.nsw.edu.au/"
+  },
+  {
+    "key": "AU|University of Canberra College (pathway to University of Canberra)",
+    "code": "AU",
+    "country": "Australia",
+    "name": "University of Canberra College (pathway to University of Canberra)",
+    "city": "Canberra",
+    "ranking": 403,
+    "website": "https://www.canberra.edu.au/uc-college"
+  },
+  {
+    "key": "AU|Western Sydney University International College (pathway to Western Sydney University)",
+    "code": "AU",
+    "country": "Australia",
+    "name": "Western Sydney University International College (pathway to Western Sydney University)",
+    "city": "Sydney",
+    "ranking": 384,
+    "website": "https://internationalcollege.westernsydney.edu.au/"
+  },
+  {
+    "key": "AU|Western Sydney University Sydney City Campus (pathway to Western Sydney University)",
+    "code": "AU",
+    "country": "Australia",
+    "name": "Western Sydney University Sydney City Campus (pathway to Western Sydney University)",
+    "city": "Sydney",
+    "ranking": 384,
+    "website": "https://www.westernsydney.edu.au/city"
+  },
+  {
+    "key": "AU|Taylors College Sydney (pathway to University of Sydney)",
+    "code": "AU",
+    "country": "Australia",
+    "name": "Taylors College Sydney (pathway to University of Sydney)",
+    "city": "Sydney",
+    "ranking": 18,
+    "website": "https://www.taylorssydney.edu.au/"
+  },
+  {
+    "key": "NZ|Southern Institute of\r\nTechnology- Te Pūkenga",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "Southern Institute of\r\nTechnology- Te Pūkenga",
+    "city": "Invercargill",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|Future Skills Academy",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "Future Skills Academy",
+    "city": "Auckland",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|Yoobee College of Creative Innovation",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "Yoobee College of Creative Innovation",
+    "city": "Auckland",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|New Zealand Airline Academy",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "New Zealand Airline Academy",
+    "city": "Oamaru",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|AcademyEX Education",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "AcademyEX Education",
+    "city": "Auckland",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|New Zealand Management Academies (NZMA)",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "New Zealand Management Academies (NZMA)",
+    "city": "Auckland",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|Common Commission Disclaimer (Bullet Points)",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "Common Commission Disclaimer (Bullet Points)",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|Commission is paid in one go on the applicable net tuition fee (typically for 120 credit points or the first academic year",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "Commission is paid in one go on the applicable net tuition fee (typically for 120 credit points or the first academic year",
+    "city": "depending on university policy).",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|Commission becomes payable only after the student is fully enrolled and has remained enrolled beyond the official refund/withdrawal period (usually 4 weeks from course commencement",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "Commission becomes payable only after the student is fully enrolled and has remained enrolled beyond the official refund/withdrawal period (usually 4 weeks from course commencement",
+    "city": "but may vary by university).",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|No commission will be paid if the student withdraws within the refund period or receives a full tuition fee refund.",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "No commission will be paid if the student withdraws within the refund period or receives a full tuition fee refund.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|Commission is payable only after the university receives full payment of tuition fees.",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "Commission is payable only after the university receives full payment of tuition fees.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|If a student enrolls and pays for only one semester",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "If a student enrolls and pays for only one semester",
+    "city": "the commission will be paid for that semester only (where applicable).",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|Commission will not be paid if an offer was issued before the agency officially claimed to represent the student (university-specific rule).",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "Commission will not be paid if an offer was issued before the agency officially claimed to represent the student (university-specific rule).",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|Commission processing time generally ranges from 6–8 weeks after the census date (16–18 weeks for University of Canterbury",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "Commission processing time generally ranges from 6–8 weeks after the census date (16–18 weeks for University of Canterbury",
+    "city": "Christchurch).",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|Progression commission",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "Progression commission",
+    "city": "where applicable, will follow specific university guidelines.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|Commission may not apply if the student transfers credits between programmes or if credits from a previous programme are counted in the new enrolment.",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "Commission may not apply if the student transfers credits between programmes or if credits from a previous programme are counted in the new enrolment.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NZ|Commission policies are governed entirely by the respective university’s terms",
+    "code": "NZ",
+    "country": "New Zealand",
+    "name": "Commission policies are governed entirely by the respective university’s terms",
+    "city": "which may differ slightly between institutions.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|ISAM - International School of Agri Management",
+    "code": "ES",
+    "country": "Spain",
+    "name": "ISAM - International School of Agri Management",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|Schiller International University",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Schiller International University",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|Schellhammer Business School",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Schellhammer Business School",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|Ascencia Business School",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Ascencia Business School",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|Aura Labor",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Aura Labor",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|Campus Spain",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Campus Spain",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|Carlos V Education",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Carlos V Education",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|ENAE International Business School",
+    "code": "ES",
+    "country": "Spain",
+    "name": "ENAE International Business School",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|Learnkey Institute",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Learnkey Institute",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|(INTO) Saint Louis University",
+    "code": "ES",
+    "country": "Spain",
+    "name": "(INTO) Saint Louis University",
+    "city": "Madrid",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|EU Business School",
+    "code": "ES",
+    "country": "Spain",
+    "name": "EU Business School",
+    "city": "Barcelona",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|Berlin School of Business and Innovation",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Berlin School of Business and Innovation",
+    "city": "Barcelona and Madrid campus",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|C3S Business School",
+    "code": "ES",
+    "country": "Spain",
+    "name": "C3S Business School",
+    "city": "Barcelona",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|Ecotur School",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Ecotur School",
+    "city": "Alboraya, Valencia",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|Les Roches",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Les Roches",
+    "city": "Marbella (Sommet Education)",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|IHMGS",
+    "code": "ES",
+    "country": "Spain",
+    "name": "IHMGS",
+    "city": "International Hotel Management Gastronomy School, Alboraya",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|Toulouse Business School",
+    "code": "ES",
+    "country": "Spain",
+    "name": "Toulouse Business School",
+    "city": "Barcelona Campus",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|PAYMENT TERMS",
+    "code": "ES",
+    "country": "Spain",
+    "name": "PAYMENT TERMS",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|1. Commission Eligibility",
+    "code": "ES",
+    "country": "Spain",
+    "name": "1. Commission Eligibility",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|1. Commission is payable only when the student is tagged under the agency",
+    "code": "ES",
+    "country": "Spain",
+    "name": "1. Commission is payable only when the student is tagged under the agency",
+    "city": "subject to submitting the required DEW/Declaration form within 5 days of application.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|2. The student becomes commissionable only after paying the full first-year tuition fee",
+    "code": "ES",
+    "country": "Spain",
+    "name": "2. The student becomes commissionable only after paying the full first-year tuition fee",
+    "city": "or the minimum required tuition amount defined by the university.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|3. Commission is applicable only on the first programme enrolled by the student; no commission is payable for progression",
+    "code": "ES",
+    "country": "Spain",
+    "name": "3. Commission is applicable only on the first programme enrolled by the student; no commission is payable for progression",
+    "city": "additional courses, or Semester Abroad programs (UG).",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|4. Scholarships",
+    "code": "ES",
+    "country": "Spain",
+    "name": "4. Scholarships",
+    "city": "discounts, or reduced tuition fees will result in a proportional reduction of commission.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|2. Commission Payment Structure",
+    "code": "ES",
+    "country": "Spain",
+    "name": "2. Commission Payment Structure",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|1. Commission is calculated on the first-year tuition fee only",
+    "code": "ES",
+    "country": "Spain",
+    "name": "1. Commission is calculated on the first-year tuition fee only",
+    "city": "based on the net amount received by the university.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|2. Depending on the institution:\r\n Commission may be paid in one instalment",
+    "code": "ES",
+    "country": "Spain",
+    "name": "2. Depending on the institution:\r\n Commission may be paid in one instalment",
+    "city": "two instalments, or quarterly, as per the university's policy.\r\n Some universities pay commission annually in October (1st-year based on standard fees, 2nd-year based on actual fees paid).",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|3. Commission may also be triggered: After 1–2 weeks of on-campus attendance",
+    "code": "ES",
+    "country": "Spain",
+    "name": "3. Commission may also be triggered: After 1–2 weeks of on-campus attendance",
+    "city": "or After successful completion of the 1st semester, or, One month after course commencement.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|4. Some institutions require: Full fee payment prior to commencement for eligibility. Commission to be payable only after the course has commenced.",
+    "code": "ES",
+    "country": "Spain",
+    "name": "4. Some institutions require: Full fee payment prior to commencement for eligibility. Commission to be payable only after the course has commenced.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|3. Invoice Processing Timelines",
+    "code": "ES",
+    "country": "Spain",
+    "name": "3. Invoice Processing Timelines",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|1. Commission invoices for Fall intake are processed after October / 15 November / December",
+    "code": "ES",
+    "country": "Spain",
+    "name": "1. Commission invoices for Fall intake are processed after October / 15 November / December",
+    "city": "depending on the university.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|2. Processing time for commission invoices typically ranges from: 6–8 weeks",
+    "code": "ES",
+    "country": "Spain",
+    "name": "2. Processing time for commission invoices typically ranges from: 6–8 weeks",
+    "city": "or 16–20 weeks (for Les Roches, Marbella)",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|3. Some universities release commission 8 weeks after invoice receipt or 1 month after course start",
+    "code": "ES",
+    "country": "Spain",
+    "name": "3. Some universities release commission 8 weeks after invoice receipt or 1 month after course start",
+    "city": "whichever applies.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|4. Statements confirming eligible commissionable amounts may be shared quarterly by some colleges.",
+    "code": "ES",
+    "country": "Spain",
+    "name": "4. Statements confirming eligible commissionable amounts may be shared quarterly by some colleges.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|4. Clawback & Withdrawal Conditions",
+    "code": "ES",
+    "country": "Spain",
+    "name": "4. Clawback & Withdrawal Conditions",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|1. If a student withdraws",
+    "code": "ES",
+    "country": "Spain",
+    "name": "1. If a student withdraws",
+    "city": "pays reduced tuition, or receives a refund, the university may claw back the commission, which will be deducted from future payments.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|2. If reimbursement is issued to the student",
+    "code": "ES",
+    "country": "Spain",
+    "name": "2. If reimbursement is issued to the student",
+    "city": "the equivalent portion of commission must be refunded by the agency.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|3. If the student abandons studies in the first year",
+    "code": "ES",
+    "country": "Spain",
+    "name": "3. If the student abandons studies in the first year",
+    "city": "commission will be paid only for the months for which tuition has been paid.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|4. Progression-year commission (where applicable) is paid only if the student remains enrolled for the next academic year.",
+    "code": "ES",
+    "country": "Spain",
+    "name": "4. Progression-year commission (where applicable) is paid only if the student remains enrolled for the next academic year.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|5. Non-Entitlement Conditions",
+    "code": "ES",
+    "country": "Spain",
+    "name": "5. Non-Entitlement Conditions",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|1. No commission is paid if:\r\n The DEW/Declaration form is not submitted on time.\r\n The student withdraws in the early period or does not complete the first year.\r\n The student pays no/partial/discounted fee that does not meet minimum commissionable thresholds.",
+    "code": "ES",
+    "country": "Spain",
+    "name": "1. No commission is paid if:\r\n The DEW/Declaration form is not submitted on time.\r\n The student withdraws in the early period or does not complete the first year.\r\n The student pays no/partial/discounted fee that does not meet minimum commissionable thresholds.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|6. Refund & Administrative Policies",
+    "code": "ES",
+    "country": "Spain",
+    "name": "6. Refund & Administrative Policies",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|1. Administrative fees (e.g.",
+    "code": "ES",
+    "country": "Spain",
+    "name": "1. Administrative fees (e.g.",
+    "city": "EUR 500) are non-refundable.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "ES|2. Once visa is approved",
+    "code": "ES",
+    "country": "Spain",
+    "name": "2. Once visa is approved",
+    "city": "tuition fees are not refundable under any circumstances unless specifically stated by the institution.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|John Von Neumann University",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "John Von Neumann University",
+    "city": "Kecskemét",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|PAYMENT TERMS",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "PAYMENT TERMS",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|Commission Eligibility",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "Commission Eligibility",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|a. Commission is payable only after the student has paid the full first-year tuition fee",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "a. Commission is payable only after the student has paid the full first-year tuition fee",
+    "city": "or at minimum the first-semester tuition fee (partial commission where applicable).",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|b. The student must be formally enrolled and in active status with the university.",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "b. The student must be formally enrolled and in active status with the university.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|c. No commission is payable for students who withdraw during the first year or fail to complete the first academic year.",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "c. No commission is payable for students who withdraw during the first year or fail to complete the first academic year.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|Commission Payment Structure",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "Commission Payment Structure",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|a. Commission is paid in proportion to the tuition fee actually received by the university.",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "a. Commission is paid in proportion to the tuition fee actually received by the university.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|b. If only one semester fee is paid",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "b. If only one semester fee is paid",
+    "city": "50% of the commission will be released; the balance is paid upon full fee payment.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|c. UG Programs (w.e.f. 01-02-2024):",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "c. UG Programs (w.e.f. 01-02-2024):",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|3 instalments if full fee is paid upfront.",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "3 instalments if full fee is paid upfront.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|4 instalments if payment is deferred.",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "4 instalments if payment is deferred.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|d. PG & Foundation Courses: Commission paid in one instalment upon full fee payment.",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "d. PG & Foundation Courses: Commission paid in one instalment upon full fee payment.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|e. The application fee (USD/EUR 150) may be included in commission for registered students",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "e. The application fee (USD/EUR 150) may be included in commission for registered students",
+    "city": "as applicable.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|Processing Timeline",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "Processing Timeline",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|a. Commission invoices for Fall intake will be processed after October of the academic year.",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "a. Commission invoices for Fall intake will be processed after October of the academic year.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|b. The standard processing time by the university is 6–8 weeks.",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "b. The standard processing time by the university is 6–8 weeks.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|Clawback Policy",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "Clawback Policy",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|a. If a student withdraws and receives a tuition refund",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "a. If a student withdraws and receives a tuition refund",
+    "city": "the commission paid will be recovered from current or future commission payments.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|b. For Fall 2024",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "b. For Fall 2024",
+    "city": "if the student does not enroll in the Spring semester, any previously paid full-year commission will be deducted (applicable where full-year commission was already released).",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|Refund Policy",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "Refund Policy",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|a. Tuition is refundable only in cases of visa refusal.",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "a. Tuition is refundable only in cases of visa refusal.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|b. An administration fee of EUR 150 will apply to any refund.",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "b. An administration fee of EUR 150 will apply to any refund.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|c. The application fee of EUR 150 is non-refundable under all circumstances.",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "c. The application fee of EUR 150 is non-refundable under all circumstances.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|Non-Entitlement Clause",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "Non-Entitlement Clause",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|The Agent is not entitled to commission if:",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "The Agent is not entitled to commission if:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|a. The student withdraws before completing the first year;",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "a. The student withdraws before completing the first year;",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|b. The student does not achieve active enrolment status;",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "b. The student does not achieve active enrolment status;",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "HU|c. The student delays or defaults on required tuition payments.",
+    "code": "HU",
+    "country": "Hungary",
+    "name": "c. The student delays or defaults on required tuition payments.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "PL|The International University of Logistics and Transport in Wroclaw",
+    "code": "PL",
+    "country": "Poland",
+    "name": "The International University of Logistics and Transport in Wroclaw",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "PL|AGH University of Science and Technology",
+    "code": "PL",
+    "country": "Poland",
+    "name": "AGH University of Science and Technology",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "PL|Silesian University of Technology",
+    "code": "PL",
+    "country": "Poland",
+    "name": "Silesian University of Technology",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "PL|Vistula University",
+    "code": "PL",
+    "country": "Poland",
+    "name": "Vistula University",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "PL|Vistula School of Hospitality",
+    "code": "PL",
+    "country": "Poland",
+    "name": "Vistula School of Hospitality",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "PL|Wroclaw Business University of Applied Sciences",
+    "code": "PL",
+    "country": "Poland",
+    "name": "Wroclaw Business University of Applied Sciences",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "PL|Olsztyn University",
+    "code": "PL",
+    "country": "Poland",
+    "name": "Olsztyn University",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "PL|Warsaw University of Business and Psychology",
+    "code": "PL",
+    "country": "Poland",
+    "name": "Warsaw University of Business and Psychology",
+    "city": "Warsaw",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "PL|University of Ecology and Management in Warsaw",
+    "code": "PL",
+    "country": "Poland",
+    "name": "University of Ecology and Management in Warsaw",
+    "city": "Warsaw",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "PL|Coventry University",
+    "code": "PL",
+    "country": "Poland",
+    "name": "Coventry University",
+    "city": "Wroclaw (Poland Campus)",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "PL|Payment Terms",
+    "code": "PL",
+    "country": "Poland",
+    "name": "Payment Terms",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "PL|Commission is generally paid according to the fees paid by the student\r\nCommissionis are generally applicable if Applicant who has obtained student status",
+    "code": "PL",
+    "country": "Poland",
+    "name": "Commission is generally paid according to the fees paid by the student\r\nCommissionis are generally applicable if Applicant who has obtained student status",
+    "city": "Commission will be payable after the student has paid the entry fee and the full tuition fee to the University. (for Warsaw University of Business and Psychology, and University of Ecology and Management in Warsaw) \r\nCommission will be paid within fourteen (14) days of receipt of invoice at the end of semester. (for Warsaw University of Business and Psychology)\r\nMinimum first-semester full tuition fee should be paid by the student to be commissionable. (for Coventry University, Wroclaw)",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "BE|Thomas More",
+    "code": "BE",
+    "country": "Belgium",
+    "name": "Thomas More",
+    "city": "University of Applied Science, Antwerp",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "BE|United Business Institutes",
+    "code": "BE",
+    "country": "Belgium",
+    "name": "United Business Institutes",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "BE|KdG University of Applied Sciences and Arts",
+    "code": "BE",
+    "country": "Belgium",
+    "name": "KdG University of Applied Sciences and Arts",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "BE|Payment Terms",
+    "code": "BE",
+    "country": "Belgium",
+    "name": "Payment Terms",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "BE|The student will be commissionable on payment of full first year of tuition fees.\r\nThe processing time by most universities is 6-8 weeks. \r\nThe commission will be processed by the university in one go in December each year. (for University of Antwerp)",
+    "code": "BE",
+    "country": "Belgium",
+    "name": "The student will be commissionable on payment of full first year of tuition fees.\r\nThe processing time by most universities is 6-8 weeks. \r\nThe commission will be processed by the university in one go in December each year. (for University of Antwerp)",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|John Cabot University",
+    "code": "IT",
+    "country": "Italy",
+    "name": "John Cabot University",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Learnkey Institute",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Learnkey Institute",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Istituto Marangoni Fashion and Design School",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Istituto Marangoni Fashion and Design School",
+    "city": "(Milan and Florence Campus)",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Nuova Accademia di Belle Arti (NABA School)",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Nuova Accademia di Belle Arti (NABA School)",
+    "city": "Milan",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Domus Academy",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Domus Academy",
+    "city": "Milan",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Marist University",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Marist University",
+    "city": "Florence",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Payment Terms",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Payment Terms",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Commission Eligibility",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Commission Eligibility",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Commission is payable only on the first-year net tuition fee actually paid by the student.",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Commission is payable only on the first-year net tuition fee actually paid by the student.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|No commission will be paid on subsequent years",
+    "code": "IT",
+    "country": "Italy",
+    "name": "No commission will be paid on subsequent years",
+    "city": "repeated years, or repeated courses.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|To be eligible for commission",
+    "code": "IT",
+    "country": "Italy",
+    "name": "To be eligible for commission",
+    "city": "the student must have paid at least 50% of the annual fee or minimum first-semester tuition fee, depending on the program requirements.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|If a student withdraws within 30 days from the course commencement date",
+    "code": "IT",
+    "country": "Italy",
+    "name": "If a student withdraws within 30 days from the course commencement date",
+    "city": "no commission will be payable.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Invoicing Timeline",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Invoicing Timeline",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Commission invoices will be accepted after the completion of the initial payment cycle for each intake as follows:",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Commission invoices will be accepted after the completion of the initial payment cycle for each intake as follows:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|September intake: Invoices accepted from 1 November or 1 December of the same year (as notified for the intake).",
+    "code": "IT",
+    "country": "Italy",
+    "name": "September intake: Invoices accepted from 1 November or 1 December of the same year (as notified for the intake).",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|January intake: Invoices accepted from 1 March of the same year.",
+    "code": "IT",
+    "country": "Italy",
+    "name": "January intake: Invoices accepted from 1 March of the same year.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|October intake: Invoices accepted from 1 December of the same year.",
+    "code": "IT",
+    "country": "Italy",
+    "name": "October intake: Invoices accepted from 1 December of the same year.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|The Agent may raise the commission invoice only after the institution has received the required student fee payment (minimum 50%",
+    "code": "IT",
+    "country": "Italy",
+    "name": "The Agent may raise the commission invoice only after the institution has received the required student fee payment (minimum 50%",
+    "city": "first semester fee, or full-year fee, depending on policy).",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Commission Payment Structure",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Commission Payment Structure",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Commission may be paid in one installment or two installments depending on program type:",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Commission may be paid in one installment or two installments depending on program type:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Degree programs: Two installments — first in December (current year)",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Degree programs: Two installments — first in December (current year)",
+    "city": "second in May (following year).",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Foundation programs: Two installments — first in October (current year)",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Foundation programs: Two installments — first in October (current year)",
+    "city": "second in March (following year).",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|If applicable",
+    "code": "IT",
+    "country": "Italy",
+    "name": "If applicable",
+    "city": "some programs may pay the total commission in one consolidated installment.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Impact of Student Payment Plan",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Impact of Student Payment Plan",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|If the student opts for an installment payment plan",
+    "code": "IT",
+    "country": "Italy",
+    "name": "If the student opts for an installment payment plan",
+    "city": "commission may be delayed, and will be triggered only after completion of the semester or in the next available commission cycle.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Processing Time",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Processing Time",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|The processing time for commission payments is 6–8 weeks from the date the institution accepts the commission invoice.",
+    "code": "IT",
+    "country": "Italy",
+    "name": "The processing time for commission payments is 6–8 weeks from the date the institution accepts the commission invoice.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|General Conditions",
+    "code": "IT",
+    "country": "Italy",
+    "name": "General Conditions",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Commission is payable only after the student remains enrolled beyond the minimum enrollment period (e.g.",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Commission is payable only after the student remains enrolled beyond the minimum enrollment period (e.g.",
+    "city": "30 days after program start).",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|All invoices must comply with the institution’s invoicing guidelines",
+    "code": "IT",
+    "country": "Italy",
+    "name": "All invoices must comply with the institution’s invoicing guidelines",
+    "city": "including correct student details, proof of payment, and supporting documents.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "IT|Any deviations from the above shall be notified separately for specific programs or intakes.",
+    "code": "IT",
+    "country": "Italy",
+    "name": "Any deviations from the above shall be notified separately for specific programs or intakes.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|GISMA Business School",
+    "code": "DE",
+    "country": "Germany",
+    "name": "GISMA Business School",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Carl Duisburg Centre (Only German Language)",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Carl Duisburg Centre (Only German Language)",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|BBW Hochschule University of Applied Sciences",
+    "code": "DE",
+    "country": "Germany",
+    "name": "BBW Hochschule University of Applied Sciences",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Karlsruhe Institute of Technology",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Karlsruhe Institute of Technology",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|EBS Business School",
+    "code": "DE",
+    "country": "Germany",
+    "name": "EBS Business School",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|IU University of Applied Sciences",
+    "code": "DE",
+    "country": "Germany",
+    "name": "IU University of Applied Sciences",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|SRH University",
+    "code": "DE",
+    "country": "Germany",
+    "name": "SRH University",
+    "city": "Berlin, Hamburg, Leipzig, Dresden, Munich and Heidelberg Campuses",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|SRH Fernhochschule – The Distance Learning\r\nUniversity",
+    "code": "DE",
+    "country": "Germany",
+    "name": "SRH Fernhochschule – The Distance Learning\r\nUniversity",
+    "city": "Riedlingen",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Navitas - SRH International College (SRHIC)",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Navitas - SRH International College (SRHIC)",
+    "city": "Heidelberg, Berling and Munich Campus",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|International University of Applied Sciences",
+    "code": "DE",
+    "country": "Germany",
+    "name": "International University of Applied Sciences",
+    "city": "Berlin and Bad Honnef",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|CBS University Of Applied Science",
+    "code": "DE",
+    "country": "Germany",
+    "name": "CBS University Of Applied Science",
+    "city": "Cologne (previously known as CBS International Business School, Cologne)",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Arden University",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Arden University",
+    "city": "Berlin",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|GISMA University of Applied Sciences GmbH",
+    "code": "DE",
+    "country": "Germany",
+    "name": "GISMA University of Applied Sciences GmbH",
+    "city": "Berlin",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|EU Business School",
+    "code": "DE",
+    "country": "Germany",
+    "name": "EU Business School",
+    "city": "Munich",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Munich University of Digital Technology & Applied Science",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Munich University of Digital Technology & Applied Science",
+    "city": "Munich",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Berlin School of Business and Innovation",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Berlin School of Business and Innovation",
+    "city": "Berlin",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|ICN Business School",
+    "code": "DE",
+    "country": "Germany",
+    "name": "ICN Business School",
+    "city": "Berlin Campus",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Karlshochschule International University",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Karlshochschule International University",
+    "city": "Karlsruhe",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Hochschule Macromedia University of Applied Sciences",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Hochschule Macromedia University of Applied Sciences",
+    "city": "Munich",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Navitas - Lancaster University",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Navitas - Lancaster University",
+    "city": "Leipzig",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|University Targu Mures Medical (UMCH)",
+    "code": "DE",
+    "country": "Germany",
+    "name": "University Targu Mures Medical (UMCH)",
+    "city": "Hamburg Campus",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Schiller International University",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Schiller International University",
+    "city": "Heidelberg",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Rahn Education",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Rahn Education",
+    "city": "Leipzig and Halle Campus (Studienkolleg Programs)",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Payment Terms",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Payment Terms",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Commission is payable only when:",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Commission is payable only when:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Student is fully enrolled",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Student is fully enrolled",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Student pays minimum required tuition (50% / semester fee / full year)",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Student pays minimum required tuition (50% / semester fee / full year)",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Student remains enrolled for minimum required period",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Student remains enrolled for minimum required period",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|No scholarship >50% (where applicable)",
+    "code": "DE",
+    "country": "Germany",
+    "name": "No scholarship >50% (where applicable)",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|No refund or withdrawal within first weeks",
+    "code": "DE",
+    "country": "Germany",
+    "name": "No refund or withdrawal within first weeks",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Program actually commences",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Program actually commences",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Commission Payment:",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Commission Payment:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Single or two installments (depending on university)",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Single or two installments (depending on university)",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Triggered only after student’s fee is received",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Triggered only after student’s fee is received",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Delayed if student pays fees in installments",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Delayed if student pays fees in installments",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Invoicing:",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Invoicing:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Accepted after Oct/Nov/Dec for Fall",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Accepted after Oct/Nov/Dec for Fall",
+    "city": "after Mar for Jan intake",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Quarterly statement-based invoicing for some universities",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Quarterly statement-based invoicing for some universities",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Processing Time:",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Processing Time:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Typically 6–8 weeks",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Typically 6–8 weeks",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Clawback:",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Clawback:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DE|Full commission recoverable if student withdraws",
+    "code": "DE",
+    "country": "Germany",
+    "name": "Full commission recoverable if student withdraws",
+    "city": "changes course, or receives refunds.",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NL|Tio University of Applied Sciences",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Tio University of Applied Sciences",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NL|University of Twente",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "University of Twente",
+    "city": "Enschede",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NL|Tio Business School",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Tio Business School",
+    "city": "Utrecht",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NL|University of Applied Sciences Europe",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "University of Applied Sciences Europe",
+    "city": "Amsterdam",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NL|Payment Terms",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Payment Terms",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NL|Student must pay full first-year fee → becomes commissionable",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Student must pay full first-year fee → becomes commissionable",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NL|Must stay enrolled minimum 4 months",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Must stay enrolled minimum 4 months",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NL|Withdrawals/refunds → no commission / clawback",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Withdrawals/refunds → no commission / clawback",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NL|Commission processing starts after Oct–Nov for Fall",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Commission processing starts after Oct–Nov for Fall",
+    "city": "after March for Spring",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NL|Processing takes 6–8 weeks",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Processing takes 6–8 weeks",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NL|Installment payments delay commission",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Installment payments delay commission",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "NL|Commission may be single or dual installment",
+    "code": "NL",
+    "country": "Netherlands",
+    "name": "Commission may be single or dual installment",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "LT|Payment Terms",
+    "code": "LT",
+    "country": "Lithuania",
+    "name": "Payment Terms",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "LT|1. Commission Eligibility",
+    "code": "LT",
+    "country": "Lithuania",
+    "name": "1. Commission Eligibility",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "LT|The student becomes commissionable when the minimum required tuition fee has been paid",
+    "code": "LT",
+    "country": "Lithuania",
+    "name": "The student becomes commissionable when the minimum required tuition fee has been paid",
+    "city": "which may be either:",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "LT|Minimum first-semester tuition fee",
+    "code": "LT",
+    "country": "Lithuania",
+    "name": "Minimum first-semester tuition fee",
+    "city": "or",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "LT|Full first-year tuition fee",
+    "code": "LT",
+    "country": "Lithuania",
+    "name": "Full first-year tuition fee",
+    "city": "",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "LT|depending on the University's specific policy.",
+    "code": "LT",
+    "country": "Lithuania",
+    "name": "depending on the University's specific policy.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "LT|2. Commission Processing Timeline – Fall Intake",
+    "code": "LT",
+    "country": "Lithuania",
+    "name": "2. Commission Processing Timeline – Fall Intake",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "LT|The University will begin processing commission invoices for the Fall intake after October / 15 November of the same year (as per institution schedule).",
+    "code": "LT",
+    "country": "Lithuania",
+    "name": "The University will begin processing commission invoices for the Fall intake after October / 15 November of the same year (as per institution schedule).",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "LT|3. Processing Time",
+    "code": "LT",
+    "country": "Lithuania",
+    "name": "3. Processing Time",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "LT|The standard processing time for all commission invoices is 6–8 weeks from the date the University accepts the invoice.",
+    "code": "LT",
+    "country": "Lithuania",
+    "name": "The standard processing time for all commission invoices is 6–8 weeks from the date the University accepts the invoice.",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Queen Mary University of London",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Queen Mary University of London",
+    "city": "Malta Campus",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Idea Academy",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Idea Academy",
+    "city": "Malta (Except Students from Punjab and Haryana)",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Ascencia Business School Malta",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Ascencia Business School Malta",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|London School of Commerce",
+    "code": "MT",
+    "country": "Malta",
+    "name": "London School of Commerce",
+    "city": "Malta Campus",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Saint Martin’s Institute of Higher\r\nEducation",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Saint Martin’s Institute of Higher\r\nEducation",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Global Business Studies-GBS Malta Campus",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Global Business Studies-GBS Malta Campus",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Learnkey Training Institute",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Learnkey Training Institute",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Yhank Institute",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Yhank Institute",
+    "city": "Malta",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|European Business School",
+    "code": "MT",
+    "country": "Malta",
+    "name": "European Business School",
+    "city": "Malta",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|European Global Institute of Innovations & Technology",
+    "code": "MT",
+    "country": "Malta",
+    "name": "European Global Institute of Innovations & Technology",
+    "city": "St Julians",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|La Vallette Institute",
+    "code": "MT",
+    "country": "Malta",
+    "name": "La Vallette Institute",
+    "city": "Ta' Xbiex",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Payment Terms",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Payment Terms",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Commission is payable only when:",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Commission is payable only when:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Student pays full year fee / 50% fee / mandatory fees as required",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Student pays full year fee / 50% fee / mandatory fees as required",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Student receives visa",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Student receives visa",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Student pays before travel / before registration",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Student pays before travel / before registration",
+    "city": "as required",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Student is fully enrolled and continues for minimum 1 month / 4 weeks",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Student is fully enrolled and continues for minimum 1 month / 4 weeks",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Student is not eligible for refund",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Student is not eligible for refund",
+    "city": "has not absconded, and is not repeating the year",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Processing Time:",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Processing Time:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Generally 6–8 weeks",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Generally 6–8 weeks",
+    "city": "may extend to 8–10 or 10–12 weeks",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Some institutions pay after Oct/Nov for Fall or after March for Spring",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Some institutions pay after Oct/Nov for Fall or after March for Spring",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Some pay semester-wise or 6 months after commencement",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Some pay semester-wise or 6 months after commencement",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Commission Structure:",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Commission Structure:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Paid in one go if full fee (or 50% fee) is paid",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Paid in one go if full fee (or 50% fee) is paid",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|May be two installments (semester wise)",
+    "code": "MT",
+    "country": "Malta",
+    "name": "May be two installments (semester wise)",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "MT|Always paid on net fees received",
+    "code": "MT",
+    "country": "Malta",
+    "name": "Always paid on net fees received",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AT|International Business School",
+    "code": "AT",
+    "country": "Austria",
+    "name": "International Business School",
+    "city": "Vienna (Except students from Punjab & South India)",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AT|Payment Terms",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Payment Terms",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AT|Commission becomes payable only when:",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Commission becomes payable only when:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AT|Minimum first-semester fee is paid",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Minimum first-semester fee is paid",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AT|Full-year fee required for full commission",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Full-year fee required for full commission",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AT|Student is registered and attends classes beyond refund period",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Student is registered and attends classes beyond refund period",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AT|Academic progress conditions fulfilled (if applicable)",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Academic progress conditions fulfilled (if applicable)",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AT|Commission Structure:",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Commission Structure:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AT|Payable only for first academic year",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Payable only for first academic year",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AT|Up to two semesters maximum",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Up to two semesters maximum",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AT|May be paid semester-wise",
+    "code": "AT",
+    "country": "Austria",
+    "name": "May be paid semester-wise",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AT|Processing Timeline:",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Processing Timeline:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AT|Fall intake invoices processed after October",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Fall intake invoices processed after October",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AT|Payouts: End-November (Fall) & End-April (Spring)",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Payouts: End-November (Fall) & End-April (Spring)",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "AT|Standard processing 6–8 weeks; some up to 15 weeks",
+    "code": "AT",
+    "country": "Austria",
+    "name": "Standard processing 6–8 weeks; some up to 15 weeks",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DK|International Business Academy",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "International Business Academy",
+    "city": "Kolding",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DK|Payment Terms",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "Payment Terms",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DK|Commission is payable only when:",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "Commission is payable only when:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DK|Student pays full first-year tuition fee",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "Student pays full first-year tuition fee",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DK|Student is active / passes start test / fully registered",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "Student is active / passes start test / fully registered",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DK|Student remains enrolled and meets academic criteria",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "Student remains enrolled and meets academic criteria",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DK|Commission Structure:",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "Commission Structure:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DK|Two installments (50% + 50%)",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "Two installments (50% + 50%)",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DK|1st payment → after activation/start test + full fee",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "1st payment → after activation/start test + full fee",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DK|2nd payment → after 2nd semester or 30 ECTS",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "2nd payment → after 2nd semester or 30 ECTS",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DK|May include limit on number of commissionable students",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "May include limit on number of commissionable students",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DK|Processing Timeline:",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "Processing Timeline:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DK|Fall intake invoicing after October",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "Fall intake invoicing after October",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "DK|Processing time 6–8 weeks",
+    "code": "DK",
+    "country": "Denmark",
+    "name": "Processing time 6–8 weeks",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Jönköping University",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Jönköping University",
+    "city": "Jönköping",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Hyper Island University",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Hyper Island University",
+    "city": "Stockholm",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Payment Terms",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Payment Terms",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Commission becomes payable only when:",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Commission becomes payable only when:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Minimum first-semester fee (or 75% fee) is paid",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Minimum first-semester fee (or 75% fee) is paid",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Student is fully registered and has started classes",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Student is fully registered and has started classes",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Student completes required credits where applicable",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Student completes required credits where applicable",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|No refund has been issued",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "No refund has been issued",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Commission Structure:",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Commission Structure:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Payable for first academic year only",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Payable for first academic year only",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Two installments",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Two installments",
+    "city": "semester-wise",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|1st installment → after fee + registration + course start",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "1st installment → after fee + registration + course start",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|2nd installment → after second-semester fee + academic progress",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "2nd installment → after second-semester fee + academic progress",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Processing & Timing:",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Processing & Timing:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Fall invoices processed after October (or September for some)",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Fall invoices processed after October (or September for some)",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Standard processing 6–8 weeks",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Standard processing 6–8 weeks",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|In some cases",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "In some cases",
+    "city": "payout 8–9 weeks after arrival",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Restrictions:",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Restrictions:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|No commission for refunded students",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "No commission for refunded students",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|No commission for semesters with placements (where applicable)",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "No commission for semesters with placements (where applicable)",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "SE|Commission calculated only on tuition",
+    "code": "SE",
+    "country": "Sweden",
+    "name": "Commission calculated only on tuition",
+    "city": "excluding VAT",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|LUT University",
+    "code": "FI",
+    "country": "Finland",
+    "name": "LUT University",
+    "city": "Lappeenranta",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Tampere University of Applied Sciences (TAMK)",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Tampere University of Applied Sciences (TAMK)",
+    "city": "Tampere",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Metropolia University of Applied Sciences",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Metropolia University of Applied Sciences",
+    "city": "Helsinki",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Satakunta University of Applied Sciences (SAMK)",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Satakunta University of Applied Sciences (SAMK)",
+    "city": "Pori",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Payment Terms:",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Payment Terms:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Commission becomes payable only when:",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Commission becomes payable only when:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Full first-year fee (or first-semester fee) is paid",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Full first-year fee (or first-semester fee) is paid",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Student registers",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Student registers",
+    "city": "arrives, and begins studies on time",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Student clears verification & permit requirements",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Student clears verification & permit requirements",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|No refund / discharge from tuition fee policies",
+    "code": "FI",
+    "country": "Finland",
+    "name": "No refund / discharge from tuition fee policies",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Only first academic year is commissionable",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Only first academic year is commissionable",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Commission Structure:",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Commission Structure:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Paid in one go OR two installments (semester-wise)",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Paid in one go OR two installments (semester-wise)",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Second installment requires credit completion (e.g.",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Second installment requires credit completion (e.g.",
+    "city": "15 credits, 40% enrollment, or 60 ECTS for Diploma)",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Semester-fee-based students → 50% + 50% model",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Semester-fee-based students → 50% + 50% model",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Invoicing:",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Invoicing:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Fall intake invoices processed after October",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Fall intake invoices processed after October",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Some institutions permit invoicing only after November",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Some institutions permit invoicing only after November",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Processing Timeline:",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Processing Timeline:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Generally 6–8 weeks",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Generally 6–8 weeks",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Some institutions: 30 days after program start or verification cycles",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Some institutions: 30 days after program start or verification cycles",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|Restrictions:",
+    "code": "FI",
+    "country": "Finland",
+    "name": "Restrictions:",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|No commission after refunds",
+    "code": "FI",
+    "country": "Finland",
+    "name": "No commission after refunds",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|No commission for non-commissionable progressions",
+    "code": "FI",
+    "country": "Finland",
+    "name": "No commission for non-commissionable progressions",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "FI|VAT excluded unless legally applicable",
+    "code": "FI",
+    "country": "Finland",
+    "name": "VAT excluded unless legally applicable",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "RU|National Research Nuclear University (MEPhI)",
+    "code": "RU",
+    "country": "Russia",
+    "name": "National Research Nuclear University (MEPhI)",
+    "city": "Moscow",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "RU|Synergy University",
+    "code": "RU",
+    "country": "Russia",
+    "name": "Synergy University",
+    "city": "Moscow",
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "RU|Payment Terms",
+    "code": "RU",
+    "country": "Russia",
+    "name": "Payment Terms",
+    "city": null,
+    "ranking": null,
+    "website": null
+  },
+  {
+    "key": "RU|1. Commission will be paid for each student semester wise.\r\n2. The student is required to make timely payment of tuition fees before the start of the each semester.\r\n3. For Synergy University",
+    "code": "RU",
+    "country": "Russia",
+    "name": "1. Commission will be paid for each student semester wise.\r\n2. The student is required to make timely payment of tuition fees before the start of the each semester.\r\n3. For Synergy University",
+    "city": "the student will be commissionable on payment of full first year of tuition fees. \r\n4. For Synergy University, the commission will be processed after October for Fall intake, within 6-8 weeks.",
+    "ranking": null,
+    "website": null
+  }
+]

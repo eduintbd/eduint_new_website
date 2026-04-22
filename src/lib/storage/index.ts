@@ -27,12 +27,19 @@ export class UploadError extends Error {
 
 /**
  * Local filesystem driver — good for dev & small self-host.
- * For production, swap with an S3/R2 driver behind the same interface.
+ * For serverless (Vercel) the filesystem is read-only, so we fail fast with a
+ * clear 503 until an S3/R2 driver is wired in. See DEPLOY.md.
  */
 export async function saveUpload(
   file: File,
   opts: { userId: string; folder?: string } = { userId: "anon" }
 ): Promise<StoredFile> {
+  if (process.env.VERCEL === "1" || process.env.STORAGE_DRIVER === "disabled") {
+    throw new UploadError(
+      "Document uploads are temporarily disabled while we migrate to cloud storage. Please email your documents to admissions@eduintbd.com or WhatsApp us.",
+      503
+    );
+  }
   if (file.size > MAX_BYTES) {
     throw new UploadError("File exceeds 10 MB limit.");
   }
