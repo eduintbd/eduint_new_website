@@ -45,3 +45,5 @@ prisma/dev.db-journal
 # source data files (XLSX/PDFs with commission structures — keep out of VCS)
 /universties_destinations
 /tmp_extract
+
+.vercel
