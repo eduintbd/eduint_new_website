@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Providers from "@/components/Providers";
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
 import MetaPixel from "@/components/MetaPixel";
-import WhatsAppFab from "@/components/WhatsAppFab";
+import PublicChrome from "@/components/layout/PublicChrome";
 import PWARegister from "@/components/PWARegister";
 
 export const metadata: Metadata = {
@@ -35,12 +33,7 @@ export default function RootLayout({
       <body className="bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100 antialiased">
         <MetaPixel />
         <Providers>
-          <div className="flex min-h-screen flex-col">
-            <Navbar />
-            <main className="flex-1">{children}</main>
-            <Footer />
-          </div>
-          <WhatsAppFab />
+          <PublicChrome>{children}</PublicChrome>
           <PWARegister />
         </Providers>
       </body>

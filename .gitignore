@@ -47,3 +47,4 @@ prisma/dev.db-journal
 /tmp_extract
 
 .vercel
+.claude/scheduled_tasks.lock

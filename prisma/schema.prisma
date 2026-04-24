@@ -16,10 +16,11 @@ model User {
   emailVerified  DateTime?
   image          String?
   password       String?
-  role           String    @default("STUDENT") // STUDENT, PARTNER, ADMIN
+  role           String    @default("STUDENT") // STUDENT | COUNSELOR | MANAGER | ADMIN (PARTNER deprecated)
   phone          String?
   nationality    String?
   bio            String?
+  isActive       Boolean   @default(true)
   createdAt      DateTime  @default(now())
   updatedAt      DateTime  @updatedAt
 
@@ -30,6 +31,12 @@ model User {
   documents       Document[]
   chatMessages    ChatMessage[]
   matchResults    MatchResult[]
+
+  assignedLeads     Lead[]             @relation("LeadAssignee")
+  assignedBookings  CounselorBooking[] @relation("BookingAssignee")
+  remindersAssigned Reminder[]         @relation("ReminderAssignee")
+  remindersCreated  Reminder[]         @relation("ReminderCreator")
+  activityLogs      ActivityLog[]
 }
 
 model Account {
@@ -230,7 +237,23 @@ model Lead {
   notes            String?
   createdAt        DateTime @default(now())
 
-  bookings CounselorBooking[]
+  // Admin v2
+  assignedToId    String?
+  stage           String    @default("NEW")    // NEW | CONTACTED | QUALIFIED | COUNSELING | APPLYING | OFFER | VISA | ENROLLED | LOST
+  priority        String    @default("NORMAL") // LOW | NORMAL | HIGH
+  tags            String?                      // comma-separated for v1
+  nextActionAt    DateTime?
+  nextActionNote  String?
+  lastContactedAt DateTime?
+  updatedAt       DateTime  @default(now()) @updatedAt
+
+  assignedTo User?       @relation("LeadAssignee", fields: [assignedToId], references: [id])
+  reminders  Reminder[]
+  bookings   CounselorBooking[]
+
+  @@index([assignedToId])
+  @@index([stage])
+  @@index([nextActionAt])
 }
 
 // ─── Counselor Bookings ─────────────────────────────────
@@ -248,9 +271,57 @@ model CounselorBooking {
   counselorId  String?
   meetingLink  String?
   adminNotes   String?
+  assignedToId String?
   createdAt    DateTime @default(now())
 
-  lead Lead? @relation(fields: [leadId], references: [id])
+  lead       Lead? @relation(fields: [leadId], references: [id])
+  assignedTo User? @relation("BookingAssignee", fields: [assignedToId], references: [id])
+
+  @@index([assignedToId])
+  @@index([slot])
+}
+
+// ─── Reminders / Tasks (Admin v2) ──────────────────────
+
+model Reminder {
+  id            String   @id @default(cuid())
+  title         String
+  note          String?
+  dueAt         DateTime
+  assignedToId  String
+  createdById   String
+  leadId        String?
+  bookingId     String?
+  applicationId String?
+  completed     Boolean  @default(false)
+  completedAt   DateTime?
+  notifiedAt    DateTime?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  assignedTo User  @relation("ReminderAssignee", fields: [assignedToId], references: [id])
+  createdBy  User  @relation("ReminderCreator", fields: [createdById], references: [id])
+  lead       Lead? @relation(fields: [leadId], references: [id])
+
+  @@index([assignedToId, completed, dueAt])
+  @@index([leadId])
+}
+
+// ─── Activity log (Admin v2) ───────────────────────────
+
+model ActivityLog {
+  id         String   @id @default(cuid())
+  entityType String   // LEAD | BOOKING | APPLICATION | USER
+  entityId   String
+  action     String   // CREATED | STATUS_CHANGED | STAGE_CHANGED | ASSIGNED | REMINDER_SET | REMINDER_DONE | CONTACTED_WHATSAPP | CONTACTED_PHONE | CONTACTED_EMAIL | NOTE_ADDED | TAG_ADDED | PRIORITY_CHANGED | MERGED | INVITED
+  actorId    String
+  metadata   String?  // JSON string: before/after snapshot or payload
+  createdAt  DateTime @default(now())
+
+  actor User @relation(fields: [actorId], references: [id])
+
+  @@index([entityType, entityId, createdAt])
+  @@index([actorId])
 }
 
 // ─── Scholarships (Phase 2) ─────────────────────────────
