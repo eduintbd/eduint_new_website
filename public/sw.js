@@ -1,7 +1,7 @@
 // Minimal service worker: cache-first for same-origin static assets, network for everything else.
 // Intentionally conservative — no offline pages, no push in v1.
 
-const CACHE = "eduintbd-v1";
+const CACHE = "eduintbd-v2-admin";
 const PRECACHE = ["/", "/manifest.webmanifest"];
 
 self.addEventListener("install", (event) => {
@@ -22,6 +22,13 @@ self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   if (url.origin !== self.location.origin) return;
   if (event.request.method !== "GET") return;
+  // Never cache anything under /admin or /api — dynamic / auth-gated.
+  if (
+    url.pathname.startsWith("/admin") ||
+    url.pathname.startsWith("/api")
+  ) {
+    return;
+  }
   // Only cache static-ish paths
   if (
     !url.pathname.startsWith("/_next/static/") &&
