@@ -1,20 +1,32 @@
 "use client";
 
-import { useState } from "react";
-import { signIn } from "next-auth/react";
-import { useRouter } from "next/navigation";
+import { Suspense, useState } from "react";
+import { signIn, getSession } from "next-auth/react";
+import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { GraduationCap, Mail, Lock, Eye, EyeOff } from "lucide-react";
 import Button from "@/components/ui/Button";
 import Input from "@/components/ui/Input";
 
-export default function LoginPage() {
+const STAFF_ROLES = new Set(["COUNSELOR", "MANAGER", "ADMIN"]);
+
+function LoginForm() {
   const router = useRouter();
+  const params = useSearchParams();
+  const nextParam = params.get("next") ?? "";
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
+
+  // Staff get /admin, students get the path they were trying to reach (or /).
+  async function pickDestination(): Promise<string> {
+    const session = await getSession();
+    const role = (session?.user as { role?: string } | undefined)?.role;
+    if (role && STAFF_ROLES.has(role)) return nextParam || "/admin";
+    return nextParam || "/";
+  }
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -32,10 +44,13 @@ export default function LoginPage() {
     if (result?.error) {
       setError("Invalid email or password");
     } else {
-      router.push("/");
+      const dest = await pickDestination();
+      router.push(dest);
       router.refresh();
     }
   };
+
+  const googleCallback = nextParam || "/admin";
 
   return (
     <div className="min-h-[calc(100vh-8rem)] flex items-center justify-center px-4 py-12">
@@ -52,7 +67,7 @@ export default function LoginPage() {
         <div className="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
           {/* Google OAuth */}
           <button
-            onClick={() => signIn("google", { callbackUrl: "/" })}
+            onClick={() => signIn("google", { callbackUrl: googleCallback })}
             className="w-full flex items-center justify-center gap-3 px-4 py-2.5 border border-gray-300 dark:border-gray-600 rounded-lg text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors mb-4"
           >
             <svg className="h-5 w-5" viewBox="0 0 24 24">
@@ -127,5 +142,13 @@ export default function LoginPage() {
         </p>
       </div>
     </div>
+  );
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense fallback={<div className="py-20 text-center text-sm text-gray-500">Loading…</div>}>
+      <LoginForm />
+    </Suspense>
   );
 }
