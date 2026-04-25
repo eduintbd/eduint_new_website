@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "EDUINTBD - Your Global Study Partner",
     description: "AI-powered study abroad consultancy helping Bangladeshi students find their perfect program.",
-    url: "https://www.eduintbd.ai",
+    url: "https://www.eduintbd.com",
     siteName: "EDUINTBD",
     type: "website",
   },

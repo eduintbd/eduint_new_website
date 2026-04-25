@@ -2,7 +2,7 @@
 
 ## Company Info
 - **Name:** Education International Bangladesh (EDUINTBD)
-- **Website:** www.eduintbd.ai
+- **Website:** www.eduintbd.com
 - **Type:** AI-powered education consultancy / study abroad platform
 - **Tagline:** "Your Global Study Partner"
 - **Meta Pixel ID:** 1347454903743648
@@ -52,6 +52,6 @@ NEXT_PUBLIC_META_PIXEL_ID="1347454903743648"
 ## Test Accounts
 | Email | Password | Role |
 |-------|----------|------|
-| admin@eduintbd.ai | admin123 | ADMIN |
+| admin@eduintbd.com | admin123 | ADMIN |
 | fatima@example.com | user123 | STUDENT (CS, GPA 3.7, IELTS 7.5) |
 | arif@example.com | user123 | STUDENT (Business, GPA 3.4, IELTS 6.5) |

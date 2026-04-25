@@ -1,5 +1,5 @@
 // Minimal seed for /community so the page isn't empty on first load. Owned
-// by the seed admin user (adnan@eduintbd.ai). Safe to re-run — idempotent.
+// by the seed admin user (adnan@eduintbd.com). Safe to re-run — idempotent.
 
 export const COMMUNITY_SEED = [
   {

@@ -1376,7 +1376,7 @@ AI matching is powerful, but it's step 1. After you get your AI recommendations:
 
 ## Try It Yourself
 
-1. **Create a free account** at eduintbd.ai
+1. **Create a free account** at eduintbd.com
 2. **Complete your academic profile** (takes 5 minutes)
 3. **Get instant AI recommendations**
 4. **Save programs you like** and compare them side-by-side

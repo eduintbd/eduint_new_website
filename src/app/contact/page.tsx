@@ -56,7 +56,7 @@ export default function ContactPage() {
                 <Mail className="h-5 w-5 text-blue-600 mt-0.5" />
                 <div>
                   <p className="text-sm font-medium">Email</p>
-                  <p className="text-sm text-gray-500">info@eduintbd.ai</p>
+                  <p className="text-sm text-gray-500">info@eduintbd.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
