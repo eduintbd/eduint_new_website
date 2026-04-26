@@ -50,7 +50,9 @@ function LoginForm() {
     }
   };
 
-  const googleCallback = nextParam || "/admin";
+  const googleCallback = nextParam
+    ? `/auth/post-login?next=${encodeURIComponent(nextParam)}`
+    : "/auth/post-login";
 
   return (
     <div className="min-h-[calc(100vh-8rem)] flex items-center justify-center px-4 py-12">
