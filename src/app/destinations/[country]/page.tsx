@@ -2,10 +2,30 @@ import { COUNTRIES } from "@/lib/countries";
 import Link from "next/link";
 import { ArrowLeft, MapPin, DollarSign, BookOpen, CheckCircle2 } from "lucide-react";
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import StickyLeadForm from "@/components/leads/StickyLeadForm";
 
 export function generateStaticParams() {
   return COUNTRIES.map((c) => ({ country: c.code.toLowerCase() }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ country: string }>;
+}): Promise<Metadata> {
+  const { country: code } = await params;
+  const country = COUNTRIES.find((c) => c.code.toLowerCase() === code.toLowerCase());
+  if (!country) return { title: "Destination not found" };
+  return {
+    title: `Study in ${country.name}`,
+    description: `${country.description} Tuition: ${country.avgTuition}. Living: ${country.livingCost}.`,
+    openGraph: {
+      title: `Study in ${country.name} | EDUINTBD`,
+      description: country.description,
+      type: "article",
+    },
+  };
 }
 
 export default async function CountryDetailPage({

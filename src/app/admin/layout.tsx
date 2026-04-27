@@ -8,6 +8,7 @@ import type { Role } from "@/lib/roles";
 export const metadata = {
   title: "Admin · EDUINTBD",
   description: "EDUINTBD team console",
+  robots: { index: false, follow: false },
 };
 
 export default async function AdminLayout({
