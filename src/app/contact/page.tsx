@@ -63,7 +63,7 @@ export default function ContactPage() {
                 <Phone className="h-5 w-5 text-blue-600 mt-0.5" />
                 <div>
                   <p className="text-sm font-medium">Phone</p>
-                  <p className="text-sm text-gray-500">+880 1XXX-XXXXXX</p>
+                  <p className="text-sm text-gray-500">+880 1898 934855</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
@@ -133,8 +133,9 @@ export default function ContactPage() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Message</label>
+                <label htmlFor="contact-message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Message</label>
                 <textarea
+                  id="contact-message"
                   value={form.message}
                   onChange={(e) => setForm({ ...form, message: e.target.value })}
                   required

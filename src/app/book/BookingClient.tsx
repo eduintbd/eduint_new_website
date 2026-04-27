@@ -168,9 +168,13 @@ export default function BookingClient() {
         >
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
+              <label htmlFor="book-name" className="sr-only">Full name</label>
               <input
+                id="book-name"
+                autoComplete="name"
                 {...register("name")}
                 placeholder="Full name"
+                aria-invalid={errors.name ? "true" : "false"}
                 className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               {errors.name && (
@@ -178,9 +182,14 @@ export default function BookingClient() {
               )}
             </div>
             <div>
+              <label htmlFor="book-phone" className="sr-only">Phone number</label>
               <input
+                id="book-phone"
+                type="tel"
+                autoComplete="tel"
                 {...register("phone")}
                 placeholder="Phone (+8801...)"
+                aria-invalid={errors.phone ? "true" : "false"}
                 className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               {errors.phone && (
@@ -189,24 +198,33 @@ export default function BookingClient() {
             </div>
           </div>
           <div>
+            <label htmlFor="book-email" className="sr-only">Email address</label>
             <input
+              id="book-email"
+              type="email"
+              autoComplete="email"
               {...register("email")}
               placeholder="Email"
+              aria-invalid={errors.email ? "true" : "false"}
               className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
             {errors.email && (
               <p className="mt-1 text-xs text-red-600">{errors.email.message}</p>
             )}
           </div>
-          <input
-            {...register("topic")}
-            placeholder={
-              prefillCountry
-                ? `What would you like to discuss? (pre-filled for ${prefillCountry})`
-                : "What would you like to discuss? (optional)"
-            }
-            className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
+          <div>
+            <label htmlFor="book-topic" className="sr-only">Discussion topic (optional)</label>
+            <input
+              id="book-topic"
+              {...register("topic")}
+              placeholder={
+                prefillCountry
+                  ? `What would you like to discuss? (pre-filled for ${prefillCountry})`
+                  : "What would you like to discuss? (optional)"
+              }
+              className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
           <input type="hidden" {...register("slot")} />
           <button
             type="submit"

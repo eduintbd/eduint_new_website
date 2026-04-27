@@ -70,9 +70,13 @@ export default function StickyLeadForm({
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-3">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <div>
+          <label htmlFor="lead-name" className="sr-only">Your name</label>
           <input
+            id="lead-name"
+            autoComplete="name"
             {...register("name")}
             placeholder="Your name"
+            aria-invalid={errors.name ? "true" : "false"}
             className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           {errors.name && (
@@ -80,9 +84,14 @@ export default function StickyLeadForm({
           )}
         </div>
         <div>
+          <label htmlFor="lead-phone" className="sr-only">Phone number</label>
           <input
+            id="lead-phone"
+            type="tel"
+            autoComplete="tel"
             {...register("phone")}
             placeholder="Phone (+8801...)"
+            aria-invalid={errors.phone ? "true" : "false"}
             className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           {errors.phone && (
@@ -92,41 +101,59 @@ export default function StickyLeadForm({
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        <input
-          {...register("email")}
-          placeholder="Email (optional)"
-          className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
-        <select
-          {...register("preferredCountry")}
-          className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-          <option value="">Preferred country</option>
-          {COUNTRIES.map((c) => (
-            <option key={c.code} value={c.code}>
-              {c.flagEmoji} {c.name}
-            </option>
-          ))}
-        </select>
+        <div>
+          <label htmlFor="lead-email" className="sr-only">Email (optional)</label>
+          <input
+            id="lead-email"
+            type="email"
+            autoComplete="email"
+            {...register("email")}
+            placeholder="Email (optional)"
+            className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
+        <div>
+          <label htmlFor="lead-country" className="sr-only">Preferred country</label>
+          <select
+            id="lead-country"
+            {...register("preferredCountry")}
+            className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            <option value="">Preferred country</option>
+            {COUNTRIES.map((c) => (
+              <option key={c.code} value={c.code}>
+                {c.flagEmoji} {c.name}
+              </option>
+            ))}
+          </select>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        <select
-          {...register("intake")}
-          className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-        >
-          <option value="">Target intake</option>
-          <option value="Jan 2026">Jan 2026</option>
-          <option value="May 2026">May 2026</option>
-          <option value="Sep 2026">Sep 2026</option>
-          <option value="Jan 2027">Jan 2027</option>
-          <option value="Not sure yet">Not sure yet</option>
-        </select>
-        <input
-          {...register("message")}
-          placeholder="Anything specific? (optional)"
-          className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-        />
+        <div>
+          <label htmlFor="lead-intake" className="sr-only">Target intake</label>
+          <select
+            id="lead-intake"
+            {...register("intake")}
+            className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            <option value="">Target intake</option>
+            <option value="Jan 2026">Jan 2026</option>
+            <option value="May 2026">May 2026</option>
+            <option value="Sep 2026">Sep 2026</option>
+            <option value="Jan 2027">Jan 2027</option>
+            <option value="Not sure yet">Not sure yet</option>
+          </select>
+        </div>
+        <div>
+          <label htmlFor="lead-message" className="sr-only">Additional message (optional)</label>
+          <input
+            id="lead-message"
+            {...register("message")}
+            placeholder="Anything specific? (optional)"
+            className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+        </div>
       </div>
 
       <button

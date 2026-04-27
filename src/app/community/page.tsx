@@ -86,13 +86,17 @@ export default function CommunityPage() {
 
       {open && (
         <div className="mb-6 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4 space-y-2">
+          <label htmlFor="post-title" className="sr-only">Post title</label>
           <input
+            id="post-title"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
             placeholder="Title"
             className="w-full rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-2 py-1.5 text-sm"
           />
+          <label htmlFor="post-body" className="sr-only">Post body</label>
           <textarea
+            id="post-body"
             value={body}
             onChange={(e) => setBody(e.target.value)}
             placeholder="Write your question…"
@@ -100,7 +104,9 @@ export default function CommunityPage() {
             className="w-full rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-2 py-1.5 text-sm"
           />
           <div className="flex items-center gap-2">
+            <label htmlFor="post-tag" className="sr-only">Tag</label>
             <input
+              id="post-tag"
               value={tag}
               onChange={(e) => setTag(e.target.value.toUpperCase())}
               placeholder="Tag (e.g. IELTS, VISA)"
@@ -157,9 +163,21 @@ export default function CommunityPage() {
             </Link>
           ))}
           {posts.length === 0 && (
-            <p className="text-center py-16 text-gray-500">
-              No posts yet. Be the first!
-            </p>
+            <div className="text-center py-16 rounded-xl border border-dashed border-gray-200 dark:border-gray-800">
+              <MessageSquare className="h-10 w-10 mx-auto text-gray-300 dark:text-gray-600 mb-3" />
+              <p className="text-gray-700 dark:text-gray-300 font-medium">No posts yet</p>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
+                {session ? "Be the first to start a discussion." : "Sign in to start the first discussion."}
+              </p>
+              {session && (
+                <button
+                  onClick={() => setOpen(true)}
+                  className="mt-4 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium"
+                >
+                  <Plus className="h-4 w-4" /> New post
+                </button>
+              )}
+            </div>
           )}
         </div>
       )}

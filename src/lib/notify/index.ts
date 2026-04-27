@@ -19,7 +19,9 @@ export async function sendEmail({ to, subject, html }: EmailArgs): Promise<
 > {
   const key = process.env.RESEND_API_KEY;
   if (!key) {
-    console.log("[notify:email:dev]", { to, subject });
+    if (process.env.NODE_ENV !== "production") {
+      console.log("[notify:email:dev]", { to, subject });
+    }
     return { ok: true, provider: "stub" };
   }
   try {
@@ -54,7 +56,9 @@ export function buildWhatsAppLink({ to, message }: WhatsAppArgs): string {
 }
 
 export function logWhatsAppIntent(args: WhatsAppArgs) {
-  console.log("[notify:whatsapp:intent]", args);
+  if (process.env.NODE_ENV !== "production") {
+    console.log("[notify:whatsapp:intent]", args);
+  }
 }
 
 export function leadEmailBody(lead: {

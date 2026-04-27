@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { InputHTMLAttributes, forwardRef } from "react";
+import { InputHTMLAttributes, forwardRef, useId } from "react";
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   label?: string;
@@ -10,16 +10,21 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
 
 const Input = forwardRef<HTMLInputElement, InputProps>(
   ({ className, label, error, id, ...props }, ref) => {
+    const reactId = useId();
+    const inputId = id ?? reactId;
+    const errorId = error ? `${inputId}-error` : undefined;
     return (
       <div className="w-full">
         {label && (
-          <label htmlFor={id} className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+          <label htmlFor={inputId} className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
             {label}
           </label>
         )}
         <input
           ref={ref}
-          id={id}
+          id={inputId}
+          aria-invalid={error ? "true" : undefined}
+          aria-describedby={errorId}
           className={cn(
             "w-full rounded-lg border px-3 py-2 text-sm transition-colors",
             "bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100",
@@ -31,7 +36,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
           )}
           {...props}
         />
-        {error && <p className="mt-1 text-sm text-red-500">{error}</p>}
+        {error && <p id={errorId} className="mt-1 text-sm text-red-500">{error}</p>}
       </div>
     );
   }
