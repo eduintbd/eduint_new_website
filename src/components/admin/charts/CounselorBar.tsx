@@ -11,7 +11,7 @@ export default function CounselorBar({
     return (
       <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4">
         <p className="text-sm font-semibold mb-3">Counselor leaderboard</p>
-        <p className="text-xs text-gray-500">
+        <p className="text-xs text-gray-500 dark:text-gray-400">
           No assigned leads yet this period.
         </p>
       </div>

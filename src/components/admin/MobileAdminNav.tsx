@@ -38,7 +38,7 @@ export default function MobileAdminNav({ role }: { role: Role }) {
               className={`block px-3 py-2 rounded-lg ${
                 pathname === it.href
                   ? "bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 font-medium"
-                  : "text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-900"
+                  : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900"
               }`}
             >
               {it.label}

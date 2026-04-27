@@ -1,38 +1,48 @@
 "use client";
 
 import { useState } from "react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
 import Input from "@/components/ui/Input";
 import Button from "@/components/ui/Button";
 import { Mail, Phone, MapPin, Send, CheckCircle2 } from "lucide-react";
 import { toast } from "sonner";
+import { contactSchema, type ContactInput } from "@/lib/validators";
 
 export default function ContactPage() {
-  const [form, setForm] = useState({ name: "", email: "", phone: "", subject: "", message: "" });
-  const [loading, setLoading] = useState(false);
   const [sent, setSent] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setLoading(true);
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors, isSubmitting },
+  } = useForm<ContactInput>({
+    resolver: zodResolver(contactSchema),
+    mode: "onBlur",
+    reValidateMode: "onChange",
+    defaultValues: { name: "", email: "", phone: "", subject: "", message: "" },
+  });
 
+  const onSubmit = async (values: ContactInput) => {
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify(values),
       });
 
       if (res.ok) {
         setSent(true);
-        setForm({ name: "", email: "", phone: "", subject: "", message: "" });
+        reset();
+        toast.success("Message sent");
       } else {
-        const data = await res.json();
+        const data = await res.json().catch(() => ({}));
         toast.error(data.error ?? "Failed to send message");
       }
     } catch {
       toast.error("Something went wrong");
     }
-    setLoading(false);
   };
 
   return (
@@ -97,54 +107,61 @@ export default function ContactPage() {
             </div>
           ) : (
             <form
-              onSubmit={handleSubmit}
+              onSubmit={handleSubmit(onSubmit)}
+              noValidate
               className="rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6 space-y-4"
             >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <Input
                   label="Name"
-                  value={form.name}
-                  onChange={(e) => setForm({ ...form, name: e.target.value })}
-                  required
+                  autoComplete="name"
                   placeholder="Your full name"
+                  error={errors.name?.message}
+                  {...register("name")}
                 />
                 <Input
                   label="Email"
                   type="email"
-                  value={form.email}
-                  onChange={(e) => setForm({ ...form, email: e.target.value })}
-                  required
+                  autoComplete="email"
                   placeholder="you@example.com"
+                  error={errors.email?.message}
+                  {...register("email")}
                 />
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <Input
                   label="Phone (optional)"
-                  value={form.phone}
-                  onChange={(e) => setForm({ ...form, phone: e.target.value })}
+                  type="tel"
+                  autoComplete="tel"
                   placeholder="+880..."
+                  error={errors.phone?.message}
+                  {...register("phone")}
                 />
                 <Input
                   label="Subject"
-                  value={form.subject}
-                  onChange={(e) => setForm({ ...form, subject: e.target.value })}
-                  required
                   placeholder="How can we help?"
+                  error={errors.subject?.message}
+                  {...register("subject")}
                 />
               </div>
               <div>
                 <label htmlFor="contact-message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Message</label>
                 <textarea
                   id="contact-message"
-                  value={form.message}
-                  onChange={(e) => setForm({ ...form, message: e.target.value })}
-                  required
                   rows={5}
                   placeholder="Tell us more about your inquiry..."
+                  aria-invalid={errors.message ? "true" : "false"}
+                  aria-describedby={errors.message ? "contact-message-error" : undefined}
                   className="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  {...register("message")}
                 />
+                {errors.message && (
+                  <p id="contact-message-error" className="mt-1 text-sm text-red-500">
+                    {errors.message.message}
+                  </p>
+                )}
               </div>
-              <Button type="submit" loading={loading} size="lg">
+              <Button type="submit" loading={isSubmitting} size="lg">
                 <Send className="h-4 w-4 mr-2" /> Send Message
               </Button>
             </form>

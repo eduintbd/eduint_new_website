@@ -33,6 +33,8 @@ export default function StickyLeadForm({
     reset,
   } = useForm<LeadInput>({
     resolver: zodResolver(leadSchema),
+    mode: "onBlur",
+    reValidateMode: "onChange",
     defaultValues: {
       name: "",
       phone: "",

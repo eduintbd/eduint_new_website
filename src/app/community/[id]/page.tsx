@@ -76,6 +76,7 @@ export default function CommunityThreadPage() {
         : p
     );
     setReply("");
+    toast.success("Reply posted");
   }
 
   if (loading)

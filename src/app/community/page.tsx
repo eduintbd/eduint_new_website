@@ -25,6 +25,8 @@ export default function CommunityPage() {
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
   const [tag, setTag] = useState("");
+  const [touched, setTouched] = useState({ title: false, body: false });
+  const [submitting, setSubmitting] = useState(false);
 
   useEffect(() => {
     fetch("/api/community")
@@ -38,33 +40,40 @@ export default function CommunityPage() {
       toast.error("Sign in to post");
       return;
     }
+    setTouched({ title: true, body: true });
     if (title.length < 5 || body.length < 10) {
       toast.error("Title 5+ chars, body 10+ chars");
       return;
     }
-    const res = await fetch("/api/community", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ title, body, tag: tag || undefined }),
-    });
-    if (!res.ok) {
-      toast.error("Post failed");
-      return;
+    setSubmitting(true);
+    try {
+      const res = await fetch("/api/community", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ title, body, tag: tag || undefined }),
+      });
+      if (!res.ok) {
+        toast.error("Post failed");
+        return;
+      }
+      const data = await res.json();
+      setPosts((p) => [
+        {
+          ...data.post,
+          replyCount: 0,
+          author: { name: session.user?.name ?? null, image: null },
+        },
+        ...p,
+      ]);
+      setOpen(false);
+      setTitle("");
+      setBody("");
+      setTag("");
+      setTouched({ title: false, body: false });
+      toast.success("Posted!");
+    } finally {
+      setSubmitting(false);
     }
-    const data = await res.json();
-    setPosts((p) => [
-      {
-        ...data.post,
-        replyCount: 0,
-        author: { name: session.user?.name ?? null, image: null },
-      },
-      ...p,
-    ]);
-    setOpen(false);
-    setTitle("");
-    setBody("");
-    setTag("");
-    toast.success("Posted!");
   }
 
   return (
@@ -86,23 +95,37 @@ export default function CommunityPage() {
 
       {open && (
         <div className="mb-6 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4 space-y-2">
-          <label htmlFor="post-title" className="sr-only">Post title</label>
-          <input
-            id="post-title"
-            value={title}
-            onChange={(e) => setTitle(e.target.value)}
-            placeholder="Title"
-            className="w-full rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-2 py-1.5 text-sm"
-          />
-          <label htmlFor="post-body" className="sr-only">Post body</label>
-          <textarea
-            id="post-body"
-            value={body}
-            onChange={(e) => setBody(e.target.value)}
-            placeholder="Write your question…"
-            rows={5}
-            className="w-full rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-2 py-1.5 text-sm"
-          />
+          <div>
+            <label htmlFor="post-title" className="sr-only">Post title</label>
+            <input
+              id="post-title"
+              value={title}
+              onChange={(e) => setTitle(e.target.value)}
+              onBlur={() => setTouched((t) => ({ ...t, title: true }))}
+              placeholder="Title"
+              aria-invalid={touched.title && title.length > 0 && title.length < 5 ? "true" : "false"}
+              className="w-full rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-2 py-1.5 text-sm"
+            />
+            {touched.title && title.length > 0 && title.length < 5 && (
+              <p className="mt-1 text-xs text-red-600">Title must be at least 5 characters ({title.length}/5)</p>
+            )}
+          </div>
+          <div>
+            <label htmlFor="post-body" className="sr-only">Post body</label>
+            <textarea
+              id="post-body"
+              value={body}
+              onChange={(e) => setBody(e.target.value)}
+              onBlur={() => setTouched((t) => ({ ...t, body: true }))}
+              placeholder="Write your question…"
+              rows={5}
+              aria-invalid={touched.body && body.length > 0 && body.length < 10 ? "true" : "false"}
+              className="w-full rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-2 py-1.5 text-sm"
+            />
+            {touched.body && body.length > 0 && body.length < 10 && (
+              <p className="mt-1 text-xs text-red-600">Body must be at least 10 characters ({body.length}/10)</p>
+            )}
+          </div>
           <div className="flex items-center gap-2">
             <label htmlFor="post-tag" className="sr-only">Tag</label>
             <input
@@ -114,9 +137,10 @@ export default function CommunityPage() {
             />
             <button
               onClick={submit}
-              className="ml-auto rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-4 py-1.5 text-sm font-medium"
+              disabled={submitting || title.length < 5 || body.length < 10}
+              className="ml-auto rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-4 py-1.5 text-sm font-medium disabled:opacity-60 disabled:cursor-not-allowed"
             >
-              Post
+              {submitting ? "Posting…" : "Post"}
             </button>
           </div>
         </div>

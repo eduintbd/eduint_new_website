@@ -66,7 +66,7 @@ export default function Sidebar({ role, userName, userEmail }: Props) {
           <Link href="/" className="text-sm font-bold tracking-tight">
             EDUINTBD
           </Link>
-          <p className="text-[10px] uppercase tracking-wider text-gray-500">
+          <p className="text-[10px] uppercase tracking-wider text-gray-500 dark:text-gray-400">
             Admin · {role.toLowerCase()}
           </p>
         </div>
@@ -86,7 +86,7 @@ export default function Sidebar({ role, userName, userEmail }: Props) {
               className={`mx-2 flex items-center gap-2.5 rounded-lg px-3 py-2 transition-colors ${
                 active
                   ? "bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 font-medium"
-                  : "text-gray-600 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-900"
+                  : "text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-900"
               }`}
             >
               <Icon className="h-4 w-4" />
@@ -102,7 +102,7 @@ export default function Sidebar({ role, userName, userEmail }: Props) {
       </nav>
       <div className="border-t border-gray-200 dark:border-gray-800 px-4 py-3 text-xs">
         <p className="font-medium truncate">{userName ?? userEmail}</p>
-        <p className="text-gray-500 truncate">{userEmail}</p>
+        <p className="text-gray-500 dark:text-gray-400 truncate">{userEmail}</p>
         <div className="mt-2 flex items-center gap-2">
           <Link
             href="/chat"
