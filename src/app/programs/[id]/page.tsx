@@ -1,75 +1,77 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import { useParams } from "next/navigation";
 import Link from "next/link";
+import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import {
-  MapPin, Clock, GraduationCap, Globe, DollarSign,
+  MapPin, Clock, Globe, DollarSign,
   Calendar, Award, Building2, ArrowLeft, MessageSquare, BarChart3,
 } from "lucide-react";
 import Badge from "@/components/ui/Badge";
 import Button from "@/components/ui/Button";
-import SaveButton from "@/components/programs/SaveButton";
 import ProgramCard from "@/components/programs/ProgramCard";
-import Spinner from "@/components/ui/Spinner";
+import ProgramSaveButton from "@/components/programs/ProgramSaveButton";
 import StickyLeadForm from "@/components/leads/StickyLeadForm";
 import { formatCurrency } from "@/lib/utils";
-import { useSession } from "next-auth/react";
-import { toast } from "sonner";
-import type { ProgramWithUniversity } from "@/types";
+import { db } from "@/lib/db";
+import { auth } from "@/lib/auth";
 
-export default function ProgramDetailPage() {
-  const { id } = useParams();
-  const { data: session } = useSession();
-  const [program, setProgram] = useState<ProgramWithUniversity | null>(null);
-  const [similar, setSimilar] = useState<ProgramWithUniversity[]>([]);
-  const [saved, setSaved] = useState(false);
-  const [loading, setLoading] = useState(true);
+interface PageProps {
+  params: Promise<{ id: string }>;
+}
 
-  useEffect(() => {
-    async function load() {
-      try {
-        const res = await fetch(`/api/programs/${id}`);
-        const data = await res.json();
-        setProgram(data.program);
-        setSimilar(data.similar ?? []);
-      } catch {
-        toast.error("Failed to load program");
-      }
-      setLoading(false);
-    }
-    load();
-  }, [id]);
+async function getProgram(id: string) {
+  const program = await db.program.findUnique({
+    where: { id },
+    include: { university: true },
+  });
+  if (!program) return null;
+  const similar = await db.program.findMany({
+    where: {
+      id: { not: program.id },
+      OR: [{ field: program.field }, { country: program.country }],
+    },
+    include: {
+      university: {
+        select: { id: true, name: true, country: true, city: true, ranking: true, logoUrl: true, partnerStatus: true },
+      },
+    },
+    take: 3,
+  });
+  return { program, similar };
+}
 
-  const handleSave = async () => {
-    if (!session) { toast.error("Please sign in"); return; }
-    try {
-      const res = await fetch(`/api/programs/${id}/save`, { method: "POST" });
-      const data = await res.json();
-      setSaved(data.saved);
-      toast.success(data.saved ? "Program saved" : "Program removed");
-    } catch {
-      toast.error("Failed to save");
-    }
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { id } = await params;
+  const data = await getProgram(id);
+  if (!data) return { title: "Program not found" };
+  const { program } = data;
+  const title = `${program.name} — ${program.university.name}`;
+  const description = program.description
+    ? program.description.slice(0, 160)
+    : `${program.level} program at ${program.university.name} in ${program.city}, ${program.country}. Tuition: ${formatCurrency(program.tuitionFee, program.currency)}/year.`;
+  return {
+    title,
+    description,
+    openGraph: {
+      title: `${title} | EDUINTBD`,
+      description,
+      type: "article",
+    },
   };
+}
 
-  if (loading) {
-    return (
-      <div className="flex items-center justify-center py-32">
-        <Spinner size="lg" />
-      </div>
-    );
-  }
+export default async function ProgramDetailPage({ params }: PageProps) {
+  const { id } = await params;
+  const data = await getProgram(id);
+  if (!data) notFound();
+  const { program, similar } = data;
 
-  if (!program) {
-    return (
-      <div className="text-center py-32">
-        <p className="text-xl text-gray-500">Program not found</p>
-        <Link href="/programs" className="text-blue-600 hover:underline mt-2 inline-block">
-          Back to Programs
-        </Link>
-      </div>
-    );
+  const session = await auth();
+  let initialSaved = false;
+  if (session?.user?.id) {
+    const existing = await db.savedProgram.findUnique({
+      where: { userId_programId: { userId: session.user.id, programId: program.id } },
+    }).catch(() => null);
+    initialSaved = !!existing;
   }
 
   return (
@@ -142,7 +144,7 @@ export default function ProgramDetailPage() {
 
           {/* Actions */}
           <div className="flex items-center gap-3 pt-4">
-            <SaveButton saved={saved} onClick={handleSave} />
+            <ProgramSaveButton programId={program.id} initialSaved={initialSaved} />
             <Link href={`/compare?ids=${program.id}`}>
               <Button variant="outline">
                 <BarChart3 className="h-4 w-4 mr-2" /> Compare
