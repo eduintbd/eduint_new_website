@@ -15,6 +15,7 @@ import LeadFunnel from "@/components/admin/charts/LeadFunnel";
 import SourcePie from "@/components/admin/charts/SourcePie";
 import LeadsTrend from "@/components/admin/charts/LeadsTrend";
 import CounselorBar from "@/components/admin/charts/CounselorBar";
+import RecentActivity from "@/components/admin/RecentActivity";
 import { can, type Role } from "@/lib/roles";
 
 type ReportData = {
@@ -215,6 +216,8 @@ export default function AdminDashboardPage() {
               </div>
             </div>
           </div>
+
+          <RecentActivity />
         </>
       )}
     </div>
