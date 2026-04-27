@@ -1,14 +1,12 @@
 "use client";
 
 import { Suspense, useState } from "react";
-import { signIn, getSession } from "next-auth/react";
+import { signIn } from "next-auth/react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { GraduationCap, Mail, Lock, Eye, EyeOff } from "lucide-react";
 import Button from "@/components/ui/Button";
 import Input from "@/components/ui/Input";
-
-const STAFF_ROLES = new Set(["COUNSELOR", "MANAGER", "ADMIN"]);
 
 function LoginForm() {
   const router = useRouter();
@@ -20,13 +18,12 @@ function LoginForm() {
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
 
-  // Staff get /admin, students get the path they were trying to reach (or /).
-  async function pickDestination(): Promise<string> {
-    const session = await getSession();
-    const role = (session?.user as { role?: string } | undefined)?.role;
-    if (role && STAFF_ROLES.has(role)) return nextParam || "/admin";
-    return nextParam || "/";
-  }
+  // Always route through the server-side /auth/post-login redirector so the
+  // role check happens against a freshly-set cookie (avoids a getSession race
+  // that occasionally sent staff users to "/" instead of "/admin").
+  const postLoginUrl = nextParam
+    ? `/auth/post-login?next=${encodeURIComponent(nextParam)}`
+    : "/auth/post-login";
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -44,15 +41,12 @@ function LoginForm() {
     if (result?.error) {
       setError("Invalid email or password");
     } else {
-      const dest = await pickDestination();
-      router.push(dest);
+      router.push(postLoginUrl);
       router.refresh();
     }
   };
 
-  const googleCallback = nextParam
-    ? `/auth/post-login?next=${encodeURIComponent(nextParam)}`
-    : "/auth/post-login";
+  const googleCallback = postLoginUrl;
 
   return (
     <div className="min-h-[calc(100vh-8rem)] flex items-center justify-center px-4 py-12">
