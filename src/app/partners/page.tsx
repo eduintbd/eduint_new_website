@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Partner Institutions",
-  description: "Explore our 1,500+ partner universities and institutions worldwide.",
+  description: "Explore our 600+ partner universities and institutions across 26 study destinations.",
 };
 
 const FEATURED_PARTNERS = [
@@ -29,7 +29,7 @@ export default function PartnersPage() {
           Partner <span className="gradient-text">Institutions</span>
         </h1>
         <p className="mx-auto max-w-2xl text-lg text-gray-600 dark:text-gray-400">
-          We partner with 1,500+ leading universities to bring you the best educational opportunities worldwide.
+          We partner with 600+ leading universities across 26 study destinations to bring you the best educational opportunities worldwide.
         </p>
       </div>
 
@@ -64,7 +64,7 @@ export default function PartnersPage() {
 
       <div className="text-center mt-12">
         <p className="text-gray-500 dark:text-gray-400 mb-4">
-          And 1,480+ more institutions across 6 countries
+          And 590+ more institutions across 26 study destinations
         </p>
         <Link
           href="/programs"

@@ -1302,7 +1302,7 @@ We provide pre-departure orientation that includes job search strategies, resume
   {
     slug: "eduintbd-ai-matching-how-it-works",
     title: "How EDUINTBD's AI University Matching Actually Works",
-    excerpt: "A transparent look at how our AI-powered matching engine analyzes your profile and recommends the best-fit university programs from 140,000+ options worldwide.",
+    excerpt: "A transparent look at how our AI-powered matching engine analyzes your profile and recommends the best-fit university programs from 1,400+ options across 600+ partner universities worldwide.",
     category: "Application Tips",
     author: "EDUINTBD Team",
     date: "2026-01-10",

@@ -51,7 +51,7 @@ export default function Partners() {
             Partner <span className="gradient-text">Institutions</span>
           </h2>
           <p className="mx-auto max-w-2xl text-gray-600 dark:text-gray-400">
-            We work with 1,500+ leading universities worldwide to bring you the best opportunities.
+            We work with 600+ leading universities across 26 study destinations to bring you the best opportunities.
           </p>
         </div>
 

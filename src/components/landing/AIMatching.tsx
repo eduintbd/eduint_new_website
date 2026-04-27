@@ -22,7 +22,7 @@ const FEATURES = [
   {
     icon: Shield,
     title: "Trusted Guidance",
-    description: "Every recommendation is backed by real data from 1,500+ partner universities worldwide.",
+    description: "Every recommendation is backed by real data from 600+ partner universities across 26 study destinations.",
   },
 ];
 
@@ -35,7 +35,7 @@ export default function AIMatching() {
             AI-Powered <span className="gradient-text">University Matching</span>
           </h2>
           <p className="mx-auto max-w-2xl text-gray-600 dark:text-gray-400">
-            The world&apos;s most advanced AI matching system analyzes your profile against 140,000+ programs to find your perfect fit.
+            Our AI matching system analyzes your profile against 1,400+ programs from 600+ universities to find your perfect fit.
           </p>
         </div>
 

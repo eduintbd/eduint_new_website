@@ -152,7 +152,7 @@ export default function ProgramsPage() {
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">Browse Programs</h1>
         <p className="text-gray-600 dark:text-gray-400">
-          Discover 140,000+ programs across the world&apos;s top universities
+          Discover 1,400+ programs from 600+ partner universities across 26 study destinations
         </p>
       </div>
 

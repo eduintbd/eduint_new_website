@@ -48,21 +48,21 @@ export default function AboutPage() {
               navigate the complex world of study abroad.
             </p>
             <p>
-              Our AI-powered matching system analyzes over 140,000 programs from 1,500+ universities
-              across 6 countries, ensuring every student finds their perfect fit — not just any program,
+              Our AI-powered matching system analyzes 1,400+ programs from 600+ universities
+              across 26 study destinations, ensuring every student finds their perfect fit — not just any program,
               but the right program for their unique profile.
             </p>
             <p>
               From our headquarters in Dhaka, we&apos;ve helped thousands of students realize their
-              academic dreams in Australia, Canada, USA, UK, Germany, and Ireland.
+              academic dreams across Australia, Canada, USA, UK, Germany, Ireland, and 20+ other destinations.
             </p>
           </div>
         </div>
         <div className="grid grid-cols-2 gap-4">
           {[
             { value: "5,000+", label: "Students Placed" },
-            { value: "1,500+", label: "Partner Universities" },
-            { value: "6", label: "Countries Covered" },
+            { value: "600+", label: "Partner Universities" },
+            { value: "26", label: "Countries Covered" },
             { value: "95%", label: "Acceptance Rate" },
           ].map((stat) => (
             <div key={stat.label} className="text-center p-6 rounded-xl bg-gray-50 dark:bg-gray-800">

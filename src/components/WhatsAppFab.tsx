@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import { MessageCircle } from "lucide-react";
 
-const DEFAULT_NUMBER = "8801700000000";
+const DEFAULT_NUMBER = "8801898934855";
 const DEFAULT_TEMPLATE =
   "Hi EDUINTBD, I'd like to know more about studying abroad.";
 

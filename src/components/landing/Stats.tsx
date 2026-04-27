@@ -6,17 +6,17 @@ import { Award, Building2, Globe, ShieldCheck } from "lucide-react";
 const STATS = [
   {
     icon: Building2,
-    value: 12,
+    value: 600,
     suffix: "+",
     label: "Partner Universities",
-    note: "Across AU, CA, US, UK, DE, IE",
+    note: "Across 26 study destinations",
   },
   {
     icon: Globe,
-    value: 6,
+    value: 26,
     suffix: "",
     label: "Study Destinations",
-    note: "All English-speaking & popular BD routes",
+    note: "AU, CA, US, UK, DE, IE & 20 more",
   },
   {
     icon: Award,
