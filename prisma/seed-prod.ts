@@ -48,6 +48,7 @@ const COUNTRY_META: Record<
   PL: { name: "Poland", flagEmoji: "🇵🇱", featured: false, description: "Affordable EU destination with strong IT + medical." },
   RU: { name: "Russia", flagEmoji: "🇷🇺", featured: false, description: "Affordable medical and engineering programs." },
   KR: { name: "South Korea", flagEmoji: "🇰🇷", featured: false, description: "Tech powerhouse with KGSP scholarships." },
+  MY: { name: "Malaysia", flagEmoji: "🇲🇾", featured: true, description: "English-taught programs and branch campuses of top UK/AU universities." },
 };
 
 const FIELD_MAP: Record<string, string> = {
@@ -205,7 +206,7 @@ async function main() {
       field: FIELD_MAP[p.field] ?? slugifyField(p.field),
       duration: p.duration ?? "",
       tuitionFee: p.tuition != null && p.tuition > 0 ? p.tuition : 0,
-      currency: "USD",
+      currency: p.currency ?? "USD",
       language: p.language ?? "English",
       intakeMonths: p.intake ?? null,
       description: null,

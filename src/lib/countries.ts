@@ -389,6 +389,21 @@ export const COUNTRIES = [
     livingCost: "KRW 7,000,000 - KRW 10,000,000/year",
     popularFields: ["Engineering", "Business", "Computer Science", "Korean Studies"],
   },
+  {
+    code: "MY",
+    name: "Malaysia",
+    flagEmoji: "🇲🇾",
+    description:
+      "Affordable Asian study hub with English-taught programs, branch campuses of UK and Australian universities, and a low cost of living.",
+    highlights: [
+      "English as medium of instruction",
+      "Branch campuses of top UK/AU universities",
+      "Affordable tuition + living costs",
+    ],
+    avgTuition: "MYR 15,000 - MYR 45,000/year",
+    livingCost: "MYR 12,000 - MYR 18,000/year",
+    popularFields: ["Business", "IT", "Engineering", "Hospitality"],
+  },
 ] as const;
 
 export type CountryCode = (typeof COUNTRIES)[number]["code"];

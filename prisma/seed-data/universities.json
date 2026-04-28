@@ -5452,5 +5452,626 @@
     "city": "the student will be commissionable on payment of full first year of tuition fees. \r\n4. For Synergy University, the commission will be processed after October for Fall intake, within 6-8 weeks.",
     "ranking": null,
     "website": null
+  },
+  {
+    "key": "MY|Universiti Malaya",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Universiti Malaya",
+    "city": "Kuala Lumpur",
+    "ranking": 60,
+    "website": "https://www.um.edu.my"
+  },
+  {
+    "key": "MY|Universiti Putra Malaysia",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Universiti Putra Malaysia",
+    "city": "Serdang",
+    "ranking": 159,
+    "website": "https://www.upm.edu.my"
+  },
+  {
+    "key": "MY|Universiti Sains Malaysia",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Universiti Sains Malaysia",
+    "city": "Penang",
+    "ranking": 137,
+    "website": "https://www.usm.my"
+  },
+  {
+    "key": "MY|Universiti Teknologi Malaysia",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Universiti Teknologi Malaysia",
+    "city": "Skudai",
+    "ranking": 188,
+    "website": "https://www.utm.my"
+  },
+  {
+    "key": "MY|Multimedia University",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Multimedia University",
+    "city": "Cyberjaya",
+    "ranking": 605,
+    "website": "https://www.mmu.edu.my"
+  },
+  {
+    "key": "MY|Universiti Kuala Lumpur",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Universiti Kuala Lumpur",
+    "city": "Kuala Lumpur",
+    "ranking": null,
+    "website": "https://www.unikl.edu.my"
+  },
+  {
+    "key": "MY|Universiti Tenaga Nasional",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Universiti Tenaga Nasional",
+    "city": "Kajang",
+    "ranking": null,
+    "website": "https://www.uniten.edu.my"
+  },
+  {
+    "key": "MY|Asia Pacific University of Technology & Innovation",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Asia Pacific University of Technology & Innovation",
+    "city": "Kuala Lumpur",
+    "ranking": null,
+    "website": "https://www.apu.edu.my"
+  },
+  {
+    "key": "MY|Sunway University",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Sunway University",
+    "city": "Bandar Sunway",
+    "ranking": 586,
+    "website": "https://sunwayuniversity.edu.my"
+  },
+  {
+    "key": "MY|Taylor's University",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Taylor's University",
+    "city": "Subang Jaya",
+    "ranking": 251,
+    "website": "https://university.taylors.edu.my"
+  },
+  {
+    "key": "MY|Monash University Malaysia",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Monash University Malaysia",
+    "city": "Bandar Sunway",
+    "ranking": 37,
+    "website": "https://www.monash.edu.my"
+  },
+  {
+    "key": "MY|Heriot-Watt University Malaysia",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Heriot-Watt University Malaysia",
+    "city": "Putrajaya",
+    "ranking": 281,
+    "website": "https://www.hw.ac.uk/malaysia"
+  },
+  {
+    "key": "MY|University of Nottingham Malaysia",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "University of Nottingham Malaysia",
+    "city": "Semenyih",
+    "ranking": 100,
+    "website": "https://www.nottingham.edu.my"
+  },
+  {
+    "key": "MY|Curtin University Malaysia",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Curtin University Malaysia",
+    "city": "Miri",
+    "ranking": 174,
+    "website": "https://curtin.edu.my"
+  },
+  {
+    "key": "MY|University of Wollongong Malaysia (KDU)",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "University of Wollongong Malaysia (KDU)",
+    "city": "Kuala Lumpur",
+    "ranking": 162,
+    "website": "https://uowmkdu.edu.my"
+  },
+  {
+    "key": "MY|INTI International University",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "INTI International University",
+    "city": "Nilai",
+    "ranking": null,
+    "website": "https://newinti.edu.my"
+  },
+  {
+    "key": "MY|SEGi University",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "SEGi University",
+    "city": "Petaling Jaya",
+    "ranking": null,
+    "website": "https://www.segi.edu.my"
+  },
+  {
+    "key": "MY|UCSI University",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "UCSI University",
+    "city": "Kuala Lumpur",
+    "ranking": 265,
+    "website": "https://www.ucsiuniversity.edu.my"
+  },
+  {
+    "key": "MY|MAHSA University",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "MAHSA University",
+    "city": "Bandar Saujana Putra",
+    "ranking": null,
+    "website": "https://mahsa.edu.my"
+  },
+  {
+    "key": "MY|University of Cyberjaya",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "University of Cyberjaya",
+    "city": "Cyberjaya",
+    "ranking": null,
+    "website": "https://www.cyberjaya.edu.my"
+  },
+  {
+    "key": "MY|Perdana University",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Perdana University",
+    "city": "Serdang",
+    "ranking": null,
+    "website": "https://www.perdanauniversity.edu.my"
+  },
+  {
+    "key": "MY|Universiti Tun Abdul Razak (UniRazak)",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Universiti Tun Abdul Razak (UniRazak)",
+    "city": "Kuala Lumpur",
+    "ranking": null,
+    "website": "https://www.unirazak.edu.my"
+  },
+  {
+    "key": "MY|Binary University of Management & Entrepreneurship",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Binary University of Management & Entrepreneurship",
+    "city": "Puchong",
+    "ranking": null,
+    "website": "https://www.binary.edu.my"
+  },
+  {
+    "key": "MY|Asia Metropolitan University",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Asia Metropolitan University",
+    "city": "Cheras",
+    "ranking": null,
+    "website": "https://www.amu.edu.my"
+  },
+  {
+    "key": "MY|Lincoln University College",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Lincoln University College",
+    "city": "Petaling Jaya",
+    "ranking": null,
+    "website": "https://www.lincoln.edu.my"
+  },
+  {
+    "key": "MY|International University of Malaya-Wales",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "International University of Malaya-Wales",
+    "city": "Kuala Lumpur",
+    "ranking": null,
+    "website": "https://www.iumw.edu.my"
+  },
+  {
+    "key": "MY|London School of Business and Finance Malaysia",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "London School of Business and Finance Malaysia",
+    "city": "Kuala Lumpur",
+    "ranking": null,
+    "website": "https://www.lsbf.edu.my"
+  },
+  {
+    "key": "MY|Universiti Geomatika Malaysia",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Universiti Geomatika Malaysia",
+    "city": "Kuala Lumpur",
+    "ranking": null,
+    "website": "https://geomatika.edu.my"
+  },
+  {
+    "key": "MY|City University Malaysia",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "City University Malaysia",
+    "city": "Petaling Jaya",
+    "ranking": null,
+    "website": "https://city.edu.my"
+  },
+  {
+    "key": "MY|Genovasi University College",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Genovasi University College",
+    "city": "Petaling Jaya",
+    "ranking": null,
+    "website": "https://genovasi.edu.my"
+  },
+  {
+    "key": "MY|Universiti Poly-Tech Malaysia",
+    "code": "MY",
+    "country": "Malaysia",
+    "name": "Universiti Poly-Tech Malaysia",
+    "city": "Kuala Lumpur",
+    "ranking": null,
+    "website": "https://uptm.edu.my"
+  },
+  {
+    "key": "CA|University of Toronto",
+    "code": "CA",
+    "country": "Canada",
+    "name": "University of Toronto",
+    "city": "Toronto",
+    "ranking": 21,
+    "website": "https://www.utoronto.ca"
+  },
+  {
+    "key": "CA|University of British Columbia",
+    "code": "CA",
+    "country": "Canada",
+    "name": "University of British Columbia",
+    "city": "Vancouver",
+    "ranking": 35,
+    "website": "https://www.ubc.ca"
+  },
+  {
+    "key": "CA|McGill University",
+    "code": "CA",
+    "country": "Canada",
+    "name": "McGill University",
+    "city": "Montreal",
+    "ranking": 30,
+    "website": "https://www.mcgill.ca"
+  },
+  {
+    "key": "CA|University of Waterloo",
+    "code": "CA",
+    "country": "Canada",
+    "name": "University of Waterloo",
+    "city": "Waterloo",
+    "ranking": 112,
+    "website": "https://uwaterloo.ca"
+  },
+  {
+    "key": "CA|McMaster University",
+    "code": "CA",
+    "country": "Canada",
+    "name": "McMaster University",
+    "city": "Hamilton",
+    "ranking": 189,
+    "website": "https://www.mcmaster.ca"
+  },
+  {
+    "key": "CA|Western University",
+    "code": "CA",
+    "country": "Canada",
+    "name": "Western University",
+    "city": "London",
+    "ranking": 172,
+    "website": "https://www.uwo.ca"
+  },
+  {
+    "key": "CA|Queen's University",
+    "code": "CA",
+    "country": "Canada",
+    "name": "Queen's University",
+    "city": "Kingston",
+    "ranking": 240,
+    "website": "https://www.queensu.ca"
+  },
+  {
+    "key": "CA|University of Alberta",
+    "code": "CA",
+    "country": "Canada",
+    "name": "University of Alberta",
+    "city": "Edmonton",
+    "ranking": 96,
+    "website": "https://www.ualberta.ca"
+  },
+  {
+    "key": "CA|Lakehead University",
+    "code": "CA",
+    "country": "Canada",
+    "name": "Lakehead University",
+    "city": "Thunder Bay",
+    "ranking": 600,
+    "website": "https://www.lakeheadu.ca"
+  },
+  {
+    "key": "CA|Trent University",
+    "code": "CA",
+    "country": "Canada",
+    "name": "Trent University",
+    "city": "Peterborough",
+    "ranking": 800,
+    "website": "https://www.trentu.ca"
+  },
+  {
+    "key": "US|Massachusetts Institute of Technology",
+    "code": "US",
+    "country": "United States",
+    "name": "Massachusetts Institute of Technology",
+    "city": "Cambridge",
+    "ranking": 1,
+    "website": "https://web.mit.edu"
+  },
+  {
+    "key": "US|Stanford University",
+    "code": "US",
+    "country": "United States",
+    "name": "Stanford University",
+    "city": "Stanford",
+    "ranking": 2,
+    "website": "https://www.stanford.edu"
+  },
+  {
+    "key": "US|Harvard University",
+    "code": "US",
+    "country": "United States",
+    "name": "Harvard University",
+    "city": "Cambridge",
+    "ranking": 5,
+    "website": "https://www.harvard.edu"
+  },
+  {
+    "key": "US|Yale University",
+    "code": "US",
+    "country": "United States",
+    "name": "Yale University",
+    "city": "New Haven",
+    "ranking": 23,
+    "website": "https://www.yale.edu"
+  },
+  {
+    "key": "US|Carnegie Mellon University",
+    "code": "US",
+    "country": "United States",
+    "name": "Carnegie Mellon University",
+    "city": "Pittsburgh",
+    "ranking": 52,
+    "website": "https://www.cmu.edu"
+  },
+  {
+    "key": "US|University of California, Berkeley",
+    "code": "US",
+    "country": "United States",
+    "name": "University of California, Berkeley",
+    "city": "Berkeley",
+    "ranking": 12,
+    "website": "https://www.berkeley.edu"
+  },
+  {
+    "key": "US|Columbia University",
+    "code": "US",
+    "country": "United States",
+    "name": "Columbia University",
+    "city": "New York",
+    "ranking": 17,
+    "website": "https://www.columbia.edu"
+  },
+  {
+    "key": "US|Cornell University",
+    "code": "US",
+    "country": "United States",
+    "name": "Cornell University",
+    "city": "Ithaca",
+    "ranking": 18,
+    "website": "https://www.cornell.edu"
+  },
+  {
+    "key": "US|New York University",
+    "code": "US",
+    "country": "United States",
+    "name": "New York University",
+    "city": "New York",
+    "ranking": 38,
+    "website": "https://www.nyu.edu"
+  },
+  {
+    "key": "US|University of Southern California",
+    "code": "US",
+    "country": "United States",
+    "name": "University of Southern California",
+    "city": "Los Angeles",
+    "ranking": 47,
+    "website": "https://www.usc.edu"
+  },
+  {
+    "key": "UK|University of Oxford",
+    "code": "UK",
+    "country": "United Kingdom",
+    "name": "University of Oxford",
+    "city": "Oxford",
+    "ranking": 3,
+    "website": "https://www.ox.ac.uk"
+  },
+  {
+    "key": "UK|University of Cambridge",
+    "code": "UK",
+    "country": "United Kingdom",
+    "name": "University of Cambridge",
+    "city": "Cambridge",
+    "ranking": 4,
+    "website": "https://www.cam.ac.uk"
+  },
+  {
+    "key": "UK|University College London",
+    "code": "UK",
+    "country": "United Kingdom",
+    "name": "University College London",
+    "city": "London",
+    "ranking": 9,
+    "website": "https://www.ucl.ac.uk"
+  },
+  {
+    "key": "UK|Imperial College London",
+    "code": "UK",
+    "country": "United Kingdom",
+    "name": "Imperial College London",
+    "city": "London",
+    "ranking": 6,
+    "website": "https://www.imperial.ac.uk"
+  },
+  {
+    "key": "UK|London School of Economics",
+    "code": "UK",
+    "country": "United Kingdom",
+    "name": "London School of Economics",
+    "city": "London",
+    "ranking": 50,
+    "website": "https://www.lse.ac.uk"
+  },
+  {
+    "key": "UK|University of Edinburgh",
+    "code": "UK",
+    "country": "United Kingdom",
+    "name": "University of Edinburgh",
+    "city": "Edinburgh",
+    "ranking": 27,
+    "website": "https://www.ed.ac.uk"
+  },
+  {
+    "key": "UK|King's College London",
+    "code": "UK",
+    "country": "United Kingdom",
+    "name": "King's College London",
+    "city": "London",
+    "ranking": 31,
+    "website": "https://www.kcl.ac.uk"
+  },
+  {
+    "key": "UK|University of Manchester",
+    "code": "UK",
+    "country": "United Kingdom",
+    "name": "University of Manchester",
+    "city": "Manchester",
+    "ranking": 53,
+    "website": "https://www.manchester.ac.uk"
+  },
+  {
+    "key": "UK|University of Warwick",
+    "code": "UK",
+    "country": "United Kingdom",
+    "name": "University of Warwick",
+    "city": "Coventry",
+    "ranking": 67,
+    "website": "https://warwick.ac.uk"
+  },
+  {
+    "key": "UK|University of Bristol",
+    "code": "UK",
+    "country": "United Kingdom",
+    "name": "University of Bristol",
+    "city": "Bristol",
+    "ranking": 55,
+    "website": "https://www.bristol.ac.uk"
+  },
+  {
+    "key": "IE|Trinity College Dublin",
+    "code": "IE",
+    "country": "Ireland",
+    "name": "Trinity College Dublin",
+    "city": "Dublin",
+    "ranking": 81,
+    "website": "https://www.tcd.ie"
+  },
+  {
+    "key": "IE|University College Dublin",
+    "code": "IE",
+    "country": "Ireland",
+    "name": "University College Dublin",
+    "city": "Dublin",
+    "ranking": 126,
+    "website": "https://www.ucd.ie"
+  },
+  {
+    "key": "IE|University of Galway",
+    "code": "IE",
+    "country": "Ireland",
+    "name": "University of Galway",
+    "city": "Galway",
+    "ranking": 273,
+    "website": "https://www.universityofgalway.ie"
+  },
+  {
+    "key": "IE|University College Cork",
+    "code": "IE",
+    "country": "Ireland",
+    "name": "University College Cork",
+    "city": "Cork",
+    "ranking": 273,
+    "website": "https://www.ucc.ie"
+  },
+  {
+    "key": "IE|Maynooth University",
+    "code": "IE",
+    "country": "Ireland",
+    "name": "Maynooth University",
+    "city": "Maynooth",
+    "ranking": 661,
+    "website": "https://www.maynoothuniversity.ie"
+  },
+  {
+    "key": "IE|Dublin City University",
+    "code": "IE",
+    "country": "Ireland",
+    "name": "Dublin City University",
+    "city": "Dublin",
+    "ranking": 421,
+    "website": "https://www.dcu.ie"
+  },
+  {
+    "key": "IE|University of Limerick",
+    "code": "IE",
+    "country": "Ireland",
+    "name": "University of Limerick",
+    "city": "Limerick",
+    "ranking": 461,
+    "website": "https://www.ul.ie"
+  },
+  {
+    "key": "IE|Royal College of Surgeons in Ireland",
+    "code": "IE",
+    "country": "Ireland",
+    "name": "Royal College of Surgeons in Ireland",
+    "city": "Dublin",
+    "ranking": 205,
+    "website": "https://www.rcsi.com"
   }
 ]

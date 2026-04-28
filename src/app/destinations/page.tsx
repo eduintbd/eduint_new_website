@@ -5,7 +5,7 @@ import { MapPin, ArrowRight, CheckCircle2 } from "lucide-react";
 export const metadata = {
   title: "Study Destinations",
   description:
-    "Explore 26+ study-abroad destinations — from Australia, Canada, USA, UK to Germany, Netherlands, Sweden, South Korea, and more.",
+    "Explore 27+ study-abroad destinations — from Australia, Canada, USA, UK to Germany, Netherlands, Malaysia, South Korea, and more.",
 };
 
 export default function DestinationsPage() {

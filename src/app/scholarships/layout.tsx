@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Scholarships for Bangladeshi Students | EDUINTBD",
     description:
-      "Fully-funded scholarships and grants across 26 study destinations.",
+      "Fully-funded scholarships and grants across 27 study destinations.",
     type: "website",
   },
 };

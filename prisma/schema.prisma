@@ -112,6 +112,8 @@ model University {
   createdAt     DateTime  @default(now())
 
   programs Program[]
+
+  @@unique([name, country])
 }
 
 model Program {

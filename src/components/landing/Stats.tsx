@@ -9,14 +9,14 @@ const STATS = [
     value: 600,
     suffix: "+",
     label: "Partner Universities",
-    note: "Across 26 study destinations",
+    note: "Across 27 study destinations",
   },
   {
     icon: Globe,
-    value: 26,
+    value: 27,
     suffix: "",
     label: "Study Destinations",
-    note: "AU, CA, US, UK, DE, IE & 20 more",
+    note: "AU, CA, US, UK, DE, IE, MY & 20 more",
   },
   {
     icon: Award,

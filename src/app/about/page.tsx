@@ -49,7 +49,7 @@ export default function AboutPage() {
             </p>
             <p>
               Our AI-powered matching system analyzes 1,400+ programs from 600+ universities
-              across 26 study destinations, ensuring every student finds their perfect fit — not just any program,
+              across 27 study destinations, ensuring every student finds their perfect fit — not just any program,
               but the right program for their unique profile.
             </p>
             <p>

@@ -22,7 +22,7 @@ const FEATURES = [
   {
     icon: Shield,
     title: "Trusted Guidance",
-    description: "Every recommendation is backed by real data from 600+ partner universities across 26 study destinations.",
+    description: "Every recommendation is backed by real data from 600+ partner universities across 27 study destinations.",
   },
 ];
 

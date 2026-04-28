@@ -101,7 +101,7 @@ export default async function ProgramsPage({ searchParams }: PageProps) {
           Browse Programs
         </h1>
         <p className="text-gray-600 dark:text-gray-400">
-          Discover 1,400+ programs from 600+ partner universities across 26 study destinations
+          Discover 1,400+ programs from 600+ partner universities across 27 study destinations
         </p>
       </div>
 

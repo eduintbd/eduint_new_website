@@ -5,7 +5,7 @@ import Accordion from "@/components/ui/Accordion";
 const FAQ_ITEMS = [
   {
     title: "How does the AI matching work?",
-    content: "Our AI analyzes your academic profile, including GPA, test scores, field of study, career goals, budget, and preferred countries. It then compares your profile against 1,400+ programs from 600+ partner universities across 26 study destinations to rank programs by compatibility and acceptance probability.",
+    content: "Our AI analyzes your academic profile, including GPA, test scores, field of study, career goals, budget, and preferred countries. It then compares your profile against 1,400+ programs from 600+ partner universities across 27 study destinations to rank programs by compatibility and acceptance probability.",
   },
   {
     title: "Is the platform free to use?",
@@ -13,7 +13,7 @@ const FAQ_ITEMS = [
   },
   {
     title: "Which countries can I study in?",
-    content: "We currently support programs across 26 study destinations including Australia, Canada, United States, United Kingdom, Germany, Ireland, New Zealand, France, Netherlands, and many more across Europe and Asia.",
+    content: "We currently support programs across 27 study destinations including Australia, Canada, United States, United Kingdom, Germany, Ireland, New Zealand, France, Netherlands, Malaysia, and many more across Europe and Asia.",
   },
   {
     title: "How is EDUINTBD different from other consultancies?",
