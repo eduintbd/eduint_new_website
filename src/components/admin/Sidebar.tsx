@@ -29,6 +29,7 @@ type Props = {
 const BASE_ITEMS = [
   { href: "/admin", label: "Dashboard", icon: LayoutDashboard, perm: "admin.access" as const },
   { href: "/admin/leads", label: "Leads", icon: Users, perm: "admin.access" as const },
+  { href: "/admin/students", label: "Students", icon: GraduationCap, perm: "admin.access" as const },
   { href: "/admin/bookings", label: "Bookings", icon: Calendar, perm: "admin.access" as const },
   { href: "/admin/applications", label: "Applications", icon: ClipboardCheck, perm: "admin.access" as const },
   { href: "/admin/documents", label: "Documents", icon: FolderCheck, perm: "admin.access" as const },

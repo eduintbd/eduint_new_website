@@ -9,6 +9,7 @@ import { can, type Role } from "@/lib/roles";
 const ITEMS = [
   { href: "/admin", label: "Dashboard", perm: "admin.access" as const },
   { href: "/admin/leads", label: "Leads", perm: "admin.access" as const },
+  { href: "/admin/students", label: "Students", perm: "admin.access" as const },
   { href: "/admin/bookings", label: "Bookings", perm: "admin.access" as const },
   { href: "/admin/reminders", label: "Reminders", perm: "admin.access" as const },
   { href: "/admin/team", label: "Team", perm: "admin.manageTeam" as const },
