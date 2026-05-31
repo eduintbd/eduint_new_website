@@ -23,8 +23,8 @@ export default function Hero() {
       {/* Full-bleed photo + scrim. Replace /hero.jpg with your own image in /public. */}
       <div className="absolute inset-0">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/hero.jpg" alt="" className="h-full w-full object-cover opacity-60" style={{ objectPosition: "center 30%" }} />
-        <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.78) 42%, rgba(0,0,0,0.4) 100%)" }} />
+        <img src="/hero.jpg" alt="" className="h-full w-full object-cover opacity-40" style={{ objectPosition: "center 30%" }} />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, rgba(0,0,0,0.96) 0%, rgba(0,0,0,0.85) 42%, rgba(0,0,0,0.62) 100%)" }} />
       </div>
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 sm:py-28">

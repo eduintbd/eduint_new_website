@@ -47,7 +47,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center gap-7">
+          <div className="hidden lg:flex items-center gap-7">
             {NAV_LINKS.map((link) => (
               <Link
                 key={link.href}
@@ -120,7 +120,7 @@ export default function Navbar() {
                 </Link>
                 <Link
                   href="/book"
-                  className="px-4 py-3 text-sm font-semibold uppercase tracking-wide text-ink bg-lime hover:bg-lime-deep transition-colors"
+                  className="px-4 py-3 text-sm font-semibold uppercase tracking-wide text-ink bg-lime hover:bg-lime-deep transition-colors whitespace-nowrap"
                 >
                   {t("nav.book")}
                 </Link>
@@ -129,7 +129,7 @@ export default function Navbar() {
 
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="md:hidden p-2 text-white/80 hover:bg-white/10"
+              className="lg:hidden p-2 text-white/80 hover:bg-white/10"
             >
               {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </button>
@@ -140,7 +140,7 @@ export default function Navbar() {
       {/* Mobile menu */}
       <div
         className={cn(
-          "md:hidden overflow-hidden transition-all duration-300 border-t border-white/10 bg-black",
+          "lg:hidden overflow-hidden transition-all duration-300 border-t border-white/10 bg-black",
           mobileOpen ? "max-h-96" : "max-h-0 border-t-0"
         )}
       >
