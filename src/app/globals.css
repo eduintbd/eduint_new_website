@@ -1,78 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 @import "tailwindcss";
 
-:root {
-  --color-primary: #2563eb;
-  --color-primary-dark: #1d4ed8;
-  --color-accent: #0ea5e9;
+/* ============================================================
+   EDUINT — new brand theme (black + chartreuse, Poppins)
+   Tailwind v4 design tokens. Use bg-lime / text-ink / bg-ink etc.
+   ============================================================ */
+@theme {
+  /* Make Poppins the default sans everywhere */
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+
+  /* Brand colors → expose as Tailwind utilities (bg-lime, text-ink, …) */
+  --color-ink: #0A0A0A;
+  --color-paper: #FFFFFF;
+  --color-lime: #E0FE9C;
+  --color-lime-deep: #CDEE78;
+  --color-lime-soft: #EEFFCB;
+
+  /* Logo accents (use sparingly) */
+  --color-eduint-orange: #FF751F;
+  --color-eduint-navy: #1E4A7B;
+  --color-eduint-red: #D7362C;
+  --color-eduint-sky: #72B5CC;
 }
 
-html {
-  scroll-behavior: smooth;
+:root {
+  /* legacy vars kept so nothing breaks; repointed to brand */
+  --color-primary: #0A0A0A;
+  --color-primary-dark: #000000;
+  --color-accent: #E0FE9C;
 }
+
+html { scroll-behavior: smooth; }
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  background: #FFFFFF;
+  color: #0A0A0A;
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-}
+/* Scrollbar */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #CFCFCF; border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: #808080; }
 
-::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #94a3b8;
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #64748b;
-}
-
-/* Animation utilities */
+/* ---- Animations ---- */
 @keyframes fade-in-up {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
+.animate-fade-in-up { animation: fade-in-up 0.6s cubic-bezier(0.22,1,0.36,1) forwards; }
 
-@keyframes counter {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+@keyframes ticker { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.animate-ticker { animation: ticker 26s linear infinite; }
 
-.animate-fade-in-up {
-  animation: fade-in-up 0.6s ease-out forwards;
-}
-
-/* Gradient text */
+/* ---- Brand shims: any leftover usage degrades to the new look ---- */
+/* old gradient text → solid ink (no more blue gradient) */
 .gradient-text {
-  background: linear-gradient(135deg, #2563eb, #0ea5e9);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  background: none !important;
+  -webkit-text-fill-color: currentColor !important;
+  color: #0A0A0A;
 }
-
-/* Glass effect */
+/* old glassy nav → solid black */
 .glass {
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #000000;
+  backdrop-filter: none;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
-.dark .glass {
-  background: rgba(17, 24, 39, 0.8);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+/* ---- Signature utilities ---- */
+.btn-lime {
+  display: inline-flex; align-items: center; gap: 12px;
+  font-weight: 600; font-size: 0.875rem; letter-spacing: 0.04em; text-transform: uppercase;
+  padding: 16px 26px; background: #E0FE9C; color: #0A0A0A; border: none; cursor: pointer;
+  transition: background 140ms ease;
 }
+.btn-lime:hover { background: #CDEE78; }
+
+.eyebrow {
+  font-weight: 600; font-size: 0.8125rem; text-transform: uppercase; letter-spacing: 0.16em;
+}
+.stat-dash::before {
+  content: ""; display: block; width: 34px; height: 5px; background: currentColor; margin-bottom: 16px;
+}
+
+/* ---- Compatibility helpers (used by earlier-restyled sections/pages) ---- */
+.font-display { font-family: "Poppins", ui-sans-serif, system-ui, sans-serif; }
+
+.display-title {
+  font-family: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.02;
+}
+
+.section-dark { background: #0A0A0A; color: #FFFFFF; }
+.section-lime { background: #E0FE9C; color: #0A0A0A; }
+
+.brand-mark { color: #0A0A0A; }
+.dark .brand-mark { color: #FFFFFF; }

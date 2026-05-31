@@ -67,10 +67,10 @@ export default function GPAConverter() {
       </div>
 
       {conversions.length > 0 && (
-        <div className="rounded-xl border border-gray-200 dark:border-gray-700 overflow-hidden">
+        <div className="rounded-none border border-gray-200 dark:border-gray-700 overflow-hidden">
           <div className="bg-gray-50 dark:bg-gray-800 px-4 py-3 border-b border-gray-200 dark:border-gray-700">
             <p className="font-semibold text-sm">
-              Your GPA: <span className="text-blue-600">{value}</span> on {currentScale?.name}
+              Your GPA: <span className="text-black dark:text-[#E0FE9C]">{value}</span> on {currentScale?.name}
               {letterGrade && (
                 <span className="ml-2 text-gray-500">
                   (Letter Grade: <span className="font-bold text-gray-900 dark:text-white">{letterGrade}</span>)

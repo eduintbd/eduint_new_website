@@ -53,7 +53,7 @@ export default function EventRegisterButton({
     return (
       <button
         onClick={() => setOpen(true)}
-        className="inline-flex items-center justify-center rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 text-sm font-medium"
+        className="inline-flex items-center justify-center rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-4 py-2 text-sm font-semibold uppercase tracking-wide"
       >
         Register — free
       </button>
@@ -67,24 +67,24 @@ export default function EventRegisterButton({
         value={name}
         onChange={(e) => setName(e.target.value)}
         placeholder="Full name"
-        className="w-full rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-2 py-1.5 text-sm"
+        className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-2 py-1.5 text-sm"
       />
       <input
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         placeholder="Email"
-        className="w-full rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-2 py-1.5 text-sm"
+        className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-2 py-1.5 text-sm"
       />
       <input
         value={phone}
         onChange={(e) => setPhone(e.target.value)}
         placeholder="Phone (optional)"
-        className="w-full rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-2 py-1.5 text-sm"
+        className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-2 py-1.5 text-sm"
       />
       <button
         onClick={submit}
         disabled={busy}
-        className="inline-flex items-center gap-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-4 py-1.5 text-sm font-medium disabled:opacity-60"
+        className="inline-flex items-center gap-2 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-4 py-1.5 text-sm font-semibold uppercase tracking-wide disabled:opacity-60"
       >
         {busy && <Loader2 className="h-3.5 w-3.5 animate-spin" />} Confirm
       </button>

@@ -31,11 +31,12 @@ const FAQ_ITEMS = [
 
 export default function FAQ() {
   return (
-    <section className="py-20 bg-white dark:bg-gray-950">
+    <section className="py-20 bg-gray-50 dark:bg-[#111111]">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-            Frequently Asked <span className="gradient-text">Questions</span>
+        <div className="mb-12">
+          <p className="eyebrow text-sm text-gray-500 dark:text-gray-400 mb-3">FAQ</p>
+          <h2 className="display-title text-3xl sm:text-4xl text-gray-900 dark:text-white mb-4">
+            Frequently Asked Questions
           </h2>
           <p className="text-gray-600 dark:text-gray-400">
             Everything you need to know about studying abroad with EDUINTBD.

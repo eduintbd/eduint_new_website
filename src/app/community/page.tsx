@@ -87,14 +87,14 @@ export default function CommunityPage() {
         </div>
         <button
           onClick={() => setOpen((v) => !v)}
-          className="inline-flex items-center gap-1 rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 text-sm font-medium"
+          className="inline-flex items-center gap-1 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-4 py-2 text-sm font-semibold uppercase tracking-wide"
         >
           <Plus className="h-4 w-4" /> New post
         </button>
       </div>
 
       {open && (
-        <div className="mb-6 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4 space-y-2">
+        <div className="mb-6 rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-4 space-y-2">
           <div>
             <label htmlFor="post-title" className="sr-only">Post title</label>
             <input
@@ -104,7 +104,7 @@ export default function CommunityPage() {
               onBlur={() => setTouched((t) => ({ ...t, title: true }))}
               placeholder="Title"
               aria-invalid={touched.title && title.length > 0 && title.length < 5 ? "true" : "false"}
-              className="w-full rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-2 py-1.5 text-sm"
+              className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-2 py-1.5 text-sm"
             />
             {touched.title && title.length > 0 && title.length < 5 && (
               <p className="mt-1 text-xs text-red-600">Title must be at least 5 characters ({title.length}/5)</p>
@@ -120,7 +120,7 @@ export default function CommunityPage() {
               placeholder="Write your question…"
               rows={5}
               aria-invalid={touched.body && body.length > 0 && body.length < 10 ? "true" : "false"}
-              className="w-full rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-2 py-1.5 text-sm"
+              className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-2 py-1.5 text-sm"
             />
             {touched.body && body.length > 0 && body.length < 10 && (
               <p className="mt-1 text-xs text-red-600">Body must be at least 10 characters ({body.length}/10)</p>
@@ -133,12 +133,12 @@ export default function CommunityPage() {
               value={tag}
               onChange={(e) => setTag(e.target.value.toUpperCase())}
               placeholder="Tag (e.g. IELTS, VISA)"
-              className="rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-2 py-1.5 text-sm"
+              className="rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-2 py-1.5 text-sm"
             />
             <button
               onClick={submit}
               disabled={submitting || title.length < 5 || body.length < 10}
-              className="ml-auto rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-4 py-1.5 text-sm font-medium disabled:opacity-60 disabled:cursor-not-allowed"
+              className="ml-auto rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-4 py-1.5 text-sm font-semibold uppercase tracking-wide disabled:opacity-60 disabled:cursor-not-allowed"
             >
               {submitting ? "Posting…" : "Post"}
             </button>
@@ -148,7 +148,7 @@ export default function CommunityPage() {
 
       {loading ? (
         <div className="flex items-center justify-center py-20">
-          <Loader2 className="h-6 w-6 animate-spin text-blue-600" />
+          <Loader2 className="h-6 w-6 animate-spin text-black dark:text-[#E0FE9C]" />
         </div>
       ) : (
         <div className="space-y-2">
@@ -156,16 +156,16 @@ export default function CommunityPage() {
             <Link
               href={`/community/${p.id}`}
               key={p.id}
-              className="block rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4 hover:border-blue-400 transition-colors"
+              className="block rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-4 hover:border-[#E0FE9C] transition-colors"
             >
               <div className="flex items-start justify-between gap-3">
                 <div className="flex-1">
                   <div className="flex items-center gap-2 mb-1">
                     {p.pinned && (
-                      <Pin className="h-3.5 w-3.5 text-blue-600" />
+                      <Pin className="h-3.5 w-3.5 text-black dark:text-[#E0FE9C]" />
                     )}
                     {p.tag && (
-                      <span className="px-1.5 py-0.5 text-[10px] font-medium rounded bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                      <span className="px-1.5 py-0.5 text-[10px] font-medium rounded-none bg-[#E0FE9C] text-black">
                         {p.tag}
                       </span>
                     )}
@@ -187,7 +187,7 @@ export default function CommunityPage() {
             </Link>
           ))}
           {posts.length === 0 && (
-            <div className="text-center py-16 rounded-xl border border-dashed border-gray-200 dark:border-gray-800">
+            <div className="text-center py-16 rounded-none border border-dashed border-gray-200 dark:border-gray-800">
               <MessageSquare className="h-10 w-10 mx-auto text-gray-300 dark:text-gray-600 mb-3" />
               <p className="text-gray-700 dark:text-gray-300 font-medium">No posts yet</p>
               <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
@@ -196,7 +196,7 @@ export default function CommunityPage() {
               {session && (
                 <button
                   onClick={() => setOpen(true)}
-                  className="mt-4 inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium"
+                  className="mt-4 inline-flex items-center gap-1.5 px-4 py-2 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black text-sm font-semibold uppercase tracking-wide"
                 >
                   <Plus className="h-4 w-4" /> New post
                 </button>

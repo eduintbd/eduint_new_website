@@ -62,10 +62,10 @@ export default function OfficesPage() {
   return (
     <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-12">
       <div className="text-center mb-10">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 text-xs font-medium mb-3">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E0FE9C] text-black text-xs font-medium mb-3">
           <MapPin className="h-3.5 w-3.5" /> Visit us in person
         </div>
-        <h1 className="text-3xl sm:text-4xl font-bold">Our offices</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold font-display uppercase tracking-tight">Our offices</h1>
         <p className="mt-2 text-sm text-gray-500 dark:text-gray-400 max-w-2xl mx-auto">
           Walk in for a free session, drop off originals, or attend a university
           info day. Bring your transcripts and passport.
@@ -76,10 +76,10 @@ export default function OfficesPage() {
         {OFFICES.map((o) => (
           <div
             key={o.id}
-            className={`rounded-2xl border p-5 ${
+            className={`rounded-none border p-5 ${
               o.featured
-                ? "border-blue-400 dark:border-blue-600 bg-blue-50/40 dark:bg-blue-900/10"
-                : "border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900"
+                ? "border-[#E0FE9C] dark:border-[#E0FE9C] bg-[#E0FE9C]/10 dark:bg-[#E0FE9C]/10"
+                : "border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111]"
             }`}
           >
             <div className="flex items-start justify-between">
@@ -90,7 +90,7 @@ export default function OfficesPage() {
                 <h2 className="text-lg font-semibold">{o.branch}</h2>
               </div>
               {o.featured && (
-                <span className="text-[10px] font-semibold text-blue-600">
+                <span className="text-[10px] font-semibold text-black dark:text-[#E0FE9C]">
                   Head Office
                 </span>
               )}
@@ -101,7 +101,7 @@ export default function OfficesPage() {
             <div className="mt-3 space-y-1 text-sm">
               <a
                 href={`tel:${o.phone.replace(/\s/g, "")}`}
-                className="flex items-center gap-2 text-blue-600 hover:underline"
+                className="flex items-center gap-2 text-black dark:text-[#E0FE9C] hover:underline"
               >
                 <Phone className="h-3.5 w-3.5" /> {o.phone}
               </a>
@@ -121,7 +121,7 @@ export default function OfficesPage() {
                 href={`https://www.openstreetmap.org/?mlat=${o.lat}&mlon=${o.lng}#map=17/${o.lat}/${o.lng}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 rounded-lg border border-gray-300 dark:border-gray-700 px-3 py-1.5 text-xs hover:bg-gray-50 dark:hover:bg-gray-800"
+                className="inline-flex items-center gap-1 rounded-none border border-gray-300 dark:border-gray-700 px-3 py-1.5 text-xs hover:bg-gray-50 dark:hover:bg-gray-800"
               >
                 Open in map <ExternalLink className="h-3 w-3" />
               </a>
@@ -129,13 +129,13 @@ export default function OfficesPage() {
                 href={`https://www.google.com/maps/dir/?api=1&destination=${o.lat},${o.lng}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 rounded-lg border border-gray-300 dark:border-gray-700 px-3 py-1.5 text-xs hover:bg-gray-50 dark:hover:bg-gray-800"
+                className="inline-flex items-center gap-1 rounded-none border border-gray-300 dark:border-gray-700 px-3 py-1.5 text-xs hover:bg-gray-50 dark:hover:bg-gray-800"
               >
                 Get directions <ExternalLink className="h-3 w-3" />
               </a>
               <Link
                 href="/book"
-                className="inline-flex items-center gap-1 rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-3 py-1.5 text-xs font-medium"
+                className="inline-flex items-center gap-1 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-3 py-1.5 text-xs font-medium uppercase tracking-wide font-semibold"
               >
                 Book a visit
               </Link>

@@ -25,11 +25,11 @@ export default function AboutPage() {
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
       {/* Hero */}
       <div className="text-center mb-16">
-        <div className="inline-flex items-center justify-center h-16 w-16 rounded-2xl bg-blue-100 dark:bg-blue-900/30 text-blue-600 mb-4">
+        <div className="inline-flex items-center justify-center h-16 w-16 rounded-none bg-[#E0FE9C] text-black mb-4">
           <GraduationCap className="h-8 w-8" />
         </div>
-        <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-          About <span className="gradient-text">EDUINTBD</span>
+        <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4 font-display uppercase tracking-tight">
+          About <span className="text-gray-900 dark:text-white">EDUINTBD</span>
         </h1>
         <p className="mx-auto max-w-2xl text-lg text-gray-600 dark:text-gray-400">
           Education International Bangladesh is a leading AI-powered education consultancy,
@@ -65,8 +65,8 @@ export default function AboutPage() {
             { value: "26", label: "Countries Covered" },
             { value: "95%", label: "Acceptance Rate" },
           ].map((stat) => (
-            <div key={stat.label} className="text-center p-6 rounded-xl bg-gray-50 dark:bg-gray-800">
-              <p className="text-3xl font-bold text-blue-600">{stat.value}</p>
+            <div key={stat.label} className="text-center p-6 rounded-none bg-gray-50 dark:bg-gray-800">
+              <p className="text-3xl font-bold text-gray-900 dark:text-white">{stat.value}</p>
               <p className="text-sm text-gray-500 mt-1">{stat.label}</p>
             </div>
           ))}
@@ -80,8 +80,8 @@ export default function AboutPage() {
           {VALUES.map((value) => {
             const Icon = value.icon;
             return (
-              <div key={value.title} className="text-center p-6 rounded-xl border border-gray-200 dark:border-gray-700">
-                <Icon className="h-8 w-8 text-blue-600 mx-auto mb-3" />
+              <div key={value.title} className="text-center p-6 rounded-none border border-gray-200 dark:border-gray-700">
+                <Icon className="h-8 w-8 text-black dark:text-[#E0FE9C] mx-auto mb-3" />
                 <h3 className="font-semibold text-gray-900 dark:text-white mb-2">{value.title}</h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">{value.description}</p>
               </div>
@@ -95,12 +95,12 @@ export default function AboutPage() {
         <h2 className="text-2xl font-bold text-center text-gray-900 dark:text-white mb-8">Our Team</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {TEAM.map((member) => (
-            <div key={member.role} className="text-center p-6 rounded-xl border border-gray-200 dark:border-gray-700">
-              <div className="h-16 w-16 rounded-full bg-blue-100 dark:bg-blue-900/30 flex items-center justify-center text-blue-600 mx-auto mb-3">
+            <div key={member.role} className="text-center p-6 rounded-none border border-gray-200 dark:border-gray-700">
+              <div className="h-16 w-16 rounded-full bg-[#E0FE9C] flex items-center justify-center text-black mx-auto mb-3">
                 <Users className="h-8 w-8" />
               </div>
               <h3 className="font-semibold text-gray-900 dark:text-white">{member.name}</h3>
-              <p className="text-sm text-blue-600 mb-2">{member.role}</p>
+              <p className="text-sm text-gray-600 dark:text-[#E0FE9C] mb-2">{member.role}</p>
               <p className="text-xs text-gray-500">{member.bio}</p>
             </div>
           ))}
@@ -108,14 +108,14 @@ export default function AboutPage() {
       </div>
 
       {/* CTA */}
-      <div className="text-center p-8 rounded-2xl bg-gradient-to-r from-blue-600 to-blue-700 text-white">
+      <div className="text-center p-8 rounded-none bg-[#0a0a0a] text-white">
         <h2 className="text-2xl font-bold mb-3">Start Your Journey With Us</h2>
-        <p className="text-blue-100 mb-6">Join thousands of students who found their dream programs through EDUINTBD.</p>
+        <p className="text-gray-300 mb-6">Join thousands of students who found their dream programs through EDUINTBD.</p>
         <div className="flex justify-center gap-4">
-          <Link href="/register" className="px-6 py-3 bg-white text-blue-600 font-medium rounded-lg hover:bg-gray-100 transition-colors">
+          <Link href="/register" className="px-6 py-3 bg-[#E0FE9C] text-black font-medium rounded-none hover:bg-[#CDEE78] transition-colors uppercase tracking-wide font-semibold">
             Get Started Free
           </Link>
-          <Link href="/contact" className="px-6 py-3 border border-white/30 text-white font-medium rounded-lg hover:bg-white/10 transition-colors">
+          <Link href="/contact" className="px-6 py-3 border border-white/30 text-white font-medium rounded-none hover:bg-white/10 transition-colors uppercase tracking-wide font-semibold">
             Contact Us
           </Link>
         </div>

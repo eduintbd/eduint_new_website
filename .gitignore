@@ -48,3 +48,7 @@ prisma/dev.db-journal
 
 .vercel
 .claude/scheduled_tasks.lock
+
+# Design handoff / reference assets (not part of the app)
+/Eduint Design System/
+/design-ref/

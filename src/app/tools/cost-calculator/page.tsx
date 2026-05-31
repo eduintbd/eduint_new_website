@@ -68,7 +68,7 @@ export default function CostCalculatorPage() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 space-y-4">
+        <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-6 space-y-4">
           <div>
             <label className="block text-xs text-gray-500 mb-1">
               Destination
@@ -76,7 +76,7 @@ export default function CostCalculatorPage() {
             <select
               value={country}
               onChange={(e) => setCountry(e.target.value)}
-              className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm"
+              className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm"
             >
               {COUNTRIES.map((c) => (
                 <option key={c.code} value={c.code}>
@@ -96,7 +96,7 @@ export default function CostCalculatorPage() {
               max={6}
               value={years}
               onChange={(e) => setYears(Math.max(1, Number(e.target.value)))}
-              className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm"
+              className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm"
             />
           </div>
 
@@ -113,9 +113,9 @@ export default function CostCalculatorPage() {
                 <button
                   key={s.v}
                   onClick={() => setScenario(s.v)}
-                  className={`px-3 py-2 text-xs font-medium rounded-lg border ${
+                  className={`px-3 py-2 text-xs font-medium rounded-none border ${
                     scenario === s.v
-                      ? "bg-blue-600 text-white border-blue-600"
+                      ? "bg-[#E0FE9C] text-black border-[#E0FE9C]"
                       : "border-gray-300 dark:border-gray-700 hover:border-gray-400"
                   }`}
                 >
@@ -136,18 +136,18 @@ export default function CostCalculatorPage() {
               onChange={(e) =>
                 setScholarship(Math.max(0, Number(e.target.value)))
               }
-              className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm"
+              className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm"
               placeholder="0"
             />
           </div>
 
-          <div className="rounded-lg bg-blue-50 dark:bg-blue-900/20 p-3 text-xs text-blue-900 dark:text-blue-200 flex gap-2">
+          <div className="rounded-none bg-gray-100 dark:bg-gray-800 p-3 text-xs text-gray-900 dark:text-gray-200 flex gap-2">
             <Info className="h-4 w-4 flex-shrink-0 mt-0.5" />
             <span>{data.note}</span>
           </div>
         </div>
 
-        <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6">
+        <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-6">
           <h2 className="font-semibold mb-4">Total estimate</h2>
           <div className="space-y-2 text-sm">
             {[
@@ -189,7 +189,7 @@ export default function CostCalculatorPage() {
           </div>
 
           {breakdown.upfrontProof > 0 && (
-            <div className="mt-4 rounded-lg bg-amber-50 dark:bg-amber-900/20 p-3 text-xs text-amber-900 dark:text-amber-200">
+            <div className="mt-4 rounded-none bg-amber-50 dark:bg-amber-900/20 p-3 text-xs text-amber-900 dark:text-amber-200">
               Plus you'll need to show <strong>{fmtUsd(breakdown.upfrontProof)}</strong>{" "}
               (≈ {fmtBdt(breakdown.upfrontProof)}) as a blocked account / GIC /
               maintenance proof at visa stage.
@@ -199,13 +199,13 @@ export default function CostCalculatorPage() {
           <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-2">
             <Link
               href={`/scholarships?country=${country}`}
-              className="inline-flex items-center justify-center gap-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-4 py-2.5 text-sm font-medium"
+              className="inline-flex items-center justify-center gap-2 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-4 py-2.5 text-sm font-semibold uppercase tracking-wide"
             >
               Find scholarships
             </Link>
             <Link
               href="/book"
-              className="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-300 dark:border-gray-700 px-4 py-2.5 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800"
+              className="inline-flex items-center justify-center gap-2 rounded-none border border-gray-300 dark:border-gray-700 px-4 py-2.5 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800"
             >
               Plan with a counselor
             </Link>

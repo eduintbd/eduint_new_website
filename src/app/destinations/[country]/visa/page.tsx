@@ -44,7 +44,7 @@ export default async function VisaHubPage({
       <div className="flex items-center gap-4 mb-8">
         <span className="text-5xl">{countryMeta.flagEmoji}</span>
         <div>
-          <p className="text-xs font-semibold uppercase tracking-wider text-blue-600">
+          <p className="text-xs font-semibold uppercase tracking-wider text-black dark:text-[#E0FE9C]">
             Visa Hub
           </p>
           <h1 className="text-3xl font-bold">
@@ -54,32 +54,32 @@ export default async function VisaHubPage({
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
-        <div className="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4">
-          <Clock className="h-5 w-5 text-blue-600 mb-2" />
+        <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-4">
+          <Clock className="h-5 w-5 text-black dark:text-[#E0FE9C] mb-2" />
           <p className="text-xs text-gray-500">Processing time</p>
           <p className="text-sm font-semibold">{visa.processingDays}</p>
         </div>
-        <div className="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4">
-          <DollarSign className="h-5 w-5 text-blue-600 mb-2" />
+        <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-4">
+          <DollarSign className="h-5 w-5 text-black dark:text-[#E0FE9C] mb-2" />
           <p className="text-xs text-gray-500">Government fees</p>
           <p className="text-sm font-semibold">{visa.fee}</p>
         </div>
-        <div className="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4">
-          <MapPin className="h-5 w-5 text-blue-600 mb-2" />
+        <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-4">
+          <MapPin className="h-5 w-5 text-black dark:text-[#E0FE9C] mb-2" />
           <p className="text-xs text-gray-500">Apply from</p>
           <p className="text-sm font-semibold">Dhaka (BD)</p>
         </div>
       </div>
 
-      <div className="rounded-2xl border border-amber-200 dark:border-amber-900 bg-amber-50 dark:bg-amber-900/20 p-5 mb-8">
+      <div className="rounded-none border border-amber-200 dark:border-amber-900 bg-amber-50 dark:bg-amber-900/20 p-5 mb-8">
         <p className="text-sm text-amber-900 dark:text-amber-200 leading-relaxed">
           {visa.notes}
         </p>
       </div>
 
-      <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 mb-6">
+      <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-6 mb-6">
         <div className="flex items-center gap-2 mb-4">
-          <FileText className="h-5 w-5 text-blue-600" />
+          <FileText className="h-5 w-5 text-black dark:text-[#E0FE9C]" />
           <h2 className="text-lg font-semibold">Document checklist</h2>
         </div>
         <ul className="space-y-2">
@@ -92,7 +92,7 @@ export default async function VisaHubPage({
         </ul>
       </div>
 
-      <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 mb-6">
+      <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-6 mb-6">
         <div className="flex items-center gap-2 mb-4">
           <AlertTriangle className="h-5 w-5 text-rose-500" />
           <h2 className="text-lg font-semibold">Common rejection reasons</h2>
@@ -115,7 +115,7 @@ export default async function VisaHubPage({
           href={visa.embassyUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-300 dark:border-gray-700 px-4 py-3 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800"
+          className="inline-flex items-center justify-center gap-2 rounded-none border border-gray-300 dark:border-gray-700 px-4 py-3 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800"
         >
           Official immigration site <ExternalLink className="h-4 w-4" />
         </a>
@@ -124,7 +124,7 @@ export default async function VisaHubPage({
             href={visa.appointmentUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-300 dark:border-gray-700 px-4 py-3 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800"
+            className="inline-flex items-center justify-center gap-2 rounded-none border border-gray-300 dark:border-gray-700 px-4 py-3 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800"
           >
             Book appointment <ExternalLink className="h-4 w-4" />
           </a>
@@ -142,14 +142,14 @@ export default async function VisaHubPage({
       <div className="mt-6 flex flex-wrap items-center gap-3 text-sm">
         <Link
           href={`/tools/visa-mock?country=${code}`}
-          className="inline-flex items-center gap-2 text-blue-600 hover:underline"
+          className="inline-flex items-center gap-2 text-black dark:text-[#E0FE9C] hover:underline"
         >
           Practice the visa interview →
         </Link>
         <span className="text-gray-400">·</span>
         <Link
           href={`/scholarships?country=${code}`}
-          className="inline-flex items-center gap-2 text-blue-600 hover:underline"
+          className="inline-flex items-center gap-2 text-black dark:text-[#E0FE9C] hover:underline"
         >
           Scholarships for {visa.country}
         </Link>

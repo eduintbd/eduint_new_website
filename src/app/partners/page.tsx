@@ -25,8 +25,8 @@ export default function PartnersPage() {
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-          Partner <span className="gradient-text">Institutions</span>
+        <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4 font-display uppercase tracking-tight">
+          Partner <span className="text-gray-900 dark:text-white">Institutions</span>
         </h1>
         <p className="mx-auto max-w-2xl text-lg text-gray-600 dark:text-gray-400">
           We partner with 600+ leading universities across 27 study destinations to bring you the best educational opportunities worldwide.
@@ -37,10 +37,10 @@ export default function PartnersPage() {
         {FEATURED_PARTNERS.map((partner) => (
           <div
             key={partner.name}
-            className="p-6 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-md transition-shadow"
+            className="p-6 rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-md transition-shadow"
           >
             <div className="flex items-start gap-3 mb-4">
-              <div className="h-12 w-12 rounded-lg bg-gray-100 dark:bg-gray-700 flex items-center justify-center flex-shrink-0">
+              <div className="h-12 w-12 rounded-none bg-gray-100 dark:bg-gray-700 flex items-center justify-center flex-shrink-0">
                 <Building2 className="h-6 w-6 text-gray-600 dark:text-gray-400" />
               </div>
               <div>
@@ -68,7 +68,7 @@ export default function PartnersPage() {
         </p>
         <Link
           href="/programs"
-          className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+          className="inline-flex items-center gap-2 px-6 py-3 bg-[#E0FE9C] text-black font-medium rounded-none hover:bg-[#CDEE78] transition-colors uppercase tracking-wide font-semibold"
         >
           Browse All Programs <ExternalLink className="h-4 w-4" />
         </Link>

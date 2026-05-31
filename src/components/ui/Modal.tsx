@@ -31,7 +31,7 @@ export default function Modal({ open, onClose, title, children, className }: Mod
       <div className="fixed inset-0 bg-black/50" onClick={onClose} />
       <div
         className={cn(
-          "relative z-50 w-full max-w-lg rounded-xl bg-white dark:bg-gray-800 shadow-xl p-6",
+          "relative z-50 w-full max-w-lg rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] shadow-xl p-6",
           className
         )}
       >
@@ -39,7 +39,7 @@ export default function Modal({ open, onClose, title, children, className }: Mod
           {title && <h2 className="text-lg font-semibold text-gray-900 dark:text-white">{title}</h2>}
           <button
             onClick={onClose}
-            className="p-1 rounded-lg text-gray-400 hover:text-gray-600 hover:bg-gray-100 dark:hover:text-gray-300 dark:hover:bg-gray-700"
+            className="p-1 rounded-none text-gray-400 hover:text-gray-600 hover:bg-gray-100 dark:hover:text-gray-300 dark:hover:bg-gray-800"
           >
             <X className="h-5 w-5" />
           </button>

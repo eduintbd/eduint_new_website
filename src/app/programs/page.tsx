@@ -97,7 +97,7 @@ export default async function ProgramsPage({ searchParams }: PageProps) {
   return (
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">
+        <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2 font-display uppercase tracking-tight">
           Browse Programs
         </h1>
         <p className="text-gray-600 dark:text-gray-400">
@@ -135,14 +135,14 @@ export default async function ProgramsPage({ searchParams }: PageProps) {
               <Link
                 href={buildPageUrl(page - 1)}
                 scroll={false}
-                className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800"
+                className="inline-flex items-center justify-center px-4 py-2 rounded-none border border-gray-300 dark:border-gray-600 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800"
               >
                 Previous
               </Link>
             ) : (
               <span
                 aria-disabled="true"
-                className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-700 text-sm font-medium text-gray-400 cursor-not-allowed"
+                className="inline-flex items-center justify-center px-4 py-2 rounded-none border border-gray-200 dark:border-gray-700 text-sm font-medium text-gray-400 cursor-not-allowed"
               >
                 Previous
               </span>
@@ -154,14 +154,14 @@ export default async function ProgramsPage({ searchParams }: PageProps) {
               <Link
                 href={buildPageUrl(page + 1)}
                 scroll={false}
-                className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-gray-300 dark:border-gray-600 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800"
+                className="inline-flex items-center justify-center px-4 py-2 rounded-none border border-gray-300 dark:border-gray-600 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800"
               >
                 Next
               </Link>
             ) : (
               <span
                 aria-disabled="true"
-                className="inline-flex items-center justify-center px-4 py-2 rounded-lg border border-gray-200 dark:border-gray-700 text-sm font-medium text-gray-400 cursor-not-allowed"
+                className="inline-flex items-center justify-center px-4 py-2 rounded-none border border-gray-200 dark:border-gray-700 text-sm font-medium text-gray-400 cursor-not-allowed"
               >
                 Next
               </span>

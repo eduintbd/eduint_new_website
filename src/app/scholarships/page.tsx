@@ -66,7 +66,7 @@ export default function ScholarshipsPage() {
         </p>
       </div>
 
-      <div className="mb-6 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4">
+      <div className="mb-6 rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-4">
         <div className="flex items-center gap-2 mb-3 text-xs font-medium text-gray-500">
           <Filter className="h-3.5 w-3.5" /> Filter
         </div>
@@ -74,7 +74,7 @@ export default function ScholarshipsPage() {
           <select
             value={country}
             onChange={(e) => setCountry(e.target.value)}
-            className="rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm"
+            className="rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm"
           >
             <option value="ALL">All countries</option>
             {COUNTRIES.map((c) => (
@@ -87,7 +87,7 @@ export default function ScholarshipsPage() {
           <select
             value={level}
             onChange={(e) => setLevel(e.target.value)}
-            className="rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm"
+            className="rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm"
           >
             {LEVELS.map((l) => (
               <option key={l} value={l}>
@@ -98,7 +98,7 @@ export default function ScholarshipsPage() {
           <select
             value={field}
             onChange={(e) => setField(e.target.value)}
-            className="rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm"
+            className="rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm"
           >
             {FIELDS.map((f) => (
               <option key={f} value={f}>
@@ -109,7 +109,7 @@ export default function ScholarshipsPage() {
           <select
             value={minAmount}
             onChange={(e) => setMinAmount(Number(e.target.value))}
-            className="rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm"
+            className="rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm"
           >
             {AMOUNT_TIERS.map((t) => (
               <option key={t.value} value={t.value}>
@@ -122,7 +122,7 @@ export default function ScholarshipsPage() {
 
       {loading ? (
         <div className="flex items-center justify-center py-20">
-          <Loader2 className="h-6 w-6 animate-spin text-blue-600" />
+          <Loader2 className="h-6 w-6 animate-spin text-black dark:text-[#E0FE9C]" />
         </div>
       ) : rows.length === 0 ? (
         <p className="text-center text-sm text-gray-500 py-16">
@@ -133,7 +133,7 @@ export default function ScholarshipsPage() {
           {rows.map((s) => (
             <div
               key={s.id}
-              className="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-5 flex flex-col"
+              className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-5 flex flex-col"
             >
               <div className="flex items-start justify-between gap-2 mb-2">
                 <h3 className="font-semibold text-gray-900 dark:text-white">
@@ -147,14 +147,14 @@ export default function ScholarshipsPage() {
                 {s.provider}
               </p>
               <div className="flex flex-wrap gap-1 mt-3">
-                <span className="px-2 py-0.5 text-[10px] font-medium rounded bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300">
+                <span className="px-2 py-0.5 text-[10px] font-medium rounded-none bg-[#E0FE9C] text-black">
                   {s.country}
                 </span>
-                <span className="px-2 py-0.5 text-[10px] font-medium rounded bg-purple-50 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300">
+                <span className="px-2 py-0.5 text-[10px] font-medium rounded-none bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300">
                   {s.level}
                 </span>
                 {s.field && s.field !== "ANY" && (
-                  <span className="px-2 py-0.5 text-[10px] font-medium rounded bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300">
+                  <span className="px-2 py-0.5 text-[10px] font-medium rounded-none bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-300">
                     {s.field}
                   </span>
                 )}
@@ -177,7 +177,7 @@ export default function ScholarshipsPage() {
                   href={s.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-auto pt-3 inline-flex items-center gap-1 text-xs font-medium text-blue-600 hover:text-blue-700"
+                  className="mt-auto pt-3 inline-flex items-center gap-1 text-xs font-medium text-black dark:text-[#E0FE9C] hover:underline"
                 >
                   Official page <ExternalLink className="h-3 w-3" />
                 </a>

@@ -9,8 +9,8 @@ export default function Card({ className, hover = false, children, ...props }: C
   return (
     <div
       className={cn(
-        "rounded-xl border border-gray-200 bg-white dark:border-gray-700 dark:bg-gray-800 shadow-sm",
-        hover && "transition-shadow hover:shadow-md cursor-pointer",
+        "rounded-none border border-gray-200 bg-white dark:border-gray-800 dark:bg-[#111111]",
+        hover && "transition-colors hover:border-[#E0FE9C] cursor-pointer",
         className
       )}
       {...props}

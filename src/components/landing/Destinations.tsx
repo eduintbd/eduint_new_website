@@ -6,13 +6,14 @@ import { COUNTRIES } from "@/lib/countries";
 
 export default function Destinations() {
   return (
-    <section className="py-20 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-950">
+    <section className="py-20 bg-white dark:bg-[#0a0a0a]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-            Study <span className="gradient-text">Destinations</span>
+        <div className="mb-12">
+          <p className="eyebrow text-sm text-gray-500 dark:text-gray-400 mb-3">Destinations</p>
+          <h2 className="display-title text-3xl sm:text-4xl text-gray-900 dark:text-white mb-4">
+            Study Destinations
           </h2>
-          <p className="mx-auto max-w-2xl text-gray-600 dark:text-gray-400">
+          <p className="max-w-2xl text-gray-600 dark:text-gray-400">
             Explore programs across the world&apos;s top study destinations.
           </p>
         </div>
@@ -22,12 +23,12 @@ export default function Destinations() {
             <Link
               key={country.code}
               href={`/destinations/${country.code.toLowerCase()}`}
-              className="group p-6 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all"
+              className="group p-6 rounded-none border border-gray-200 dark:border-gray-800 hover:border-[#E0FE9C] transition-colors"
             >
               <div className="flex items-center gap-3 mb-3">
                 <span className="text-3xl">{country.flagEmoji}</span>
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
+                  <h3 className="font-display uppercase text-base font-semibold tracking-wide text-gray-900 dark:text-white transition-colors">
                     {country.name}
                   </h3>
                   <div className="flex items-center gap-1 text-xs text-gray-500">
@@ -41,7 +42,7 @@ export default function Destinations() {
               </p>
               <div className="flex items-center justify-between text-xs text-gray-500 dark:text-gray-400">
                 <span>Avg. Tuition: {country.avgTuition}</span>
-                <ArrowRight className="h-4 w-4 text-blue-600 opacity-0 group-hover:opacity-100 transition-opacity" />
+                <ArrowRight className="h-4 w-4 text-black dark:text-[#E0FE9C] opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
             </Link>
           ))}

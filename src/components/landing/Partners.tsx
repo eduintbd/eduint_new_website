@@ -44,41 +44,42 @@ const PARTNERS = [
 
 export default function Partners() {
   return (
-    <section className="py-20 bg-white dark:bg-gray-950">
+    <section className="py-20 bg-[#0a0a0a] text-white">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-            Partner <span className="gradient-text">Institutions</span>
+        <div className="mb-12">
+          <p className="eyebrow text-sm text-[#E0FE9C] mb-3">Our Academic Partners</p>
+          <h2 className="display-title text-3xl sm:text-4xl text-white mb-4">
+            Partner Institutions
           </h2>
-          <p className="mx-auto max-w-2xl text-gray-600 dark:text-gray-400">
+          <p className="max-w-2xl text-gray-400">
             We work with 600+ leading universities across 27 study destinations to bring you the best opportunities.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-white/10 border border-white/10">
           {PARTNERS.map((partner) => (
             <div
               key={partner.name}
-              className="p-6 rounded-xl border border-gray-200 dark:border-gray-700 hover:shadow-md transition-shadow"
+              className="group bg-[#0a0a0a] p-6 hover:bg-[#111111] transition-colors"
             >
               <div className="flex items-start gap-3 mb-3">
-                <div className="h-10 w-10 rounded-lg bg-gray-100 dark:bg-gray-800 flex items-center justify-center flex-shrink-0">
-                  <Building2 className="h-5 w-5 text-gray-600 dark:text-gray-400" />
+                <div className="h-10 w-10 rounded-none bg-white/10 group-hover:bg-[#E0FE9C] flex items-center justify-center flex-shrink-0 transition-colors">
+                  <Building2 className="h-5 w-5 text-white group-hover:text-black transition-colors" />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-gray-900 dark:text-white">{partner.name}</h3>
-                  <p className="text-xs text-gray-500 dark:text-gray-400">{partner.city}, {partner.country}</p>
+                  <h3 className="font-display uppercase text-sm font-semibold tracking-wide text-white">{partner.name}</h3>
+                  <p className="text-xs text-gray-500">{partner.city}, {partner.country}</p>
                 </div>
               </div>
-              <p className="text-sm text-gray-600 dark:text-gray-400">{partner.description}</p>
+              <p className="text-sm text-gray-400">{partner.description}</p>
             </div>
           ))}
         </div>
 
-        <div className="text-center mt-10">
+        <div className="mt-10">
           <Link
             href="/partners"
-            className="inline-flex items-center gap-2 text-blue-600 dark:text-blue-400 font-medium hover:underline"
+            className="inline-flex items-center gap-2 text-[#E0FE9C] text-sm font-semibold uppercase tracking-wide hover:underline"
           >
             View All Partners <ExternalLink className="h-4 w-4" />
           </Link>

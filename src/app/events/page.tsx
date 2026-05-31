@@ -32,7 +32,7 @@ export default function EventsPage() {
   if (loading)
     return (
       <div className="flex items-center justify-center py-20">
-        <Loader2 className="h-6 w-6 animate-spin text-blue-600" />
+        <Loader2 className="h-6 w-6 animate-spin text-black dark:text-[#E0FE9C]" />
       </div>
     );
 
@@ -60,10 +60,10 @@ export default function EventsPage() {
           {events.map((e) => (
             <div
               key={e.id}
-              className={`rounded-2xl border p-5 ${
+              className={`rounded-none border p-5 ${
                 e.featured
-                  ? "border-blue-400 dark:border-blue-600 bg-blue-50/50 dark:bg-blue-900/10"
-                  : "border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900"
+                  ? "border-black dark:border-[#E0FE9C] bg-gray-50 dark:bg-[#111111]"
+                  : "border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111]"
               }`}
             >
               <div className="flex items-center justify-between mb-2">
@@ -71,7 +71,7 @@ export default function EventsPage() {
                   {e.type}
                 </span>
                 {e.featured && (
-                  <span className="text-[10px] font-semibold text-blue-600">
+                  <span className="text-[10px] font-semibold text-black dark:text-[#E0FE9C]">
                     Featured
                   </span>
                 )}

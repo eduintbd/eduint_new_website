@@ -14,9 +14,9 @@ export default function SaveButton({ saved, onClick, className }: SaveButtonProp
     <button
       onClick={onClick}
       className={cn(
-        "inline-flex items-center gap-2 px-4 py-2 rounded-lg border text-sm font-medium transition-colors",
+        "inline-flex items-center gap-2 px-4 py-2 rounded-none border text-sm font-medium transition-colors",
         saved
-          ? "border-blue-600 bg-blue-50 dark:bg-blue-900/20 text-blue-600"
+          ? "border-[#E0FE9C] bg-[#E0FE9C] text-black"
           : "border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800",
         className
       )}

@@ -49,7 +49,7 @@ export default function ContactPage() {
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-          Get in <span className="gradient-text">Touch</span>
+          Get in <span className="text-gray-900 dark:text-white">Touch</span>
         </h1>
         <p className="mx-auto max-w-2xl text-lg text-gray-600 dark:text-gray-400">
           Have questions? We&apos;d love to hear from you. Send us a message and we&apos;ll respond as soon as possible.
@@ -59,25 +59,25 @@ export default function ContactPage() {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Contact Info */}
         <div className="space-y-6">
-          <div className="rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6">
+          <div className="rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6">
             <h2 className="font-semibold text-lg mb-4">Contact Information</h2>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <Mail className="h-5 w-5 text-blue-600 mt-0.5" />
+                <Mail className="h-5 w-5 text-black dark:text-[#E0FE9C] mt-0.5" />
                 <div>
                   <p className="text-sm font-medium">Email</p>
                   <p className="text-sm text-gray-500">info@eduintbd.com</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <Phone className="h-5 w-5 text-blue-600 mt-0.5" />
+                <Phone className="h-5 w-5 text-black dark:text-[#E0FE9C] mt-0.5" />
                 <div>
                   <p className="text-sm font-medium">Phone</p>
                   <p className="text-sm text-gray-500">+880 1898 934855</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <MapPin className="h-5 w-5 text-blue-600 mt-0.5" />
+                <MapPin className="h-5 w-5 text-black dark:text-[#E0FE9C] mt-0.5" />
                 <div>
                   <p className="text-sm font-medium">Office</p>
                   <p className="text-sm text-gray-500">Dhaka, Bangladesh</p>
@@ -86,7 +86,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6">
+          <div className="rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6">
             <h2 className="font-semibold text-lg mb-2">Office Hours</h2>
             <div className="space-y-1 text-sm text-gray-600 dark:text-gray-400">
               <p>Sunday - Thursday: 10:00 AM - 7:00 PM</p>
@@ -99,7 +99,7 @@ export default function ContactPage() {
         {/* Contact Form */}
         <div className="lg:col-span-2">
           {sent ? (
-            <div className="text-center py-16 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
+            <div className="text-center py-16 rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
               <CheckCircle2 className="h-16 w-16 text-green-500 mx-auto mb-4" />
               <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">Message Sent!</h2>
               <p className="text-gray-500 mb-6">We&apos;ll get back to you within 24 hours.</p>
@@ -109,7 +109,7 @@ export default function ContactPage() {
             <form
               onSubmit={handleSubmit(onSubmit)}
               noValidate
-              className="rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6 space-y-4"
+              className="rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6 space-y-4"
             >
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <Input
@@ -152,7 +152,7 @@ export default function ContactPage() {
                   placeholder="Tell us more about your inquiry..."
                   aria-invalid={errors.message ? "true" : "false"}
                   aria-describedby={errors.message ? "contact-message-error" : undefined}
-                  className="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full rounded-none border border-gray-300 dark:border-gray-600 bg-white dark:bg-[#111111] px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-[#E0FE9C]"
                   {...register("message")}
                 />
                 {errors.message && (

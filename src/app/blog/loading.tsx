@@ -6,7 +6,7 @@ export default function Loading() {
         {Array.from({ length: 6 }).map((_, i) => (
           <div
             key={i}
-            className="rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-5 space-y-3"
+            className="rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-5 space-y-3"
           >
             <div className="h-5 w-20 rounded-full bg-gray-200 dark:bg-gray-700 animate-pulse" />
             <div className="h-6 w-3/4 rounded bg-gray-200 dark:bg-gray-700 animate-pulse" />

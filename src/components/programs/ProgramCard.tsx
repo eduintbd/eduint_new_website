@@ -22,7 +22,7 @@ export default function ProgramCard({ program, saved = false, onToggleSave, drag
           e.dataTransfer.setData("program", JSON.stringify({ id: program.id, name: program.name, university: program.university.name }));
         }
       }}
-      className="group relative flex flex-col rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-md transition-shadow overflow-hidden"
+      className="group relative flex flex-col rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 hover:shadow-md transition-shadow overflow-hidden"
     >
       {/* Top bar */}
       <div className="flex items-center justify-between px-4 pt-4">
@@ -40,10 +40,10 @@ export default function ProgramCard({ program, saved = false, onToggleSave, drag
               e.preventDefault();
               onToggleSave(program.id);
             }}
-            className="p-1.5 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
+            className="p-1.5 rounded-none hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
           >
             {saved ? (
-              <BookmarkCheck className="h-5 w-5 text-blue-600" />
+              <BookmarkCheck className="h-5 w-5 text-black dark:text-[#E0FE9C]" />
             ) : (
               <Bookmark className="h-5 w-5 text-gray-400" />
             )}
@@ -53,7 +53,7 @@ export default function ProgramCard({ program, saved = false, onToggleSave, drag
 
       {/* Content */}
       <Link href={`/programs/${program.id}`} className="flex-1 p-4 pt-2">
-        <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors mb-1">
+        <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-black dark:group-hover:text-[#E0FE9C] transition-colors mb-1">
           {program.name}
         </h3>
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-3">

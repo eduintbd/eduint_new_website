@@ -51,13 +51,14 @@ const SERVICES = [
 
 export default function Services360() {
   return (
-    <section className="py-20 bg-white dark:bg-gray-950">
+    <section className="py-20 bg-gray-50 dark:bg-[#111111]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-            360&deg; <span className="gradient-text">Solutions</span>
+        <div className="mb-12">
+          <p className="eyebrow text-sm text-gray-500 dark:text-gray-400 mb-3">What We Offer</p>
+          <h2 className="display-title text-3xl sm:text-4xl text-gray-900 dark:text-white mb-4">
+            360&deg; Solutions
           </h2>
-          <p className="mx-auto max-w-2xl text-gray-600 dark:text-gray-400">
+          <p className="max-w-2xl text-gray-600 dark:text-gray-400">
             From program discovery to landing in your dream university — we handle everything.
           </p>
         </div>
@@ -68,12 +69,12 @@ export default function Services360() {
             return (
               <div
                 key={service.title}
-                className="group p-6 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all"
+                className="group p-6 rounded-none bg-white dark:bg-[#0a0a0a] border border-gray-200 dark:border-gray-800 hover:border-[#E0FE9C] transition-colors"
               >
-                <div className={`h-12 w-12 rounded-xl ${service.color} flex items-center justify-center mb-4`}>
+                <div className="h-12 w-12 rounded-none bg-[#E0FE9C] text-black flex items-center justify-center mb-4">
                   <Icon className="h-6 w-6" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
+                <h3 className="font-display uppercase text-base font-semibold tracking-wide text-gray-900 dark:text-white mb-2">
                   {service.title}
                 </h3>
                 <p className="text-sm text-gray-600 dark:text-gray-400">
@@ -84,10 +85,10 @@ export default function Services360() {
           })}
         </div>
 
-        <div className="text-center mt-10">
+        <div className="mt-10">
           <Link
             href="/services"
-            className="inline-flex items-center gap-2 px-6 py-3 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-medium rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 border border-black dark:border-white text-black dark:text-white text-sm font-semibold uppercase tracking-wide rounded-none hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-colors"
           >
             View All Services
           </Link>

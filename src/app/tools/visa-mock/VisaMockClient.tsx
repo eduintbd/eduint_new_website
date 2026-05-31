@@ -110,7 +110,7 @@ export default function VisaMockClient() {
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-10">
       <div className="text-center mb-6">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-100 dark:bg-indigo-900/30 text-indigo-700 dark:text-indigo-300 text-xs font-medium mb-3">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E0FE9C] text-black text-xs font-medium mb-3">
           <Mic className="h-3.5 w-3.5" /> Visa Interview Simulator
         </div>
         <h1 className="text-3xl font-bold">
@@ -130,7 +130,7 @@ export default function VisaMockClient() {
             setCountry(e.target.value);
             reset();
           }}
-          className="rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-2 py-1 text-sm"
+          className="rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-2 py-1 text-sm"
         >
           {allowedCountries.map((c) => {
             const meta = COUNTRIES.find((x) => x.code === c);
@@ -149,7 +149,7 @@ export default function VisaMockClient() {
         </button>
       </div>
 
-      <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4 space-y-3 max-h-[60vh] overflow-y-auto">
+      <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-4 space-y-3 max-h-[60vh] overflow-y-auto">
         {messages.map((m, i) => (
           <div
             key={i}
@@ -158,8 +158,8 @@ export default function VisaMockClient() {
             }`}
           >
             <div
-              className={`h-7 w-7 flex-shrink-0 rounded-full flex items-center justify-center text-white ${
-                m.role === "user" ? "bg-blue-600" : "bg-gray-600"
+              className={`h-7 w-7 flex-shrink-0 rounded-full flex items-center justify-center ${
+                m.role === "user" ? "bg-[#E0FE9C] text-black" : "bg-gray-600 text-white"
               }`}
             >
               {m.role === "user" ? (
@@ -169,9 +169,9 @@ export default function VisaMockClient() {
               )}
             </div>
             <div
-              className={`rounded-xl px-3 py-2 text-sm max-w-[80%] ${
+              className={`rounded-none px-3 py-2 text-sm max-w-[80%] ${
                 m.role === "user"
-                  ? "bg-blue-600 text-white"
+                  ? "bg-[#E0FE9C] text-black"
                   : "bg-gray-100 dark:bg-gray-800"
               }`}
             >
@@ -199,12 +199,12 @@ export default function VisaMockClient() {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder="Your answer…"
-            className="flex-1 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm"
+            className="flex-1 rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm"
           />
           <button
             type="submit"
             disabled={busy || !input.trim()}
-            className="inline-flex items-center gap-1 rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 text-sm font-medium disabled:opacity-50"
+            className="inline-flex items-center gap-1 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-4 py-2 text-sm font-semibold uppercase tracking-wide disabled:opacity-50"
           >
             <Send className="h-4 w-4" />
           </button>
@@ -212,7 +212,7 @@ export default function VisaMockClient() {
       )}
 
       {verdict && (
-        <div className="mt-6 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6">
+        <div className="mt-6 rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-6">
           <div className="flex items-center gap-3 mb-4">
             {verdict.outcome === "APPROVE" ? (
               <CheckCircle2 className="h-8 w-8 text-green-500" />
@@ -260,7 +260,7 @@ export default function VisaMockClient() {
           <div className="flex flex-wrap gap-2">
             <button
               onClick={reset}
-              className="rounded-lg border border-gray-300 dark:border-gray-700 px-4 py-2 text-sm hover:bg-gray-50 dark:hover:bg-gray-800"
+              className="rounded-none border border-gray-300 dark:border-gray-700 px-4 py-2 text-sm hover:bg-gray-50 dark:hover:bg-gray-800"
             >
               Try again
             </button>
@@ -268,7 +268,7 @@ export default function VisaMockClient() {
               href={`/book?topic=${encodeURIComponent(
                 `Visa interview prep for ${countryMeta?.name ?? country}`
               )}`}
-              className="rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 text-sm font-medium"
+              className="rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-4 py-2 text-sm font-semibold uppercase tracking-wide"
             >
               Book a human coach
             </Link>

@@ -82,7 +82,7 @@ export default function CommunityThreadPage() {
   if (loading)
     return (
       <div className="flex items-center justify-center py-20">
-        <Loader2 className="h-6 w-6 animate-spin text-blue-600" />
+        <Loader2 className="h-6 w-6 animate-spin text-black dark:text-[#E0FE9C]" />
       </div>
     );
   if (!post)
@@ -101,9 +101,9 @@ export default function CommunityThreadPage() {
         <ArrowLeft className="h-4 w-4" /> Back to community
       </Link>
 
-      <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-5 mb-4">
+      <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-5 mb-4">
         {post.tag && (
-          <span className="inline-block px-1.5 py-0.5 text-[10px] font-medium rounded bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 mb-2">
+          <span className="inline-block px-1.5 py-0.5 text-[10px] font-medium rounded-none bg-[#E0FE9C] text-black mb-2">
             {post.tag}
           </span>
         )}
@@ -121,7 +121,7 @@ export default function CommunityThreadPage() {
         {post.replies.map((r) => (
           <div
             key={r.id}
-            className="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4"
+            className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-4"
           >
             <p className="text-xs text-gray-400 mb-1">
               {r.author?.name ?? "Anonymous"} ·{" "}
@@ -138,19 +138,19 @@ export default function CommunityThreadPage() {
       </div>
 
       {session ? (
-        <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4">
+        <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-4">
           <textarea
             value={reply}
             onChange={(e) => setReply(e.target.value)}
             rows={3}
             placeholder="Write a reply…"
-            className="w-full rounded border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-2 py-1.5 text-sm"
+            className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-2 py-1.5 text-sm"
           />
           <div className="mt-2 flex justify-end">
             <button
               onClick={submitReply}
               disabled={busy}
-              className="inline-flex items-center gap-1 rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-4 py-1.5 text-sm font-medium disabled:opacity-60"
+              className="inline-flex items-center gap-1 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-4 py-1.5 text-sm font-semibold uppercase tracking-wide disabled:opacity-60"
             >
               {busy ? (
                 <Loader2 className="h-3.5 w-3.5 animate-spin" />
@@ -162,8 +162,8 @@ export default function CommunityThreadPage() {
           </div>
         </div>
       ) : (
-        <div className="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4 text-center text-sm">
-          <Link href="/login" className="text-blue-600 hover:underline">
+        <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-4 text-center text-sm">
+          <Link href="/login" className="text-black dark:text-[#E0FE9C] hover:underline">
             Sign in
           </Link>{" "}
           to reply.

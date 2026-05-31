@@ -88,10 +88,10 @@ export default function PayPage() {
           return (
             <div
               key={p.name}
-              className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-5"
+              className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-5"
             >
               <div className="flex items-start justify-between mb-2">
-                <div className="inline-flex items-center justify-center h-10 w-10 rounded-lg bg-blue-100 dark:bg-blue-900/30 text-blue-600">
+                <div className="inline-flex items-center justify-center h-10 w-10 rounded-none bg-[#E0FE9C] text-black">
                   <Icon className="h-5 w-5" />
                 </div>
                 <div className="text-right">
@@ -125,7 +125,7 @@ export default function PayPage() {
 
       <p className="mt-4 text-center text-xs text-gray-400">
         Paid services will use SSLCommerz / bKash / card at launch. Until then,{" "}
-        <Link href="/book" className="text-blue-600 hover:underline">
+        <Link href="/book" className="text-black dark:text-[#E0FE9C] hover:underline">
           free counseling
         </Link>{" "}
         is still the best way to get started.

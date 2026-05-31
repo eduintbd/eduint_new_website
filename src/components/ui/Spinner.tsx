@@ -10,7 +10,7 @@ export default function Spinner({ size = "md", className }: SpinnerProps) {
   return (
     <Loader2
       className={cn(
-        "animate-spin text-blue-600",
+        "animate-spin text-black dark:text-[#E0FE9C]",
         {
           "h-4 w-4": size === "sm",
           "h-6 w-6": size === "md",

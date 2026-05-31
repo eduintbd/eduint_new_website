@@ -79,7 +79,7 @@ export default function StickyLeadForm({
             {...register("name")}
             placeholder="Your name"
             aria-invalid={errors.name ? "true" : "false"}
-            className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-[#E0FE9C]"
           />
           {errors.name && (
             <p className="mt-1 text-xs text-red-600">{errors.name.message}</p>
@@ -94,7 +94,7 @@ export default function StickyLeadForm({
             {...register("phone")}
             placeholder="Phone (+8801...)"
             aria-invalid={errors.phone ? "true" : "false"}
-            className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-[#E0FE9C]"
           />
           {errors.phone && (
             <p className="mt-1 text-xs text-red-600">{errors.phone.message}</p>
@@ -111,7 +111,7 @@ export default function StickyLeadForm({
             autoComplete="email"
             {...register("email")}
             placeholder="Email (optional)"
-            className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-[#E0FE9C]"
           />
         </div>
         <div>
@@ -119,7 +119,7 @@ export default function StickyLeadForm({
           <select
             id="lead-country"
             {...register("preferredCountry")}
-            className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-[#E0FE9C]"
           >
             <option value="">Preferred country</option>
             {COUNTRIES.map((c) => (
@@ -137,7 +137,7 @@ export default function StickyLeadForm({
           <select
             id="lead-intake"
             {...register("intake")}
-            className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-[#E0FE9C]"
           >
             <option value="">Target intake</option>
             <option value="Jan 2026">Jan 2026</option>
@@ -153,7 +153,7 @@ export default function StickyLeadForm({
             id="lead-message"
             {...register("message")}
             placeholder="Anything specific? (optional)"
-            className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-[#E0FE9C]"
           />
         </div>
       </div>
@@ -161,7 +161,7 @@ export default function StickyLeadForm({
       <button
         type="submit"
         disabled={isSubmitting}
-        className="w-full inline-flex items-center justify-center gap-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-4 py-2.5 text-sm font-medium disabled:opacity-60 transition-colors"
+        className="w-full inline-flex items-center justify-center gap-2 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-4 py-2.5 text-sm font-semibold uppercase tracking-wide disabled:opacity-60 transition-colors"
       >
         <Send className="h-4 w-4" />
         {isSubmitting ? "Sending..." : "Request callback"}
@@ -175,7 +175,7 @@ export default function StickyLeadForm({
 
   if (variant === "card") {
     return (
-      <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-5 shadow-sm">
+      <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-5 shadow-sm">
         <h3 className="text-lg font-semibold mb-1">{title}</h3>
         <p className="text-sm text-gray-500 dark:text-gray-400 mb-4">
           {subtitle}
@@ -196,7 +196,7 @@ export default function StickyLeadForm({
       {!open ? (
         <button
           onClick={() => setOpen(true)}
-          className="w-full flex items-center justify-between gap-2 rounded-full bg-blue-600 hover:bg-blue-700 text-white px-5 py-3 shadow-lg shadow-blue-600/30 transition-all"
+          className="w-full flex items-center justify-between gap-2 rounded-full bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-5 py-3 shadow-lg shadow-black/20 transition-all"
         >
           <span className="text-sm font-medium">
             Talk to a counselor — free
@@ -204,7 +204,7 @@ export default function StickyLeadForm({
           <ChevronUp className="h-4 w-4" />
         </button>
       ) : (
-        <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4 shadow-2xl">
+        <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-4 shadow-2xl">
           <div className="flex items-start justify-between mb-2">
             <div>
               <h3 className="text-sm font-semibold">{title}</h3>
@@ -215,7 +215,7 @@ export default function StickyLeadForm({
             <button
               onClick={() => setOpen(false)}
               aria-label="Close"
-              className="p-1 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800"
+              className="p-1 rounded-none hover:bg-gray-100 dark:hover:bg-gray-800"
             >
               <X className="h-4 w-4" />
             </button>

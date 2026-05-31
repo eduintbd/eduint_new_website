@@ -19,62 +19,77 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-sky-50 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 py-20 sm:py-28">
-      {/* Background decoration */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 h-80 w-80 rounded-full bg-blue-200/30 dark:bg-blue-900/20 blur-3xl" />
-        <div className="absolute -bottom-40 -left-40 h-80 w-80 rounded-full bg-sky-200/30 dark:bg-sky-900/20 blur-3xl" />
+    <section className="relative overflow-hidden bg-black">
+      {/* Full-bleed photo + scrim. Replace /hero.jpg with your own image in /public. */}
+      <div className="absolute inset-0">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/hero.jpg" alt="" className="h-full w-full object-cover opacity-60" style={{ objectPosition: "center 30%" }} />
+        <div className="absolute inset-0" style={{ background: "linear-gradient(90deg, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.78) 42%, rgba(0,0,0,0.4) 100%)" }} />
       </div>
 
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300 text-sm font-medium mb-6">
-          <Sparkles className="h-4 w-4" />
-          {t("hero.badge")}
-        </div>
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 sm:py-28">
+        <div className="max-w-3xl">
+          <span className="inline-flex items-center gap-2 bg-lime text-ink text-xs font-bold uppercase tracking-[0.12em] px-3 py-2 mb-6">
+            <Sparkles className="h-4 w-4" /> {t("hero.badge")}
+          </span>
 
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-          {t("hero.title")}
-        </h1>
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold uppercase tracking-tight leading-[0.98] text-white">
+            {t("hero.title")}
+          </h1>
 
-        <p className="mx-auto max-w-2xl text-lg text-gray-600 dark:text-gray-400 mb-10">
-          {t("hero.subtitle")}
-        </p>
+          <p className="max-w-xl text-lg text-white/85 mt-7 mb-9 leading-relaxed">
+            {t("hero.subtitle")}
+          </p>
 
-        {/* Search bar */}
-        <form onSubmit={handleSearch} className="mx-auto max-w-xl mb-8">
-          <div className="flex rounded-xl bg-white dark:bg-gray-800 shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden">
-            <div className="flex items-center pl-4">
-              <Search className="h-5 w-5 text-gray-400" />
+          {/* Search bar */}
+          <form onSubmit={handleSearch} className="max-w-xl mb-7">
+            <div className="flex bg-white border-[3px] border-lime overflow-hidden">
+              <div className="flex items-center pl-4">
+                <Search className="h-5 w-5 text-gray-400" />
+              </div>
+              <input
+                type="text"
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder={t("hero.searchPlaceholder")}
+                className="flex-1 px-3 py-3.5 text-sm bg-transparent outline-none text-gray-900 placeholder:text-gray-400"
+              />
+              <button
+                type="submit"
+                className="px-6 py-3.5 bg-ink text-white text-sm font-semibold uppercase tracking-wide hover:bg-black transition-colors"
+              >
+                Search
+              </button>
             </div>
-            <input
-              type="text"
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              placeholder={t("hero.searchPlaceholder")}
-              className="flex-1 px-3 py-3.5 text-sm bg-transparent outline-none text-gray-900 dark:text-white placeholder:text-gray-400"
-            />
-            <button
-              type="submit"
-              className="px-6 py-3.5 bg-blue-600 text-white text-sm font-medium hover:bg-blue-700 transition-colors"
-            >
-              Search
-            </button>
-          </div>
-        </form>
+          </form>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <Link
-            href="/eligibility"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            {t("hero.ctaEligibility")} <ArrowRight className="h-4 w-4" />
-          </Link>
-          <Link
-            href="/book"
-            className="inline-flex items-center gap-2 px-6 py-3 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-medium rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
-          >
-            <Sparkles className="h-4 w-4" /> {t("hero.ctaBook")}
-          </Link>
+          <div className="flex flex-col sm:flex-row items-start gap-4">
+            <Link
+              href="/eligibility"
+              className="inline-flex items-center gap-3 px-7 py-4 bg-lime text-ink text-sm font-semibold uppercase tracking-wide hover:bg-lime-deep transition-colors"
+            >
+              {t("hero.ctaEligibility")} <ArrowRight className="h-4 w-4" />
+            </Link>
+            <Link
+              href="/book"
+              className="inline-flex items-center gap-2 px-7 py-4 border-[1.5px] border-white/25 text-white text-sm font-semibold uppercase tracking-wide hover:border-lime hover:text-lime transition-colors"
+            >
+              <Sparkles className="h-4 w-4" /> {t("hero.ctaBook")}
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Lime ticker strip */}
+      <div className="relative bg-lime overflow-hidden whitespace-nowrap">
+        <div className="inline-block py-3 animate-ticker text-sm font-bold uppercase tracking-[0.08em] text-ink">
+          {[0, 1].map((k) => (
+            <span key={k}>
+              {["600+ Partner Universities", "27 Study Destinations", "1,400+ Programs", "0৳ Counseling Fee", "AI Matching", "Visa Success"].map((s) => (
+                <span key={s} className="mx-7">{s} <span className="text-eduint-orange">✦</span></span>
+              ))}
+            </span>
+          ))}
         </div>
       </div>
     </section>

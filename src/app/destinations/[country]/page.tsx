@@ -60,13 +60,13 @@ export default async function CountryDetailPage({
       </div>
 
       {/* Overview */}
-      <div className="rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6 mb-6">
+      <div className="rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6 mb-6">
         <h2 className="text-xl font-semibold mb-3">Overview</h2>
         <p className="text-gray-600 dark:text-gray-400 leading-relaxed">{country.description}</p>
       </div>
 
       {/* Key highlights */}
-      <div className="rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6 mb-6">
+      <div className="rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6 mb-6">
         <h2 className="text-xl font-semibold mb-4">Key Highlights</h2>
         <div className="space-y-3">
           {country.highlights.map((h) => (
@@ -80,27 +80,27 @@ export default async function CountryDetailPage({
 
       {/* Costs */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6">
-        <div className="rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6">
-          <DollarSign className="h-6 w-6 text-blue-600 mb-2" />
+        <div className="rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6">
+          <DollarSign className="h-6 w-6 text-black dark:text-[#E0FE9C] mb-2" />
           <h3 className="font-semibold mb-1">Average Tuition</h3>
           <p className="text-2xl font-bold text-gray-900 dark:text-white">{country.avgTuition}</p>
         </div>
-        <div className="rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6">
-          <MapPin className="h-6 w-6 text-blue-600 mb-2" />
+        <div className="rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6">
+          <MapPin className="h-6 w-6 text-black dark:text-[#E0FE9C] mb-2" />
           <h3 className="font-semibold mb-1">Living Costs</h3>
           <p className="text-2xl font-bold text-gray-900 dark:text-white">{country.livingCost}</p>
         </div>
       </div>
 
       {/* Popular Fields */}
-      <div className="rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6 mb-8">
+      <div className="rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6 mb-8">
         <div className="flex items-center gap-2 mb-4">
-          <BookOpen className="h-5 w-5 text-blue-600" />
+          <BookOpen className="h-5 w-5 text-black dark:text-[#E0FE9C]" />
           <h2 className="text-xl font-semibold">Popular Fields of Study</h2>
         </div>
         <div className="flex flex-wrap gap-2">
           {country.popularFields.map((field) => (
-            <span key={field} className="px-3 py-1.5 rounded-lg bg-blue-50 dark:bg-blue-900/20 text-blue-700 dark:text-blue-300 text-sm font-medium">
+            <span key={field} className="px-3 py-1.5 rounded-none bg-[#E0FE9C] text-black text-sm font-medium">
               {field}
             </span>
           ))}
@@ -111,13 +111,13 @@ export default async function CountryDetailPage({
       <div className="flex flex-col sm:flex-row gap-4">
         <Link
           href={`/programs?country=${country.code}`}
-          className="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+          className="inline-flex items-center justify-center px-6 py-3 bg-[#E0FE9C] text-black font-medium rounded-none hover:bg-[#CDEE78] transition-colors uppercase tracking-wide font-semibold"
         >
           Browse Programs in {country.name}
         </Link>
         <Link
           href={`/destinations/${country.code.toLowerCase()}/visa`}
-          className="inline-flex items-center justify-center px-6 py-3 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-medium rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+          className="inline-flex items-center justify-center px-6 py-3 border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 font-medium rounded-none hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors uppercase tracking-wide font-semibold"
         >
           {country.name} Visa Hub
         </Link>

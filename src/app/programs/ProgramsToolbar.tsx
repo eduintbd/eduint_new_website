@@ -102,12 +102,12 @@ export default function ProgramsToolbar({ initialSearch, initialFilters, childre
         <div className="flex-1 relative">
           <ProgramSearch value={search} onChange={setSearch} />
           {pending && (
-            <Loader2 className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 animate-spin text-blue-600" />
+            <Loader2 className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 animate-spin text-black dark:text-[#E0FE9C]" />
           )}
         </div>
         <button
           onClick={() => setShowFilters(!showFilters)}
-          className="lg:hidden inline-flex items-center gap-2 px-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 text-sm font-medium"
+          className="lg:hidden inline-flex items-center gap-2 px-4 py-3 rounded-none border border-gray-200 dark:border-gray-700 text-sm font-medium"
         >
           <SlidersHorizontal className="h-4 w-4" />
           Filters
@@ -116,7 +116,7 @@ export default function ProgramsToolbar({ initialSearch, initialFilters, childre
 
       <div className="flex gap-8">
         <aside className={`w-64 flex-shrink-0 ${showFilters ? "block" : "hidden"} lg:block`}>
-          <div className="sticky top-24 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-4">
+          <div className="sticky top-24 rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-4">
             <ProgramFilters filters={filters} onChange={onFiltersChange} onReset={onReset} />
           </div>
         </aside>

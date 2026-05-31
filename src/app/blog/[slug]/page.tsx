@@ -75,7 +75,7 @@ function renderMarkdown(content: string) {
           parts.push(remaining.slice(0, linkMatch.index));
         }
         parts.push(
-          <Link key={key++} href={linkMatch[2]} className="text-blue-600 hover:text-blue-700 underline">
+          <Link key={key++} href={linkMatch[2]} className="text-black dark:text-[#E0FE9C] hover:underline underline">
             {linkMatch[1]}
           </Link>
         );
@@ -113,7 +113,7 @@ function renderMarkdown(content: string) {
 
     elements.push(
       <div key={elements.length} className="overflow-x-auto my-6">
-        <table className="min-w-full border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden">
+        <table className="min-w-full border border-gray-200 dark:border-gray-700 rounded-none overflow-hidden">
           <thead>
             <tr className="bg-gray-50 dark:bg-gray-800">
               {headers.map((h, i) => (
@@ -212,7 +212,7 @@ function renderMarkdown(content: string) {
       const text = line.replace(/^\d+\.\s/, "");
       elements.push(
         <div key={elements.length} className="flex gap-3 my-1.5 pl-2">
-          <span className="flex-shrink-0 text-blue-600 font-semibold text-sm mt-0.5">{line.match(/^\d+/)?.[0]}.</span>
+          <span className="flex-shrink-0 text-black dark:text-[#E0FE9C] font-semibold text-sm mt-0.5">{line.match(/^\d+/)?.[0]}.</span>
           <span className="text-gray-600 dark:text-gray-400">{processInline(text)}</span>
         </div>
       );
@@ -282,7 +282,7 @@ export default async function BlogPostPage({ params }: Props) {
       {/* Back link */}
       <Link
         href="/blog"
-        className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-blue-600 mb-8 transition-colors"
+        className="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-black dark:hover:text-[#E0FE9C] mb-8 transition-colors"
       >
         <ArrowLeft className="h-4 w-4" /> Back to Blog
       </Link>
@@ -333,14 +333,14 @@ export default async function BlogPostPage({ params }: Props) {
       </div>
 
       {/* CTA */}
-      <div className="mt-12 p-8 rounded-2xl bg-gradient-to-r from-blue-600 to-blue-700 text-white text-center">
+      <div className="mt-12 p-8 rounded-none bg-[#0a0a0a] text-white text-center">
         <h2 className="text-2xl font-bold mb-3">Ready to Start Your Journey?</h2>
-        <p className="text-blue-100 mb-6">Get personalized program recommendations from our AI — completely free.</p>
+        <p className="text-gray-300 mb-6">Get personalized program recommendations from our AI — completely free.</p>
         <div className="flex justify-center gap-4 flex-wrap">
-          <Link href="/register" className="px-6 py-3 bg-white text-blue-600 font-medium rounded-lg hover:bg-gray-100 transition-colors">
+          <Link href="/register" className="px-6 py-3 bg-[#E0FE9C] text-black font-semibold uppercase tracking-wide rounded-none hover:bg-[#CDEE78] transition-colors">
             Get AI Recommendations
           </Link>
-          <Link href="/contact" className="px-6 py-3 border border-white/30 text-white font-medium rounded-lg hover:bg-white/10 transition-colors">
+          <Link href="/contact" className="px-6 py-3 border border-white/30 text-white font-semibold uppercase tracking-wide rounded-none hover:bg-white/10 transition-colors">
             Book Free Consultation
           </Link>
         </div>
@@ -355,12 +355,12 @@ export default async function BlogPostPage({ params }: Props) {
               <Link
                 key={related.slug}
                 href={`/blog/${related.slug}`}
-                className="group p-5 rounded-xl border border-gray-200 dark:border-gray-700 hover:border-blue-300 dark:hover:border-blue-700 hover:shadow-md transition-all"
+                className="group p-5 rounded-none border border-gray-200 dark:border-gray-700 hover:border-[#E0FE9C] dark:hover:border-[#E0FE9C] hover:shadow-md transition-all"
               >
                 <span className={`inline-block px-2 py-0.5 rounded-full text-xs font-medium mb-2 ${CATEGORY_COLORS[related.category] || "bg-gray-100 text-gray-600"}`}>
                   {related.category}
                 </span>
-                <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors line-clamp-2 text-sm">
+                <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-black dark:group-hover:text-[#E0FE9C] transition-colors line-clamp-2 text-sm">
                   {related.title}
                 </h3>
                 <p className="text-xs text-gray-400 mt-2">{related.readTime}</p>

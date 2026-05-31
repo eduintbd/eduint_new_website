@@ -70,16 +70,16 @@ const STORIES: Story[] = [
 
 export default function VisaSuccessWall() {
   return (
-    <section className="py-16 bg-gray-50 dark:bg-gray-900/50">
+    <section className="py-20 bg-white dark:bg-[#0a0a0a]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-10">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-300 text-xs font-medium mb-3">
+        <div className="mb-10">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-none bg-[#E0FE9C] text-black text-xs font-semibold uppercase tracking-wide mb-4">
             <Stamp className="h-3.5 w-3.5" /> Real visa stamps · real students
           </div>
-          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 dark:text-white">
+          <h2 className="display-title text-3xl sm:text-4xl text-gray-900 dark:text-white">
             Bangladeshis we've helped succeed
           </h2>
-          <p className="mt-2 text-sm text-gray-500 dark:text-gray-400 max-w-xl mx-auto">
+          <p className="mt-3 text-sm text-gray-500 dark:text-gray-400 max-w-xl">
             Initials shown to protect privacy. Counselors can share full case
             details on request.
           </p>
@@ -89,10 +89,10 @@ export default function VisaSuccessWall() {
           {STORIES.map((s) => (
             <div
               key={`${s.initials}-${s.destination}-${s.year}`}
-              className="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-5"
+              className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-5 hover:border-[#E0FE9C] transition-colors"
             >
               <div className="flex items-center gap-3">
-                <div className="h-10 w-10 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 flex items-center justify-center text-sm font-semibold">
+                <div className="h-10 w-10 rounded-none bg-[#E0FE9C] text-black flex items-center justify-center text-sm font-bold">
                   {s.initials}
                 </div>
                 <div className="flex-1">
@@ -103,7 +103,7 @@ export default function VisaSuccessWall() {
                     {s.university} · {s.year}
                   </p>
                 </div>
-                <CheckCircle2 className="h-5 w-5 text-green-500" />
+                <CheckCircle2 className="h-5 w-5 text-[#CDEE78]" />
               </div>
               <p className="mt-3 text-sm font-medium">{s.program}</p>
               <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
@@ -113,10 +113,10 @@ export default function VisaSuccessWall() {
           ))}
         </div>
 
-        <div className="mt-10 text-center">
+        <div className="mt-10">
           <Link
             href="/book"
-            className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-[#E0FE9C] text-black text-sm font-semibold uppercase tracking-wide rounded-none hover:bg-[#CDEE78] transition-colors"
           >
             Book a counselor — hear your match story
           </Link>

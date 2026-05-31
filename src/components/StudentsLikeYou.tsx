@@ -49,19 +49,19 @@ export default function StudentsLikeYou({
   if (stories.length === 0) return null;
 
   return (
-    <section className="mt-8 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6">
+    <section className="mt-8 rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-6">
       <div className="flex items-center gap-2 mb-4">
-        <Users className="h-4 w-4 text-blue-600" />
+        <Users className="h-4 w-4 text-black dark:text-[#E0FE9C]" />
         <h2 className="font-semibold">{title}</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
         {stories.map((s) => (
           <div
             key={s.id}
-            className="rounded-xl border border-gray-100 dark:border-gray-800 p-4"
+            className="rounded-none border border-gray-100 dark:border-gray-800 p-4"
           >
             <div className="flex items-center gap-3 mb-2">
-              <div className="h-9 w-9 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 flex items-center justify-center text-sm font-semibold">
+              <div className="h-9 w-9 rounded-full bg-[#E0FE9C] text-black flex items-center justify-center text-sm font-semibold">
                 {s.initials}
               </div>
               <div>

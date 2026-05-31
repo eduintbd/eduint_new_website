@@ -30,7 +30,7 @@ function ScoreBar({ label, value, max = 10 }: { label: string; value: number; ma
           {value}/{max}
         </span>
       </div>
-      <div className="h-2 rounded bg-gray-100 dark:bg-gray-800 overflow-hidden">
+      <div className="h-2 rounded-none bg-gray-100 dark:bg-gray-800 overflow-hidden">
         <div
           className={`h-full ${color} transition-all`}
           style={{ width: `${pct}%` }}
@@ -74,7 +74,7 @@ export default function SOPReviewPage() {
   return (
     <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 py-10">
       <div className="text-center mb-8">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300 text-xs font-medium mb-3">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E0FE9C] text-black text-xs font-medium mb-3">
           <Sparkles className="h-3.5 w-3.5" /> AI SOP Reviewer
         </div>
         <h1 className="text-3xl sm:text-4xl font-bold">
@@ -87,7 +87,7 @@ export default function SOPReviewPage() {
         </p>
       </div>
 
-      <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-5">
+      <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-5">
         <label className="block text-xs font-medium text-gray-500 mb-2">
           Paste your SOP draft (up to ~6,000 characters will be analysed)
         </label>
@@ -96,7 +96,7 @@ export default function SOPReviewPage() {
           onChange={(e) => setText(e.target.value)}
           rows={14}
           placeholder="Since childhood I have been fascinated by..."
-          className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm font-mono focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm font-mono focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-[#E0FE9C]"
         />
         <div className="mt-2 flex items-center justify-between">
           <span className="text-xs text-gray-500">
@@ -105,7 +105,7 @@ export default function SOPReviewPage() {
           <button
             onClick={submit}
             disabled={loading}
-            className="inline-flex items-center gap-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 text-sm font-medium disabled:opacity-60"
+            className="inline-flex items-center gap-2 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-5 py-2 text-sm font-semibold uppercase tracking-wide disabled:opacity-60"
           >
             {loading && <Loader2 className="h-4 w-4 animate-spin" />}
             Review my SOP
@@ -115,7 +115,7 @@ export default function SOPReviewPage() {
 
       {review && (
         <div className="mt-8 space-y-6">
-          <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6">
+          <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-6">
             <div className="flex items-center justify-between mb-4">
               <div>
                 <h2 className="font-semibold text-lg">Overall verdict</h2>
@@ -137,7 +137,7 @@ export default function SOPReviewPage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="rounded-xl border border-green-200 dark:border-green-900 bg-green-50 dark:bg-green-900/20 p-4">
+            <div className="rounded-none border border-green-200 dark:border-green-900 bg-green-50 dark:bg-green-900/20 p-4">
               <div className="flex items-center gap-2 mb-2">
                 <CheckCircle2 className="h-4 w-4 text-green-600" />
                 <h3 className="text-sm font-semibold">Strengths</h3>
@@ -148,7 +148,7 @@ export default function SOPReviewPage() {
                 ))}
               </ul>
             </div>
-            <div className="rounded-xl border border-amber-200 dark:border-amber-900 bg-amber-50 dark:bg-amber-900/20 p-4">
+            <div className="rounded-none border border-amber-200 dark:border-amber-900 bg-amber-50 dark:bg-amber-900/20 p-4">
               <div className="flex items-center gap-2 mb-2">
                 <AlertTriangle className="h-4 w-4 text-amber-600" />
                 <h3 className="text-sm font-semibold">Weaknesses</h3>
@@ -162,7 +162,7 @@ export default function SOPReviewPage() {
           </div>
 
           {review.redFlags.length > 0 && (
-            <div className="rounded-xl border border-rose-200 dark:border-rose-900 bg-rose-50 dark:bg-rose-900/20 p-4">
+            <div className="rounded-none border border-rose-200 dark:border-rose-900 bg-rose-50 dark:bg-rose-900/20 p-4">
               <h3 className="text-sm font-semibold mb-2 text-rose-700 dark:text-rose-300">
                 Red flags to remove
               </h3>
@@ -174,9 +174,9 @@ export default function SOPReviewPage() {
             </div>
           )}
 
-          <div className="rounded-xl border border-blue-200 dark:border-blue-900 bg-blue-50 dark:bg-blue-900/20 p-4">
+          <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-gray-50 dark:bg-gray-800 p-4">
             <div className="flex items-center gap-2 mb-2">
-              <FileCheck className="h-4 w-4 text-blue-600" />
+              <FileCheck className="h-4 w-4 text-black dark:text-[#E0FE9C]" />
               <h3 className="text-sm font-semibold">Suggested rewrites</h3>
             </div>
             <ol className="space-y-2 text-sm list-decimal list-inside">
@@ -186,14 +186,14 @@ export default function SOPReviewPage() {
             </ol>
           </div>
 
-          <div className="rounded-xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-4 flex flex-wrap items-center justify-between gap-3">
+          <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-4 flex flex-wrap items-center justify-between gap-3">
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Want a human review too? Book a free 30-min session with a
               counselor.
             </p>
             <Link
               href="/book?topic=SOP%20review"
-              className="inline-flex items-center gap-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 text-sm font-medium"
+              className="inline-flex items-center gap-2 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-4 py-2 text-sm font-semibold uppercase tracking-wide"
             >
               Book a human reviewer
             </Link>

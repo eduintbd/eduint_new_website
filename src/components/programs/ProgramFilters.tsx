@@ -30,7 +30,7 @@ export default function ProgramFilters({ filters, onChange, onReset }: ProgramFi
       <div className="flex items-center justify-between">
         <h3 className="text-sm font-semibold text-gray-900 dark:text-white">Filters</h3>
         {hasActiveFilters && (
-          <button onClick={onReset} className="text-xs text-blue-600 hover:underline flex items-center gap-1">
+          <button onClick={onReset} className="text-xs text-black dark:text-[#E0FE9C] hover:underline flex items-center gap-1">
             <X className="h-3 w-3" /> Clear all
           </button>
         )}
@@ -88,7 +88,7 @@ export default function ProgramFilters({ filters, onChange, onReset }: ProgramFi
           type="checkbox"
           checked={filters.scholarshipOnly}
           onChange={(e) => update("scholarshipOnly", e.target.checked)}
-          className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+          className="rounded-none border-gray-300 text-[#E0FE9C] focus:ring-black dark:focus:ring-[#E0FE9C]"
         />
         <span className="text-sm text-gray-700 dark:text-gray-300">Scholarship available</span>
       </label>

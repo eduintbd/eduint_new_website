@@ -98,29 +98,29 @@ export default async function ProgramDetailPage({ params }: PageProps) {
               {program.scholarshipAvailable && <Badge variant="success">Scholarship Available</Badge>}
               {program.featured && <Badge variant="info">Featured</Badge>}
             </div>
-            <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2">{program.name}</h1>
+            <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-2 font-display uppercase tracking-tight">{program.name}</h1>
             <p className="text-lg text-gray-600 dark:text-gray-400">{program.university.name}</p>
           </div>
 
           {/* Quick info grid */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-            <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-800">
-              <MapPin className="h-5 w-5 text-blue-600 mb-2" />
+            <div className="p-4 rounded-none bg-gray-50 dark:bg-gray-800">
+              <MapPin className="h-5 w-5 text-black dark:text-[#E0FE9C] mb-2" />
               <p className="text-xs text-gray-500">Location</p>
               <p className="text-sm font-medium">{program.city}, {program.country}</p>
             </div>
-            <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-800">
-              <Clock className="h-5 w-5 text-blue-600 mb-2" />
+            <div className="p-4 rounded-none bg-gray-50 dark:bg-gray-800">
+              <Clock className="h-5 w-5 text-black dark:text-[#E0FE9C] mb-2" />
               <p className="text-xs text-gray-500">Duration</p>
               <p className="text-sm font-medium">{program.duration}</p>
             </div>
-            <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-800">
-              <DollarSign className="h-5 w-5 text-blue-600 mb-2" />
+            <div className="p-4 rounded-none bg-gray-50 dark:bg-gray-800">
+              <DollarSign className="h-5 w-5 text-black dark:text-[#E0FE9C] mb-2" />
               <p className="text-xs text-gray-500">Tuition/Year</p>
               <p className="text-sm font-medium">{formatCurrency(program.tuitionFee, program.currency)}</p>
             </div>
-            <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-800">
-              <Globe className="h-5 w-5 text-blue-600 mb-2" />
+            <div className="p-4 rounded-none bg-gray-50 dark:bg-gray-800">
+              <Globe className="h-5 w-5 text-black dark:text-[#E0FE9C] mb-2" />
               <p className="text-xs text-gray-500">Language</p>
               <p className="text-sm font-medium">{program.language}</p>
             </div>
@@ -160,9 +160,9 @@ export default async function ProgramDetailPage({ params }: PageProps) {
 
         {/* Sidebar - University info */}
         <div className="space-y-6">
-          <div className="rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6">
+          <div className="rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6">
             <div className="flex items-center gap-3 mb-4">
-              <div className="h-12 w-12 rounded-lg bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
+              <div className="h-12 w-12 rounded-none bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
                 <Building2 className="h-6 w-6 text-gray-600 dark:text-gray-400" />
               </div>
               <div>
@@ -194,7 +194,7 @@ export default async function ProgramDetailPage({ params }: PageProps) {
 
           <Link
             href="/register"
-            className="block w-full text-center px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+            className="block w-full text-center px-6 py-3 bg-[#E0FE9C] text-black font-semibold rounded-none hover:bg-[#CDEE78] transition-colors uppercase tracking-wide"
           >
             Apply Now
           </Link>

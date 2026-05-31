@@ -63,18 +63,18 @@ export default function RegisterPage() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex items-center gap-2 mb-4">
-            <GraduationCap className="h-8 w-8 text-blue-600" />
-            <span className="text-xl font-bold gradient-text">EDUINTBD</span>
+            <GraduationCap className="h-8 w-8 text-black dark:text-[#E0FE9C]" />
+            <span className="text-xl font-bold text-gray-900 dark:text-white">EDUINTBD</span>
           </Link>
           <h1 className="text-2xl font-bold text-gray-900 dark:text-white">Create your account</h1>
           <p className="text-gray-600 dark:text-gray-400 mt-1">Start your study abroad journey</p>
         </div>
 
-        <div className="bg-white dark:bg-gray-800 rounded-xl border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
+        <div className="bg-white dark:bg-gray-800 rounded-none border border-gray-200 dark:border-gray-700 p-6 shadow-sm">
           {/* Google OAuth */}
           <button
             onClick={() => signIn("google", { callbackUrl: "/profile" })}
-            className="w-full flex items-center justify-center gap-3 px-4 py-2.5 border border-gray-300 dark:border-gray-600 rounded-lg text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors mb-4"
+            className="w-full flex items-center justify-center gap-3 px-4 py-2.5 border border-gray-300 dark:border-gray-600 rounded-none text-sm font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors mb-4"
           >
             <svg className="h-5 w-5" viewBox="0 0 24 24">
               <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z"/>
@@ -96,7 +96,7 @@ export default function RegisterPage() {
 
           <form onSubmit={handleSubmit} className="space-y-4">
             {error && (
-              <div className="p-3 rounded-lg bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 text-sm">
+              <div className="p-3 rounded-none bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 text-sm">
                 {error}
               </div>
             )}
@@ -108,9 +108,9 @@ export default function RegisterPage() {
                 <button
                   type="button"
                   onClick={() => setRole("STUDENT")}
-                  className={`px-4 py-2.5 rounded-lg border text-sm font-medium transition-colors ${
+                  className={`px-4 py-2.5 rounded-none border text-sm font-medium transition-colors ${
                     role === "STUDENT"
-                      ? "border-blue-600 bg-blue-50 dark:bg-blue-900/20 text-blue-600"
+                      ? "border-[#E0FE9C] bg-[#E0FE9C] text-black"
                       : "border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-400"
                   }`}
                 >
@@ -119,9 +119,9 @@ export default function RegisterPage() {
                 <button
                   type="button"
                   onClick={() => setRole("PARTNER")}
-                  className={`px-4 py-2.5 rounded-lg border text-sm font-medium transition-colors ${
+                  className={`px-4 py-2.5 rounded-none border text-sm font-medium transition-colors ${
                     role === "PARTNER"
-                      ? "border-blue-600 bg-blue-50 dark:bg-blue-900/20 text-blue-600"
+                      ? "border-[#E0FE9C] bg-[#E0FE9C] text-black"
                       : "border-gray-300 dark:border-gray-600 text-gray-600 dark:text-gray-400"
                   }`}
                 >
@@ -185,7 +185,7 @@ export default function RegisterPage() {
 
         <p className="text-center mt-4 text-sm text-gray-600 dark:text-gray-400">
           Already have an account?{" "}
-          <Link href="/login" className="text-blue-600 hover:underline font-medium">
+          <Link href="/login" className="text-black dark:text-[#E0FE9C] hover:underline font-medium">
             Sign in
           </Link>
         </p>

@@ -16,7 +16,7 @@ export default function ProgramSearch({ value, onChange }: ProgramSearchProps) {
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder="Search programs, universities, or fields..."
-        className="w-full pl-10 pr-4 py-3 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+        className="w-full pl-10 pr-4 py-3 rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-[#E0FE9C] focus:border-transparent"
       />
     </div>
   );

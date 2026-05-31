@@ -14,7 +14,7 @@ export default function Loading() {
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
             {Array.from({ length: 4 }).map((_, i) => (
-              <div key={i} className="p-4 rounded-xl bg-gray-50 dark:bg-gray-800 h-24 animate-pulse" />
+              <div key={i} className="p-4 rounded-none bg-gray-50 dark:bg-gray-800 h-24 animate-pulse" />
             ))}
           </div>
           <div className="space-y-2">
@@ -25,7 +25,7 @@ export default function Loading() {
           </div>
         </div>
         <div className="space-y-6">
-          <div className="rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6 h-64 animate-pulse" />
+          <div className="rounded-none border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800 p-6 h-64 animate-pulse" />
         </div>
       </div>
     </div>

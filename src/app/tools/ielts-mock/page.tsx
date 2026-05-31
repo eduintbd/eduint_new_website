@@ -75,7 +75,7 @@ export default function IeltsMockPage() {
   return (
     <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 py-10">
       <div className="text-center mb-6">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-100 dark:bg-sky-900/30 text-sky-700 dark:text-sky-300 text-xs font-medium mb-3">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#E0FE9C] text-black text-xs font-medium mb-3">
           <BookText className="h-3.5 w-3.5" /> IELTS Writing Task 2 — AI scored
         </div>
         <h1 className="text-3xl font-bold">Practice. Submit. Get a band in seconds.</h1>
@@ -85,7 +85,7 @@ export default function IeltsMockPage() {
         </p>
       </div>
 
-      <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-5">
+      <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-5">
         <p className="text-xs font-semibold uppercase tracking-wider text-gray-500 mb-1">
           Task prompt
         </p>
@@ -98,7 +98,7 @@ export default function IeltsMockPage() {
             setScore(null);
             setStarted(false);
           }}
-          className="text-xs text-blue-600 hover:underline"
+          className="text-xs text-black dark:text-[#E0FE9C] hover:underline"
         >
           Get a different prompt →
         </button>
@@ -108,7 +108,7 @@ export default function IeltsMockPage() {
         <button
           onClick={() => setStarted(true)}
           disabled={started}
-          className="inline-flex items-center gap-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 text-sm font-medium disabled:opacity-60"
+          className="inline-flex items-center gap-2 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-4 py-2 text-sm font-semibold uppercase tracking-wide disabled:opacity-60"
         >
           <Timer className="h-4 w-4" /> {started ? "Timer running" : "Start 40-min timer"}
         </button>
@@ -126,7 +126,7 @@ export default function IeltsMockPage() {
         onChange={(e) => setResponse(e.target.value)}
         rows={16}
         placeholder="Start writing here — aim for 250+ words…"
-        className="mt-4 w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm font-mono focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="mt-4 w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm font-mono focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-[#E0FE9C]"
       />
       <div className="mt-2 flex items-center justify-between">
         <span className="text-xs text-gray-500">
@@ -136,7 +136,7 @@ export default function IeltsMockPage() {
         <button
           onClick={submit}
           disabled={loading}
-          className="inline-flex items-center gap-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 text-sm font-medium disabled:opacity-60"
+          className="inline-flex items-center gap-2 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-5 py-2 text-sm font-semibold uppercase tracking-wide disabled:opacity-60"
         >
           {loading && <Loader2 className="h-4 w-4 animate-spin" />}
           Score my response
@@ -144,7 +144,7 @@ export default function IeltsMockPage() {
       </div>
 
       {score && (
-        <div className="mt-8 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6">
+        <div className="mt-8 rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-6">
           <div className="flex items-center justify-between mb-5">
             <div>
               <p className="text-xs uppercase tracking-wider text-gray-500">

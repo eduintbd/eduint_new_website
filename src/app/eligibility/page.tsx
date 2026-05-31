@@ -111,7 +111,7 @@ export default function EligibilityPage() {
       COUNTRIES.find((c) => c.code === country)?.name ?? country;
     return (
       <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8 py-12">
-        <div className={`rounded-2xl border p-6 ${meta.bg}`}>
+        <div className={`rounded-none border p-6 ${meta.bg}`}>
           <div className="flex items-start gap-3">
             <Icon className={`h-8 w-8 flex-shrink-0 ${meta.color}`} />
             <div>
@@ -128,7 +128,7 @@ export default function EligibilityPage() {
           </div>
         </div>
 
-        <div className="mt-6 rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6">
+        <div className="mt-6 rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-6">
           <h2 className="font-semibold mb-2">What this means</h2>
           <p className="text-sm text-gray-600 dark:text-gray-400 mb-4">
             {result.summary}
@@ -145,7 +145,7 @@ export default function EligibilityPage() {
           <ul className="space-y-2">
             {result.actions.map((a) => (
               <li key={a} className="flex items-start gap-2 text-sm">
-                <Sparkles className="h-4 w-4 text-blue-500 mt-0.5 flex-shrink-0" />
+                <Sparkles className="h-4 w-4 text-black dark:text-[#E0FE9C] mt-0.5 flex-shrink-0" />
                 <span>{a}</span>
               </li>
             ))}
@@ -157,13 +157,13 @@ export default function EligibilityPage() {
             href={`/book?country=${country}&topic=${encodeURIComponent(
               `Eligibility review for ${countryName}`
             )}`}
-            className="inline-flex items-center justify-center gap-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 text-sm font-medium"
+            className="inline-flex items-center justify-center gap-2 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-4 py-3 text-sm font-semibold uppercase tracking-wide"
           >
             Book free counseling
           </Link>
           <Link
             href={`/register?country=${country}`}
-            className="inline-flex items-center justify-center gap-2 rounded-lg border border-gray-300 dark:border-gray-700 px-4 py-3 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800"
+            className="inline-flex items-center justify-center gap-2 rounded-none border border-gray-300 dark:border-gray-700 px-4 py-3 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-800"
           >
             Save my profile
           </Link>
@@ -201,7 +201,7 @@ export default function EligibilityPage() {
           <div key={s} className="flex-1 flex items-center">
             <div
               className={`h-2 flex-1 rounded-full ${
-                i <= step ? "bg-blue-600" : "bg-gray-200 dark:bg-gray-800"
+                i <= step ? "bg-[#E0FE9C]" : "bg-gray-200 dark:bg-gray-800"
               }`}
             />
             {i < STEPS.length - 1 && <div className="w-1" />}
@@ -212,7 +212,7 @@ export default function EligibilityPage() {
         Step {step + 1} of {STEPS.length}: {STEPS[step]}
       </p>
 
-      <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6 min-h-[280px]">
+      <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-6 min-h-[280px]">
         {step === 0 && (
           <div>
             <h2 className="font-semibold mb-4">Which country are you targeting?</h2>
@@ -221,9 +221,9 @@ export default function EligibilityPage() {
                 <button
                   key={c.code}
                   onClick={() => setCountry(c.code)}
-                  className={`p-4 rounded-xl border text-left transition-colors ${
+                  className={`p-4 rounded-none border text-left transition-colors ${
                     country === c.code
-                      ? "border-blue-600 bg-blue-50 dark:bg-blue-900/30"
+                      ? "border-black dark:border-[#E0FE9C] bg-[#E0FE9C] text-black"
                       : "border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600"
                   }`}
                 >
@@ -250,9 +250,9 @@ export default function EligibilityPage() {
                 <button
                   key={o.v}
                   onClick={() => setLevel(o.v)}
-                  className={`p-4 rounded-xl border text-sm font-medium transition-colors ${
+                  className={`p-4 rounded-none border text-sm font-medium transition-colors ${
                     level === o.v
-                      ? "border-blue-600 bg-blue-50 dark:bg-blue-900/30"
+                      ? "border-black dark:border-[#E0FE9C] bg-[#E0FE9C] text-black"
                       : "border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600"
                   }`}
                 >
@@ -273,7 +273,7 @@ export default function EligibilityPage() {
               <select
                 value={gpaScale}
                 onChange={(e) => setGpaScale(e.target.value as Scale)}
-                className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm"
+                className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm"
               >
                 {GPA_SCALES.map((s) => (
                   <option key={s.code} value={s.code}>
@@ -292,7 +292,7 @@ export default function EligibilityPage() {
                 value={gpa}
                 onChange={(e) => setGpa(e.target.value)}
                 placeholder="e.g. 3.5"
-                className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm"
+                className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm"
               />
             </div>
           </div>
@@ -312,7 +312,7 @@ export default function EligibilityPage() {
               value={ielts}
               onChange={(e) => setIelts(e.target.value)}
               placeholder="e.g. 6.5"
-              className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm"
+              className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm"
             />
             {error && <p className="text-sm text-red-600">{error}</p>}
           </div>
@@ -331,7 +331,7 @@ export default function EligibilityPage() {
           <button
             onClick={() => setStep((s) => s + 1)}
             disabled={!canNext}
-            className="inline-flex items-center gap-1 rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 text-sm font-medium disabled:opacity-50"
+            className="inline-flex items-center gap-1 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-5 py-2.5 text-sm font-semibold uppercase tracking-wide disabled:opacity-50"
           >
             Next <ChevronRight className="h-4 w-4" />
           </button>
@@ -339,7 +339,7 @@ export default function EligibilityPage() {
           <button
             onClick={submit}
             disabled={loading}
-            className="inline-flex items-center gap-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-5 py-2.5 text-sm font-medium disabled:opacity-50"
+            className="inline-flex items-center gap-2 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-5 py-2.5 text-sm font-semibold uppercase tracking-wide disabled:opacity-50"
           >
             {loading && <Loader2 className="h-4 w-4 animate-spin" />}
             Check my eligibility

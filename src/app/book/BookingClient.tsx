@@ -115,10 +115,10 @@ export default function BookingClient() {
         </p>
       </div>
 
-      <div className="rounded-2xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 p-6">
+      <div className="rounded-none border border-gray-200 dark:border-gray-800 bg-white dark:bg-[#111111] p-6">
         <div className="mb-6">
           <div className="flex items-center gap-2 text-sm font-medium mb-3">
-            <Calendar className="h-4 w-4 text-blue-600" />
+            <Calendar className="h-4 w-4 text-black dark:text-[#E0FE9C]" />
             Pick a day
           </div>
           <div className="flex gap-2 overflow-x-auto pb-2">
@@ -129,9 +129,9 @@ export default function BookingClient() {
                 <button
                   key={d.toISOString()}
                   onClick={() => setSelectedDay(d)}
-                  className={`flex-shrink-0 px-3 py-2 rounded-lg text-xs font-medium border transition-colors ${
+                  className={`flex-shrink-0 px-3 py-2 rounded-none text-xs font-medium border transition-colors ${
                     isActive
-                      ? "bg-blue-600 text-white border-blue-600"
+                      ? "bg-[#E0FE9C] text-black border-black dark:border-[#E0FE9C]"
                       : "border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600"
                   }`}
                 >
@@ -144,7 +144,7 @@ export default function BookingClient() {
 
         <div className="mb-6">
           <div className="flex items-center gap-2 text-sm font-medium mb-3">
-            <Clock className="h-4 w-4 text-blue-600" />
+            <Clock className="h-4 w-4 text-black dark:text-[#E0FE9C]" />
             Pick a time (Dhaka)
           </div>
           <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
@@ -152,9 +152,9 @@ export default function BookingClient() {
               <button
                 key={t}
                 onClick={() => setSelectedTime(t)}
-                className={`px-3 py-2 rounded-lg text-sm font-medium border transition-colors ${
+                className={`px-3 py-2 rounded-none text-sm font-medium border transition-colors ${
                   selectedTime === t
-                    ? "bg-blue-600 text-white border-blue-600"
+                    ? "bg-[#E0FE9C] text-black border-black dark:border-[#E0FE9C]"
                     : "border-gray-200 dark:border-gray-700 hover:border-gray-300 dark:hover:border-gray-600"
                 }`}
               >
@@ -177,7 +177,7 @@ export default function BookingClient() {
                 {...register("name")}
                 placeholder="Full name"
                 aria-invalid={errors.name ? "true" : "false"}
-                className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-[#E0FE9C]"
               />
               {errors.name && (
                 <p className="mt-1 text-xs text-red-600">{errors.name.message}</p>
@@ -192,7 +192,7 @@ export default function BookingClient() {
                 {...register("phone")}
                 placeholder="Phone (+8801...)"
                 aria-invalid={errors.phone ? "true" : "false"}
-                className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-[#E0FE9C]"
               />
               {errors.phone && (
                 <p className="mt-1 text-xs text-red-600">{errors.phone.message}</p>
@@ -208,7 +208,7 @@ export default function BookingClient() {
               {...register("email")}
               placeholder="Email"
               aria-invalid={errors.email ? "true" : "false"}
-              className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-[#E0FE9C]"
             />
             {errors.email && (
               <p className="mt-1 text-xs text-red-600">{errors.email.message}</p>
@@ -224,14 +224,14 @@ export default function BookingClient() {
                   ? `What would you like to discuss? (pre-filled for ${prefillCountry})`
                   : "What would you like to discuss? (optional)"
               }
-              className="w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-900 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full rounded-none border border-gray-300 dark:border-gray-700 bg-white dark:bg-[#111111] px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-[#E0FE9C]"
             />
           </div>
           <input type="hidden" {...register("slot")} />
           <button
             type="submit"
             disabled={isSubmitting}
-            className="w-full inline-flex items-center justify-center gap-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white px-4 py-2.5 text-sm font-medium disabled:opacity-60"
+            className="w-full inline-flex items-center justify-center gap-2 rounded-none bg-[#E0FE9C] hover:bg-[#CDEE78] text-black px-4 py-2.5 text-sm font-semibold uppercase tracking-wide disabled:opacity-60"
           >
             {isSubmitting && <Loader2 className="h-4 w-4 animate-spin" />}
             Confirm booking — {formatDayLabel(selectedDay)} at {selectedTime}
